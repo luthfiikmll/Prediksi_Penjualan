@@ -226,10 +226,7 @@ elif page == '📈 Forecasting Harian':
         info = st.session_state.upload_info
         st.markdown(f"""<div class="success-box">Data aktif: <strong>{info['nama']}</strong>
             ({info['mulai']} s/d {info['selesai']})</div>""", unsafe_allow_html=True)
-    else:
-        st.markdown("""<div class="warn-box">Menggunakan data default.
-            Upload data terbaru di sidebar untuk hasil yang lebih akurat.</div>""",
-            unsafe_allow_html=True)
+
 
     st.markdown('---')
     col_in, col_out = st.columns([1,1])
@@ -295,7 +292,7 @@ elif page == '📈 Forecasting Harian':
 # ══════════════════════════════════════════════════════════════════════════════
 elif page == '📊 Evaluasi Model':
     st.title('Evaluasi Model XGBoost')
-    st.markdown('Performa dihitung dari **test set (20%)** yang tidak dipakai saat training.')
+    
     st.markdown('---')
 
     best_s1 = eval_s1.loc[eval_s1['MAPE (%)'].idxmin()]
@@ -325,11 +322,7 @@ elif page == '📊 Evaluasi Model':
     </div>""", unsafe_allow_html=True)
 
     st.markdown('---')
-    st.subheader('Referensi Kategori MAPE (Lewis, 1982)')
-    st.dataframe(pd.DataFrame({
-        'MAPE':     ['< 10%','10% - 20%','20% - 50%','> 50%'],
-        'Kategori': ['Highly Accurate','Good','Reasonable','Inaccurate'],
-    }), use_container_width=True, hide_index=True)
+
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -340,39 +333,18 @@ elif page == 'ℹ️ Tentang':
     st.markdown('---')
     st.markdown("""
     ### Latar Belakang
-    Prototype sistem forecasting penjualan kopi berbasis **XGBoost** untuk penelitian skripsi S1.
-    Data bersumber dari ekspor laporan **Luna POS** milik kedai kopi.
+
 
     ### Cara Menggunakan
     1. Export laporan dari Luna POS (Laporan -> Export CSV/Excel)
     2. Upload di sidebar kiri (Update Data Penjualan)
     3. Pilih tanggal di halaman **Forecasting Harian** dan klik Forecast
 
-    ### Rekomendasi Barista
-    | Forecast | Rekomendasi |
-    |---|---|
-    | < 8 cup | 1 barista |
-    | 8 - 18 cup | 2 barista |
-    | 18 - 28 cup | 3 barista |
-    | > 28 cup | 4+ barista |
-
-    ### Metodologi
-    - **Algoritma:** XGBoost (Extreme Gradient Boosting)
-    - **Optimizer:** Baseline vs RandomizedSearch (N_ITER=40)
-    - **Validasi:** TimeSeriesSplit (n_splits=5, gap=30 hari)
-    - **Split data:** 80% train / 20% test
-    - **Fitur:** 22 fitur (kalender, lag, rolling, EWM, DOW encoding)
-    - **Sumber data:** Luna POS -- export Excel
 
     ### Keterbatasan
     - Model statis -- tidak retrain otomatis dari data baru
     - Data upload hanya dipakai untuk menghitung lag features forecasting
     - Luna POS tidak menyediakan API publik sehingga upload manual diperlukan
 
-    ### Referensi
-    - Lewis, C.D. (1982). *Industrial and Business Forecasting Methods.* Butterworth.
-    - Chen & Guestrin (2016). XGBoost. *KDD 2016.*
-    - Micci-Barreca (2001). Target encoding. *ACM SIGKDD.*
-    - Arlot & Celisse (2010). Cross-validation. *Statistics Surveys, 4*, 40-79.
     """)
     st.caption('Prototype untuk keperluan penelitian akademik.')
