@@ -317,8 +317,6 @@ elif page == '📊 Evaluasi Model':
 
     st.markdown(f"""<div class="info-box">
         XGBoost RandomizedSearch mencapai MAPE <strong>{best_s1['MAPE (%)']:.2f}%</strong> --
-        kategori <strong>{mape_kategori(best_s1['MAPE (%)'])}</strong> berdasarkan Lewis (1982).
-        Kriteria sukses MAPE &lt; 20% tercapai.
     </div>""", unsafe_allow_html=True)
 
     st.markdown('---')
