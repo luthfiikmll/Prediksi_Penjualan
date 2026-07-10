@@ -132,16 +132,14 @@ last_date   = daily_sales['tanggal'].max()
 # ══════════════════════════════════════════════════════════════════════════════
 if page == '🏠 Dashboard':
     st.title('Dashboard Forecast Penjualan Kopi')
-    st.markdown('Sistem forecasting penjualan berbasis **XGBoost** untuk perencanaan SDM/barista.')
+   
 
     if st.session_state.data_source == 'upload':
         info = st.session_state.upload_info
         st.markdown(f"""<div class="success-box">Data aktif: <strong>{info['nama']}</strong>
             ({info['mulai']} s/d {info['selesai']})</div>""", unsafe_allow_html=True)
-    else:
-        st.markdown("""<div class="info-box">Menggunakan data default.
-            Upload export Luna POS terbaru di sidebar untuk forecasting yang lebih akurat.</div>""",
-            unsafe_allow_html=True)
+
+   
 
     st.markdown('---')
     mape_s1 = eval_s1.loc[eval_s1['MAPE (%)'].idxmin(), 'MAPE (%)']
