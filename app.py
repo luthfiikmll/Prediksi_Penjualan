@@ -222,7 +222,7 @@ if page == '🏠 Dashboard':
 # ══════════════════════════════════════════════════════════════════════════════
 elif page == '📈 Forecasting Harian':
     st.title('Forecasting Total Cup Harian')
-    st.markdown('Tujuan: **perencanaan SDM / shift barista** berdasarkan hasil forecasting.')
+    
 
     if st.session_state.data_source == 'upload':
         info = st.session_state.upload_info
