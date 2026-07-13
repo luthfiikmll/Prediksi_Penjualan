@@ -131,7 +131,7 @@ last_date   = daily_sales['tanggal'].max()
 # DASHBOARD
 # ══════════════════════════════════════════════════════════════════════════════
 if page == '🏠 Dashboard':
-    st.title('Dashboard Prediksi Penjualan Kopi')
+    st.title('Dashboard Forecast Penjualan Kopi')
    
 
     if st.session_state.data_source == 'upload':
@@ -218,8 +218,8 @@ if page == '🏠 Dashboard':
 # ══════════════════════════════════════════════════════════════════════════════
 # FORECASTING HARIAN
 # ══════════════════════════════════════════════════════════════════════════════
-elif page == '📈 Prediksi Harian':
-    st.title('Prediksi Harian')
+elif page == '📈 Forecasting Harian':
+    st.title('Forecasting Total Cup Harian')
     
 
     if st.session_state.data_source == 'upload':
@@ -239,12 +239,12 @@ elif page == '📈 Prediksi Harian':
         btn = st.button('Forecast', type='primary', use_container_width=True)
 
     with col_out:
-        st.subheader('Hasil prediksi')
+        st.subheader('Hasil forecast')
         if btn:
             with st.spinner('Menghitung...'):
                 row = build_input_row(target_date, daily_sales, dow_map)
             if row is None:
-                st.error('Gagal membangun fitur. Data historis tidak cukup.')
+                st.error('Gagal membangun fitur. Data historis tidak cukup (minimal 35 hari).')
             else:
                 pred_cup     = max(0, round(np.expm1(model_s1.predict(row)[0])))
                 n_bar, pesan = rekomendasi_barista(pred_cup)
@@ -255,18 +255,20 @@ elif page == '📈 Prediksi Harian':
                 st.markdown(f"""<div class="pred-box">
                     <div class="pred-lbl">{nama_hari}, {target_date.strftime('%d %B %Y')}</div>
                     <div class="pred-val">{pred_cup} cup</div>
-                    <div class="pred-sub">Hasil prediksi penjualan</div>
+                    <div class="pred-sub">Hasil forecasting total penjualan</div>
                 </div>""", unsafe_allow_html=True)
-        
+                st.markdown(f'**Rekomendasi SDM:** {pesan}')
+                st.caption(f'{"↑" if diff_pct>0 else "↓"} {abs(diff_pct):.1f}% '
+                           f'{"di atas" if diff_pct>0 else "di bawah"} rata-rata ({global_mean:.0f} cup)')
         else:
-            st.info('Pilih tanggal lalu klik **Prediksi**.')
+            st.info('Pilih tanggal lalu klik **Forecast**.')
 
     st.markdown('---')
-    st.subheader('Prediksi 7 Hari ke Depan')
+    st.subheader('Forecast 7 Hari ke Depan')
     st.caption('Dihitung secara iteratif -- hasil hari sebelumnya dipakai untuk lag features hari berikutnya.')
 
-    if st.button('Hitung prediksi 7 hari'):
-        with st.spinner('Menghitung prediksi 7 hari...'):
+    if st.button('Hitung forecast 7 hari'):
+        with st.spinner('Menghitung forecast 7 hari...'):
             hasil = build_7day_forecast(model_s1, daily_sales, dow_map)
 
         if hasil:
@@ -334,8 +336,13 @@ elif page == 'ℹ️ Tentang':
     ### Cara Menggunakan
     1. Export laporan dari Luna POS (Laporan -> Export CSV/Excel)
     2. Upload di sidebar kiri (Update Data Penjualan)
-    3. Pilih tanggal di halaman **Prediksi Harian** dan klik Prediksi
+    3. Pilih tanggal di halaman **Forecasting Harian** dan klik Forecast
 
+
+    ### Keterbatasan
+    - Model statis -- tidak retrain otomatis dari data baru
+    - Data upload hanya dipakai untuk menghitung lag features forecasting
+    - Luna POS tidak menyediakan API publik sehingga upload manual diperlukan
 
     """)
     st.caption('Prototype untuk keperluan penelitian akademik.')
