@@ -258,10 +258,8 @@ elif page == '📈 Prediksi Harian':
                     <div class="pred-sub">Hasil prediksi penjualan</div>
                 </div>""", unsafe_allow_html=True)
         
-                st.caption(f'{"↑" if diff_pct>0 else "↓"} {abs(diff_pct):.1f}% '
-                           f'{"di atas" if diff_pct>0 else "di bawah"} rata-rata ({global_mean:.0f} cup)')
         else:
-            st.info('Pilih tanggal lalu klik **Forecast**.')
+            st.info('Pilih tanggal lalu klik **Prediksi**.')
 
     st.markdown('---')
     st.subheader('Prediksi 7 Hari ke Depan')
