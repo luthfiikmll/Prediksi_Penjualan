@@ -258,8 +258,8 @@ elif page == '📈 Forecasting Harian':
                     <div class="pred-sub">Hasil forecasting total penjualan</div>
                 </div>""", unsafe_allow_html=True)
             
-                st.caption(f'{"↑" if diff_pct>0 else "↓"} {abs(diff_pct):.1f}% '
-                           f'{"di atas" if diff_pct>0 else "di bawah"} rata-rata ({global_mean:.0f} cup)')
+                # st.caption(f'{"↑" if diff_pct>0 else "↓"} {abs(diff_pct):.1f}% '
+                           # f'{"di atas" if diff_pct>0 else "di bawah"} rata-rata ({global_mean:.0f} cup)')
         else:
             st.info('Pilih tanggal lalu klik **Forecast**.')
 
