@@ -10,7 +10,7 @@ warnings.filterwarnings('ignore')
 from utils import (
     build_features, build_input_row, build_7day_forecast,
     process_luna_upload, FEATURES_DAILY,
-    mape_kategori, rekomendasi_barista
+    mape_kategori, 
 )
 
 st.set_page_config(
@@ -244,10 +244,10 @@ elif page == '📈 Forecasting Harian':
             with st.spinner('Menghitung...'):
                 row = build_input_row(target_date, daily_sales, dow_map)
             if row is None:
-                st.error('Gagal membangun fitur. Data historis tidak cukup (minimal 35 hari).')
+                st.error('Gagal membangun fitur. Data historis tidak cukup .')
             else:
                 pred_cup     = max(0, round(np.expm1(model_s1.predict(row)[0])))
-                n_bar, pesan = rekomendasi_barista(pred_cup)
+                
                 hari_id      = ['Senin','Selasa','Rabu','Kamis','Jumat','Sabtu','Minggu']
                 nama_hari    = hari_id[target_date.weekday()]
                 diff_pct     = (pred_cup - global_mean) / global_mean * 100
@@ -257,7 +257,7 @@ elif page == '📈 Forecasting Harian':
                     <div class="pred-val">{pred_cup} cup</div>
                     <div class="pred-sub">Hasil forecasting total penjualan</div>
                 </div>""", unsafe_allow_html=True)
-                st.markdown(f'**Rekomendasi SDM:** {pesan}')
+            
                 st.caption(f'{"↑" if diff_pct>0 else "↓"} {abs(diff_pct):.1f}% '
                            f'{"di atas" if diff_pct>0 else "di bawah"} rata-rata ({global_mean:.0f} cup)')
         else:
@@ -338,11 +338,6 @@ elif page == 'ℹ️ Tentang':
     2. Upload di sidebar kiri (Update Data Penjualan)
     3. Pilih tanggal di halaman **Forecasting Harian** dan klik Forecast
 
-
-    ### Keterbatasan
-    - Model statis -- tidak retrain otomatis dari data baru
-    - Data upload hanya dipakai untuk menghitung lag features forecasting
-    - Luna POS tidak menyediakan API publik sehingga upload manual diperlukan
 
     """)
     st.caption('Prototype untuk keperluan penelitian akademik.')
