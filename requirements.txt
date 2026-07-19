@@ -1,8 +1,7 @@
-streamlit==1.35.0
-pandas==2.2.2
-numpy==1.26.4
-xgboost==2.0.3
-scikit-learn==1.4.2
-holidays==0.46
-joblib==1.4.2
-plotly==5.22.0
+streamlit>=1.38,<1.39
+pandas>=2.2,<2.3
+numpy>=1.26,<2.0
+xgboost>=2.1,<2.2
+scikit-learn>=1.5,<1.6
+holidays>=0.55,<0.56
+plotly>=5.23,<5.24
