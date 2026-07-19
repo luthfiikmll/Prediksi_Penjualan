@@ -1,0 +1,3 @@
+Optimizer,MAE,RMSE,MAPE (%),SMAPE (%),vs Baseline
+Baseline,3.1684,4.161,15.9,7.53,-
+RS,1.6049,2.2099,7.62,3.76,-8.28pp
