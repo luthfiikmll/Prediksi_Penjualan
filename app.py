@@ -70,9 +70,8 @@ def metric_cards(m):
     cols[3].metric("SMAPE", f"{m['SMAPE']:.2f}%" if pd.notna(m['SMAPE']) else "N/A")
 
 
-st.title("☕ Forecast Penjualan Kopi — Demo Model XGBoost")
+st.title("☕ Forecast Penjualan Kopi")
 st.caption(
-    "Upload data export Luna POS untuk melihat performa model pada data barumu: "
     "prediksi vs aktual, metrik evaluasi, dan feature importance."
 )
 
