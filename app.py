@@ -64,11 +64,20 @@ target_date = st.date_input(
     max_value=last_date + timedelta(days=30),
 )
 
+semua_produk = sorted(models_produk.keys())
+produk_dipilih = st.multiselect(
+    "Filter produk (opsional — kosongkan untuk prediksi semua produk)",
+    options=semua_produk,
+    default=[],
+)
+produk_target = produk_dipilih if produk_dipilih else semua_produk
+
 if st.button("🔮 Prediksi", type="primary"):
     with st.spinner("Membentuk fitur & memanggil model tiap produk..."):
         hasil = []
         gagal = []
-        for produk, model_info in models_produk.items():
+        for produk in produk_target:
+            model_info = models_produk[produk]
             try:
                 pred = utils.predict_for_date(produk, product_daily, model_info, target_date)
                 hasil.append({"Produk": produk, "Prediksi (cup)": pred})
@@ -81,7 +90,8 @@ if st.button("🔮 Prediksi", type="primary"):
     st.dataframe(df_hasil, use_container_width=True, hide_index=True)
 
     total_cup = df_hasil["Prediksi (cup)"].sum()
-    st.metric("Total Prediksi Seluruh Produk", f"{total_cup:.0f} cup")
+    label_total = "Total Prediksi Produk Terpilih" if produk_dipilih else "Total Prediksi Seluruh Produk"
+    st.metric(label_total, f"{total_cup:.0f} cup")
 
     if gagal:
         with st.expander(f"⚠️ {len(gagal)} produk gagal diprediksi"):
