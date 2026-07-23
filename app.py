@@ -87,6 +87,7 @@ if st.button("🔮 Prediksi", type="primary"):
     # ── Hasil Prediksi ──
     st.subheader(f"Hasil Prediksi — {target_date.strftime('%d %B %Y')}")
     df_hasil = pd.DataFrame(hasil).sort_values("Prediksi (cup)", ascending=False).reset_index(drop=True)
+    df_hasil["Prediksi (cup)"] = df_hasil["Prediksi (cup)"].round().astype(int)
     st.dataframe(df_hasil, use_container_width=True, hide_index=True)
 
     total_cup = df_hasil["Prediksi (cup)"].sum()
