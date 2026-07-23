@@ -81,30 +81,29 @@ def load_xgb_model_from_bytes(model_bytes):
     return model
 
 
-def predict_for_date(produk, product_daily, model_info, target_date):
-    """Pembentukan Fitur Otomatis + Prediksi untuk SATU produk pada SATU tanggal target.
+def _forecast_range(produk, product_daily, model_info, end_date):
+    """Helper internal: prediksi rekursif dari hari terakhir histori sampai end_date.
 
-    Alur: Input tanggal -> Pembentukan fitur otomatis -> Model produk dipanggil
-    -> Prediksi jumlah cup -> (dikembalikan ke pemanggil untuk ditampilkan).
-
-    Dihitung rekursif dari hari terakhir yang punya data histori sampai
-    target_date: prediksi hari t dipakai sebagai histori untuk menghitung
-    fitur lag/rolling hari t+1, dst.
+    Dihitung sekali jalan dari last_date+1 s/d end_date (inklusif): prediksi
+    hari t dipakai sebagai histori untuk menghitung fitur lag/rolling hari
+    t+1, dst. Mengembalikan (last_date, list of (tanggal, pred_float)) untuk
+    SEMUA hari di rentang tsb, supaya predict_for_date maupun predict_week
+    bisa reuse loop yang sama tanpa hitung ulang dari nol.
     """
     prod_hist = product_daily[product_daily['Produk'] == produk][['tanggal', 'penjualan']].copy()
     prod_hist = prod_hist.sort_values('tanggal').reset_index(drop=True)
     last_date = prod_hist['tanggal'].max()
 
-    target_date = pd.Timestamp(target_date)
-    if target_date <= last_date:
+    end_date = pd.Timestamp(end_date)
+    if end_date <= last_date:
         raise ValueError(f"Tanggal harus setelah {last_date.date()} (data histori terakhir).")
 
-    n_ahead = (target_date - last_date).days
+    n_ahead = (end_date - last_date).days
     features = model_info['features']
     model = model_info['model']
 
     work = prod_hist.copy()
-    pred_final = None
+    daily_preds = []
     for step in range(n_ahead):
         next_date = last_date + pd.Timedelta(days=step + 1)
         dummy = pd.DataFrame({'tanggal': [next_date], 'penjualan': [0.0]})
@@ -123,7 +122,33 @@ def predict_for_date(produk, product_daily, model_info, target_date):
             [work, pd.DataFrame({'tanggal': [next_date], 'penjualan': [pred]})],
             ignore_index=True,
         )
-        if next_date == target_date:
-            pred_final = pred
+        daily_preds.append((next_date, pred))
 
+    return last_date, daily_preds
+
+
+def predict_for_date(produk, product_daily, model_info, target_date):
+    """Pembentukan Fitur Otomatis + Prediksi untuk SATU produk pada SATU tanggal target.
+
+    Alur: Input tanggal -> Pembentukan fitur otomatis -> Model produk dipanggil
+    -> Prediksi jumlah cup -> (dikembalikan ke pemanggil untuk ditampilkan).
+    """
+    _, daily_preds = _forecast_range(produk, product_daily, model_info, target_date)
+    pred_final = daily_preds[-1][1]
     return int(round(pred_final))
+
+
+def predict_week(produk, product_daily, model_info, start_date, n_days=7):
+    """Prediksi rekursif untuk n_days (default 7) hari berturut-turut mulai
+    start_date (inklusif). Mengembalikan list of dict:
+    [{'tanggal': Timestamp, 'prediksi': int}, ...] sebanyak n_days,
+    diurutkan dari start_date sampai start_date + (n_days - 1) hari.
+    """
+    start_date = pd.Timestamp(start_date)
+    end_date = start_date + pd.Timedelta(days=n_days - 1)
+    _, daily_preds = _forecast_range(produk, product_daily, model_info, end_date)
+    return [
+        {'tanggal': tgl, 'prediksi': int(round(pred))}
+        for tgl, pred in daily_preds
+        if tgl >= start_date
+    ]
