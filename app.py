@@ -36,6 +36,21 @@ def load_artifacts():
     return models, product_daily, eval_summary
 
 
+# Cache hasil prediksi per (produk, tanggal) supaya reload/interaksi ulang
+# dengan input yang sama tidak menghitung ulang fitur & memanggil model lagi
+# (mengurangi beban CPU yang bisa memicu throttle di Streamlit Cloud).
+# Parameter berawalan "_" (mis. _model_info, _product_daily) sengaja tidak
+# di-hash oleh st.cache_data karena isinya objek model/dataframe.
+@st.cache_data(show_spinner=False)
+def cached_predict_for_date(produk, target_date, _model_info, _product_daily):
+    return utils.predict_for_date(produk, _product_daily, _model_info, target_date)
+
+
+@st.cache_data(show_spinner=False)
+def cached_predict_week(produk, start_date, n_days, _model_info, _product_daily):
+    return utils.predict_week(produk, _product_daily, _model_info, start_date, n_days=n_days)
+
+
 # ── Halaman Utama ──
 st.title("☕ Prediksi Penjualan Kopi")
 st.caption(
@@ -57,11 +72,11 @@ st.markdown(f"📅 Data histori tersedia sampai **{last_date.strftime('%d %B %Y'
 
 # ── Input Prediksi ──
 st.subheader("Input Prediksi")
-target_date = st.date_input(
-    "Pilih tanggal yang ingin diprediksi",
-    value=last_date + timedelta(days=1),
-    min_value=last_date + timedelta(days=1),
-    max_value=last_date + timedelta(days=30),
+
+mode = st.radio(
+    "Mode Prediksi",
+    options=["🗓️ Harian (1 tanggal)", "📈 Mingguan (7 hari ke depan)"],
+    horizontal=True,
 )
 
 semua_produk = sorted(models_produk.keys())
@@ -72,32 +87,98 @@ produk_dipilih = st.multiselect(
 )
 produk_target = produk_dipilih if produk_dipilih else semua_produk
 
-if st.button("🔮 Prediksi", type="primary"):
-    with st.spinner("Membentuk fitur & memanggil model tiap produk..."):
-        hasil = []
-        gagal = []
-        for produk in produk_target:
-            model_info = models_produk[produk]
-            try:
-                pred = utils.predict_for_date(produk, product_daily, model_info, target_date)
-                hasil.append({"Produk": produk, "Prediksi (cup)": pred})
-            except ValueError as e:
-                gagal.append((produk, str(e)))
+if mode.startswith("🗓️"):
+    # ── Mode Harian ──
+    target_date = st.date_input(
+        "Pilih tanggal yang ingin diprediksi",
+        value=last_date + timedelta(days=1),
+        min_value=last_date + timedelta(days=1),
+        max_value=last_date + timedelta(days=30),
+    )
 
-    # ── Hasil Prediksi ──
-    st.subheader(f"Hasil Prediksi — {target_date.strftime('%d %B %Y')}")
-    df_hasil = pd.DataFrame(hasil).sort_values("Prediksi (cup)", ascending=False).reset_index(drop=True)
-    df_hasil["Prediksi (cup)"] = df_hasil["Prediksi (cup)"].round().astype(int)
-    st.dataframe(df_hasil, use_container_width=True, hide_index=True)
+    if st.button("🔮 Prediksi", type="primary"):
+        with st.spinner("Membentuk fitur & memanggil model tiap produk..."):
+            hasil = []
+            gagal = []
+            for produk in produk_target:
+                model_info = models_produk[produk]
+                try:
+                    pred = cached_predict_for_date(produk, target_date, model_info, product_daily)
+                    hasil.append({"Produk": produk, "Prediksi (cup)": pred})
+                except ValueError as e:
+                    gagal.append((produk, str(e)))
 
-    total_cup = df_hasil["Prediksi (cup)"].sum()
-    label_total = "Total Prediksi Produk Terpilih" if produk_dipilih else "Total Prediksi Seluruh Produk"
-    st.metric(label_total, f"{total_cup:.0f} cup")
+        # ── Hasil Prediksi ──
+        st.subheader(f"Hasil Prediksi — {target_date.strftime('%d %B %Y')}")
+        df_hasil = pd.DataFrame(hasil).sort_values("Prediksi (cup)", ascending=False).reset_index(drop=True)
+        df_hasil["Prediksi (cup)"] = df_hasil["Prediksi (cup)"].round().astype(int)
+        st.dataframe(df_hasil, use_container_width=True, hide_index=True)
 
-    if gagal:
-        with st.expander(f"⚠️ {len(gagal)} produk gagal diprediksi"):
-            for produk, msg in gagal:
-                st.write(f"- **{produk}**: {msg}")
+        total_cup = df_hasil["Prediksi (cup)"].sum()
+        label_total = "Total Prediksi Produk Terpilih" if produk_dipilih else "Total Prediksi Seluruh Produk"
+        st.metric(label_total, f"{total_cup:.0f} cup")
+
+        if gagal:
+            with st.expander(f"⚠️ {len(gagal)} produk gagal diprediksi"):
+                for produk, msg in gagal:
+                    st.write(f"- **{produk}**: {msg}")
+
+else:
+    # ── Mode Mingguan (7 hari ke depan) ──
+    start_date = st.date_input(
+        "Mulai prediksi dari tanggal",
+        value=last_date + timedelta(days=1),
+        min_value=last_date + timedelta(days=1),
+        max_value=last_date + timedelta(days=24),  # sisakan ruang 7 hari sebelum batas 30 hari
+    )
+    end_date_preview = start_date + timedelta(days=6)
+    st.caption(f"Rentang prediksi: **{start_date.strftime('%d %b %Y')} – {end_date_preview.strftime('%d %b %Y')}** (7 hari).")
+
+    if st.button("🔮 Prediksi 7 Hari", type="primary"):
+        with st.spinner("Membentuk fitur & memanggil model tiap produk (rekursif 7 hari)..."):
+            per_produk_rows = {}  # produk -> list of {'tanggal', 'prediksi'}
+            gagal = []
+            for produk in produk_target:
+                model_info = models_produk[produk]
+                try:
+                    rows = cached_predict_week(produk, start_date, 7, model_info, product_daily)
+                    per_produk_rows[produk] = rows
+                except ValueError as e:
+                    gagal.append((produk, str(e)))
+
+        if per_produk_rows:
+            # ── Tabel Harian (baris = tanggal, kolom = produk) ──
+            st.subheader(f"Prediksi Harian — {start_date.strftime('%d %b')} s/d {end_date_preview.strftime('%d %b %Y')}")
+            tanggal_list = [r["tanggal"] for r in next(iter(per_produk_rows.values()))]
+            df_harian = pd.DataFrame(
+                {"Tanggal": [t.strftime("%a, %d %b %Y") for t in tanggal_list]}
+            )
+            for produk, rows in per_produk_rows.items():
+                df_harian[produk] = [r["prediksi"] for r in rows]
+            df_harian["Total Harian"] = df_harian[list(per_produk_rows.keys())].sum(axis=1)
+            st.dataframe(df_harian, use_container_width=True, hide_index=True)
+
+            # ── Total Mingguan per Produk ──
+            st.subheader("Total Mingguan per Produk")
+            df_total_minggu = pd.DataFrame(
+                [
+                    {"Produk": produk, "Total 7 Hari (cup)": sum(r["prediksi"] for r in rows)}
+                    for produk, rows in per_produk_rows.items()
+                ]
+            ).sort_values("Total 7 Hari (cup)", ascending=False).reset_index(drop=True)
+            st.dataframe(df_total_minggu, use_container_width=True, hide_index=True)
+
+            grand_total = df_total_minggu["Total 7 Hari (cup)"].sum()
+            label_total = (
+                "Total Prediksi 7 Hari — Produk Terpilih" if produk_dipilih
+                else "Total Prediksi 7 Hari — Seluruh Produk"
+            )
+            st.metric(label_total, f"{grand_total:.0f} cup")
+
+        if gagal:
+            with st.expander(f"⚠️ {len(gagal)} produk gagal diprediksi"):
+                for produk, msg in gagal:
+                    st.write(f"- **{produk}**: {msg}")
 
 st.markdown("---")
 with st.expander("ℹ️ Tentang Model"):
