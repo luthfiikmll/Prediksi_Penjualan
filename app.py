@@ -68,7 +68,7 @@ except FileNotFoundError as e:
     st.stop()
 
 last_date = product_daily["tanggal"].max().date()
-st.markdown(f"📅 Data histori tersedia sampai **{last_date.strftime('%d %B %Y')}**.")
+
 
 # ── Input Prediksi ──
 st.subheader("Input Prediksi")
