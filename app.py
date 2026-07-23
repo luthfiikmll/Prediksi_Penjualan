@@ -1,7 +1,12 @@
 """
 app.py — Aplikasi Prediksi Penjualan Kopi Per Produk (Harian).
 
+Alur (sesuai Bab 5.3.3 Proses Prediksi):
+  Input tanggal -> Pembentukan fitur otomatis -> Model produk dipanggil
+  -> Prediksi jumlah cup -> Hasil ditampilkan
 
+Artifact yang dibutuhkan di folder yang sama:
+  models_produk.pkl, product_daily.csv, eval_summary.csv, utils.py
 """
 
 import pickle
@@ -49,8 +54,8 @@ def cached_predict_week(produk, start_date, n_days, _model_info, _product_daily)
 # ── Halaman Utama ──
 st.title("☕ Prediksi Penjualan Kopi")
 st.caption(
-    "Coffee Shop Sans Your Day — prediksi penjualan minuman kopi "
-    "untuk tanggal yang dipilih, menggunakan model XGBoost."
+    "Coffee Shop Sans Your Day — prediksi jumlah cup terjual per produk "
+    "untuk tanggal yang dipilih, menggunakan model XGBoost per produk."
 )
 
 try:
@@ -63,7 +68,7 @@ except FileNotFoundError as e:
     st.stop()
 
 last_date = product_daily["tanggal"].max().date()
-# st.markdown(f"📅 Data histori tersedia sampai **{last_date.strftime('%d %B %Y')}**.")
+st.markdown(f"📅 Data histori tersedia sampai **{last_date.strftime('%d %B %Y')}**.")
 
 # ── Input Prediksi ──
 st.subheader("Input Prediksi")
@@ -176,11 +181,4 @@ else:
                     st.write(f"- **{produk}**: {msg}")
 
 st.markdown("---")
-with st.expander("ℹ️ Tentang Model"):
-    st.dataframe(eval_summary, use_container_width=True, hide_index=True)
-    st.caption(
-        "Tabel di atas menunjukkan performa masing-masing model produk pada "
-        "data pengujian (train vs test) saat pelatihan."
-    )
-
-st.caption(" — Prediksi Penjualan Minuman Kopi(Harian) dengan XGBoost —")
+st.caption("Skripsi — Prediksi Penjualan Kopi Per Produk (Harian) dengan XGBoost (CRISP-DM).")
