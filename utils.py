@@ -126,4 +126,4 @@ def predict_for_date(produk, product_daily, model_info, target_date):
         if next_date == target_date:
             pred_final = pred
 
-    return round(pred_final, 1)
+    return int(round(pred_final))
