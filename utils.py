@@ -163,7 +163,11 @@ def get_dashboard_summary(product_daily):
       total_per_produk : DataFrame ['Produk', 'Total Terjual (cup)'], urut
                           menurun berdasarkan total penjualan.
       tren_harian       : DataFrame ['tanggal', 'Total Cup'] — total semua
-                          produk digabung per hari, untuk grafik tren.
+                          produk digabung per hari, untuk grafik tren harian.
+      tren_mingguan     : DataFrame ['minggu_mulai', 'Total Cup'] — agregasi
+                          mingguan (Senin s/d Minggu) dari tren_harian.
+      tren_bulanan      : DataFrame ['bulan', 'Total Cup'] — agregasi bulanan
+                          (per awal bulan) dari tren_harian.
       stats             : dict ringkasan (total_cup, jumlah_produk,
                           jumlah_hari, rata_rata_harian, tanggal_awal,
                           tanggal_akhir).
@@ -183,6 +187,22 @@ def get_dashboard_summary(product_daily):
         .reset_index(drop=True)
     )
 
+    tren_mingguan = (
+        tren_harian.set_index('tanggal')['Total Cup']
+        .resample('W-MON', label='left', closed='left')
+        .sum()
+        .reset_index()
+        .rename(columns={'tanggal': 'minggu_mulai'})
+    )
+
+    tren_bulanan = (
+        tren_harian.set_index('tanggal')['Total Cup']
+        .resample('MS')
+        .sum()
+        .reset_index()
+        .rename(columns={'tanggal': 'bulan'})
+    )
+
     tanggal_awal = product_daily['tanggal'].min()
     tanggal_akhir = product_daily['tanggal'].max()
     stats = {
@@ -194,4 +214,4 @@ def get_dashboard_summary(product_daily):
         'tanggal_akhir': tanggal_akhir,
     }
 
-    return total_per_produk, tren_harian, stats
+    return total_per_produk, tren_harian, tren_mingguan, tren_bulanan, stats
