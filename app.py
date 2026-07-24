@@ -54,8 +54,8 @@ def cached_predict_week(produk, start_date, n_days, _model_info, _product_daily)
 # ── Halaman Utama ──
 st.title("☕ Prediksi Penjualan Kopi")
 st.caption(
-    "Coffee Shop Sans Your Day — prediksi jumlah cup terjual per produk "
-    "untuk tanggal yang dipilih, menggunakan model XGBoost per produk."
+    "Coffee Shop Sans Your Day — prediksi penjualan minuman kopi harian "
+    ", menggunakan model XGBoost dan optimasi random search."
 )
 
 try:
@@ -181,4 +181,4 @@ else:
                     st.write(f"- **{produk}**: {msg}")
 
 st.markdown("---")
-st.caption("Skripsi — Prediksi Penjualan Kopi Per Produk (Harian) dengan XGBoost (CRISP-DM).")
+st.caption("Skripsi — Prediksi Penjualan minuman Kopi dengan XGBoost dan optimasi random search.")
