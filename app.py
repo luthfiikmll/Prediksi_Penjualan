@@ -59,8 +59,8 @@ def cached_dashboard_summary(_product_daily):
 # ── Halaman Utama ──
 st.title("☕ Prediksi Penjualan Kopi")
 st.caption(
-    "Coffee Shop Sans Your Day — prediksi jumlah cup terjual per produk "
-    "untuk tanggal yang dipilih, menggunakan model XGBoost per produk."
+    "Coffee Shop Sans Your Day — prediksi penjualan harian minuman kopi "
+    ", menggunakan model XGBoost dan Random Search."
 )
 
 try:
@@ -82,11 +82,11 @@ st.header("📊 Dashboard Penjualan")
 
 total_per_produk, tren_harian, stats = cached_dashboard_summary(product_daily)
 
-col1, col2, col3, col4 = st.columns(4)
-col1.metric("Total Terjual (histori)", f"{stats['total_cup']:,.0f} cup")
-col2.metric("Rata-rata per Hari", f"{stats['rata_rata_harian']:,.0f} cup")
+# col1, col2, col3, col4 = st.columns(4)
+# col1.metric("Total Terjual (histori)", f"{stats['total_cup']:,.0f} cup")
+# col2.metric("Rata-rata per Hari", f"{stats['rata_rata_harian']:,.0f} cup")
 col3.metric("Jumlah Produk", f"{stats['jumlah_produk']}")
-col4.metric("Rentang Data", f"{stats['jumlah_hari']} hari")
+# col4.metric("Rentang Data", f"{stats['jumlah_hari']} hari")
 
 produk_terlaris = total_per_produk.iloc[0]
 st.markdown(
@@ -268,4 +268,4 @@ with st.expander("ℹ️ Tentang Model"):
         "data pengujian (train vs test) saat pelatihan."
     )
 
-st.caption("Skripsi — Prediksi Penjualan Kopi Per Produk (Harian) dengan XGBoost (CRISP-DM).")
+st.caption("Skripsi — Prediksi Penjualan Harian Minuman Kopi dengan XGBoost dan Random Search.")
