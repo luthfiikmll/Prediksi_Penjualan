@@ -80,7 +80,7 @@ st.markdown(f"📅 Data histori tersedia sampai **{last_date.strftime('%d %B %Y'
 # ══════════════════════════════════════════════════════════════
 st.header("📊 Dashboard Penjualan")
 
-total_per_produk, tren_harian, stats = cached_dashboard_summary(product_daily)
+total_per_produk, tren_harian, tren_mingguan, tren_bulanan, stats = cached_dashboard_summary(product_daily)
 
 col1, col2, col3, col4 = st.columns(4)
 # col1.metric("Total Terjual (histori)", f"{stats['total_cup']:,.0f} cup")
@@ -94,7 +94,9 @@ st.markdown(
     f"({produk_terlaris['Total Terjual (cup)']:,.0f} cup terjual sepanjang histori)"
 )
 
-tab_top, tab_tren = st.tabs(["🏆 Produk Terlaris", "📈 Tren Penjualan Harian"])
+tab_top, tab_harian, tab_mingguan, tab_bulanan = st.tabs(
+    ["🏆 Produk Terlaris", "📈 Tren Harian", "📅 Tren Mingguan", "🗓️ Tren Bulanan"]
+)
 
 with tab_top:
     top_n = st.slider("Tampilkan top N produk", min_value=3, max_value=len(total_per_produk),
@@ -103,9 +105,29 @@ with tab_top:
     st.bar_chart(df_top["Total Terjual (cup)"])
     st.dataframe(total_per_produk, use_container_width=True, hide_index=True)
 
-with tab_tren:
+with tab_harian:
     st.line_chart(tren_harian.set_index("tanggal")["Total Cup"])
     st.caption("Total cup terjual (semua produk digabung) per hari, sepanjang data histori.")
+
+with tab_mingguan:
+    df_mingguan = tren_mingguan.copy()
+    df_mingguan["Label"] = df_mingguan["minggu_mulai"].dt.strftime("%d %b %Y")
+    st.bar_chart(df_mingguan.set_index("Label")["Total Cup"])
+    st.caption("Total cup terjual per minggu (Senin–Minggu), semua produk digabung.")
+    st.dataframe(
+        df_mingguan.rename(columns={"minggu_mulai": "Minggu Mulai"})[["Minggu Mulai", "Total Cup"]],
+        use_container_width=True, hide_index=True,
+    )
+
+with tab_bulanan:
+    df_bulanan = tren_bulanan.copy()
+    df_bulanan["Label"] = df_bulanan["bulan"].dt.strftime("%B %Y")
+    st.bar_chart(df_bulanan.set_index("Label")["Total Cup"])
+    st.caption("Total cup terjual per bulan, semua produk digabung.")
+    st.dataframe(
+        df_bulanan[["Label", "Total Cup"]].rename(columns={"Label": "Bulan"}),
+        use_container_width=True, hide_index=True,
+    )
 
 st.markdown("---")
 
@@ -268,4 +290,4 @@ with st.expander("ℹ️ Tentang Model"):
         "data pengujian (train vs test) saat pelatihan."
     )
 
-st.caption("Skripsi — Prediksi Penjualan harian Minuman Kopi dengan XGBoost dan Random Search.")
+st.caption("Skripsi — Prediksi Penjualan harian minuman Kopi dengan XGBoost dan Random Search.")
