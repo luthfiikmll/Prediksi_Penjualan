@@ -84,7 +84,7 @@ total_per_produk, tren_harian, stats = cached_dashboard_summary(product_daily)
 
 col1, col2, col3, col4 = st.columns(4)
 # col1.metric("Total Terjual (histori)", f"{stats['total_cup']:,.0f} cup")
-col2.metric("Rata-rata per Hari", f"{stats['rata_rata_harian']:,.0f} cup")
+# col2.metric("Rata-rata per Hari", f"{stats['rata_rata_harian']:,.0f} cup")
 col3.metric("Jumlah Produk", f"{stats['jumlah_produk']}")
 # col4.metric("Rentang Data", f"{stats['jumlah_hari']} hari")
 
