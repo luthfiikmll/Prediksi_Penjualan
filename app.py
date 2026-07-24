@@ -54,7 +54,7 @@ def cached_predict_week(produk, start_date, n_days, _model_info, _product_daily)
 # ── Halaman Utama ──
 st.title("☕ Prediksi Penjualan Kopi")
 st.caption(
-    "Coffee Shop Sans Your Day — prediksi penjualan minuman kopi harian "
+    "Coffee Shop Sans Your Day — prediksi penjualan minuman kopi harian"
     ", menggunakan model XGBoost dan optimasi random search."
 )
 
@@ -68,7 +68,7 @@ except FileNotFoundError as e:
     st.stop()
 
 last_date = product_daily["tanggal"].max().date()
-
+st.markdown(f"📅 Data histori tersedia sampai **{last_date.strftime('%d %B %Y')}**.")
 
 # ── Input Prediksi ──
 st.subheader("Input Prediksi")
@@ -181,4 +181,11 @@ else:
                     st.write(f"- **{produk}**: {msg}")
 
 st.markdown("---")
-st.caption("Skripsi — Prediksi Penjualan minuman Kopi dengan XGBoost dan optimasi random search.")
+with st.expander("ℹ️ Tentang Model"):
+    st.dataframe(eval_summary, use_container_width=True, hide_index=True)
+    st.caption(
+        "Tabel di atas menunjukkan performa masing-masing model produk pada "
+        "data pengujian (train vs test) saat pelatihan."
+    )
+
+st.caption("Skripsi — Prediksi Penjualan minuman kopi dengan XGBoost dan optimasi random search.")
