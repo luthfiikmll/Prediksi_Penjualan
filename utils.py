@@ -10,11 +10,11 @@ import pandas as pd
 import holidays
 
 FEATURES_DAILY = [
-    'dayofweek', 'is_weekend', 'month', 'day', 't_index',
-    'is_holiday', 'is_payday',
+    'dayofweek', 'is_weekend', 'month', 'day',
+    'is_holiday',
     'lag_1', 'lag_2', 'lag_3', 'lag_4', 'lag_7', 'lag_14',
-    'rolling_mean_7', 'rolling_mean_14', 'rolling_std_7',
-    'ewm_7', 'ewm_14',
+    'rolling_mean_7', 'rolling_mean_14',
+    'ewm_7',
 ]
 
 
