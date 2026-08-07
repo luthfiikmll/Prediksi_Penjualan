@@ -1,0 +1,14 @@
+Produk,Model Terpilih,MAE,RMSE,MAPE (%)
+Kopi Aren,XGBoost + Random Search,0.8299,1.0068,13.44
+Americano,XGBoost + Random Search,0.5386,0.7732,16.75
+Capuccino,XGBoost + Random Search,0.288,0.371,9.56
+Hazelnut Coffee,XGBoost + Random Search,0.2639,0.3381,15.86
+Butterscotch Coffee,XGBoost + Random Search,0.2757,0.4293,15.09
+Signature Coffee,XGBoost + Random Search,0.1136,0.1464,10.67
+Rum Coffee,XGBoost + Random Search,0.1073,0.1385,11.28
+Avocado Coffee,XGBoost + Random Search,0.1414,0.2662,18.77
+Matcha Coffee,XGBoost + Random Search,0.0788,0.1025,9.11
+Kopi Pandan,XGBoost + Random Search,0.0717,0.0923,7.95
+Espresso,XGBoost + Random Search,0.0837,0.1094,8.53
+Strawberry Coffee,XGBoost + Random Search,0.0227,0.0565,10.79
+Oat Latte,Baseline,0.0,0.0,
