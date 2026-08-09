@@ -1,9 +1,4 @@
-"""
-utils.py — Fungsi shared untuk app.py (Streamlit).
-Logika feature engineering di sini HARUS identik dengan
-model_prediksi_per_produk_harian.ipynb, supaya prediksi konsisten
-antara training dan deployment.
-"""
+
 
 import numpy as np
 import pandas as pd
@@ -32,8 +27,7 @@ def build_features(series_df, required_cols=None):
     q99 = ds['penjualan'].quantile(0.99)
     rolling_med = ds['penjualan'].rolling(7, min_periods=1, center=False).median()
     ds['penjualan'] = np.where(ds['penjualan'] > q99, rolling_med, ds['penjualan'])
-    # Catatan: TIDAK menggunakan log1p -- model dilatih langsung pada skala asli (cup),
-    # identik dengan build_features() di notebook training.
+  
 
     ds['dayofweek'] = ds['tanggal'].dt.dayofweek
     ds['is_weekend'] = (ds['dayofweek'] >= 5).astype(int)
@@ -60,9 +54,7 @@ def build_features(series_df, required_cols=None):
 
 
 def load_xgb_model_from_bytes(model_bytes):
-    """Load model XGBoost dari raw bytes format JSON, BUKAN dari pickle objek
-    XGBRegressor langsung — supaya tidak corrupt kalau versi xgboost server
-    beda dengan versi training."""
+    """Load model XGBoost."""
     import xgboost as xgb
     model = xgb.XGBRegressor()
     model.load_model(bytearray(model_bytes))
@@ -70,14 +62,7 @@ def load_xgb_model_from_bytes(model_bytes):
 
 
 def _forecast_range(produk, product_daily, model_info, end_date):
-    """Helper internal: prediksi rekursif dari hari terakhir histori sampai end_date.
 
-    Dihitung sekali jalan dari last_date+1 s/d end_date (inklusif): prediksi
-    hari t dipakai sebagai histori untuk menghitung fitur lag/rolling hari
-    t+1, dst. Mengembalikan (last_date, list of (tanggal, pred_float)) untuk
-    SEMUA hari di rentang tsb, supaya predict_for_date maupun predict_week
-    bisa reuse loop yang sama tanpa hitung ulang dari nol.
-    """
     prod_hist = product_daily[product_daily['Produk'] == produk][['tanggal', 'penjualan']].copy()
     prod_hist = prod_hist.sort_values('tanggal').reset_index(drop=True)
     last_date = prod_hist['tanggal'].max()
@@ -116,28 +101,14 @@ def _forecast_range(produk, product_daily, model_info, end_date):
 
 
 def predict_for_date(produk, product_daily, model_info, target_date):
-    """Pembentukan Fitur Otomatis + Prediksi untuk SATU produk pada SATU tanggal target.
 
-    Alur: Input tanggal -> Pembentukan fitur otomatis -> Model produk dipanggil
-    -> Prediksi jumlah cup -> (dikembalikan ke pemanggil untuk ditampilkan).
-    """
     _, daily_preds = _forecast_range(produk, product_daily, model_info, target_date)
     pred_final = daily_preds[-1][1]
     return int(round(pred_final))
 
 
 def predict_week(produk, product_daily, model_info, start_date, n_days=7):
-    """Prediksi rekursif untuk n_days (default 7) hari berturut-turut mulai
-    start_date (inklusif). Mengembalikan list of dict:
-    [{'tanggal': Timestamp, 'prediksi': float}, ...] sebanyak n_days,
-    diurutkan dari start_date sampai start_date + (n_days - 1) hari.
 
-    CATATAN: 'prediksi' di sini SENGAJA dikembalikan sebagai float mentah
-    (belum dibulatkan). Pembulatan dilakukan di app.py setelah proses
-    penjumlahan (mis. total 7 hari per produk), bukan sebelum -- supaya
-    prediksi kecil (mis. 0,3-0,4 cup/hari) tidak hilang jadi 0 duluan
-    sebelum sempat terakumulasi jadi angka yang berarti.
-    """
     start_date = pd.Timestamp(start_date)
     end_date = start_date + pd.Timedelta(days=n_days - 1)
     _, daily_preds = _forecast_range(produk, product_daily, model_info, end_date)
@@ -149,19 +120,7 @@ def predict_week(produk, product_daily, model_info, start_date, n_days=7):
 
 
 def get_dashboard_summary(product_daily):
-    """Ringkasan dashboard dari data HISTORI penjualan (product_daily), bukan
-    hasil prediksi. Dipakai untuk menampilkan produk terlaris & tren harian
-    di bagian atas app.
 
-    Mengembalikan:
-      total_per_produk : DataFrame ['Produk', 'Total Terjual (cup)'], urut
-                          menurun berdasarkan total penjualan.
-      tren_harian       : DataFrame ['tanggal', 'Total Cup'] — total semua
-                          produk digabung per hari, untuk grafik tren.
-      stats             : dict ringkasan (total_cup, jumlah_produk,
-                          jumlah_hari, rata_rata_harian, tanggal_awal,
-                          tanggal_akhir).
-    """
     total_per_produk = (
         product_daily.groupby('Produk')['penjualan'].sum()
         .sort_values(ascending=False)
