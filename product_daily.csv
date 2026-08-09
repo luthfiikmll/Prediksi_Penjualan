@@ -1,0 +1,4908 @@
+tanggal,Produk,penjualan
+2024-04-10,Americano,2
+2024-04-10,Capuccino,5
+2024-04-10,Kopi Aren,2
+2024-04-11,Americano,2
+2024-04-11,Hazelnut Coffee,1
+2024-04-11,Kopi Aren,1
+2024-04-12,Americano,2
+2024-04-12,Butterscotch Coffee,1
+2024-04-12,Capuccino,1
+2024-04-12,Espresso,1
+2024-04-12,Hazelnut Coffee,1
+2024-04-12,Kopi Aren,2
+2024-04-13,Americano,2
+2024-04-13,Butterscotch Coffee,2
+2024-04-13,Espresso,1
+2024-04-13,Hazelnut Coffee,1
+2024-04-13,Kopi Aren,2
+2024-04-13,Rum Coffee,1
+2024-04-13,Signature Coffee,1
+2024-04-14,Americano,2
+2024-04-14,Hazelnut Coffee,4
+2024-04-14,Kopi Aren,6
+2024-04-14,Matcha Coffee,1
+2024-04-15,Americano,5
+2024-04-15,Hazelnut Coffee,1
+2024-04-15,Kopi Aren,5
+2024-04-15,Rum Coffee,2
+2024-04-16,Americano,2
+2024-04-16,Hazelnut Coffee,3
+2024-04-16,Kopi Aren,7
+2024-04-16,Rum Coffee,1
+2024-04-17,Americano,2
+2024-04-17,Butterscotch Coffee,2
+2024-04-17,Capuccino,1
+2024-04-17,Hazelnut Coffee,2
+2024-04-17,Kopi Aren,5
+2024-04-18,Americano,2
+2024-04-18,Capuccino,1
+2024-04-18,Kopi Aren,7
+2024-04-19,Americano,4
+2024-04-19,Butterscotch Coffee,2
+2024-04-19,Capuccino,1
+2024-04-19,Hazelnut Coffee,5
+2024-04-19,Kopi Aren,8
+2024-04-19,Rum Coffee,1
+2024-04-19,Signature Coffee,1
+2024-04-20,Avocado Coffee,1
+2024-04-20,Butterscotch Coffee,2
+2024-04-20,Capuccino,1
+2024-04-20,Hazelnut Coffee,1
+2024-04-20,Kopi Aren,7
+2024-04-20,Matcha Coffee,1
+2024-04-20,Rum Coffee,1
+2024-04-20,Signature Coffee,1
+2024-04-21,Americano,2
+2024-04-21,Capuccino,7
+2024-04-21,Kopi Aren,4
+2024-04-22,Americano,1
+2024-04-22,Butterscotch Coffee,1
+2024-04-22,Capuccino,5
+2024-04-22,Kopi Aren,6
+2024-04-22,Signature Coffee,1
+2024-04-23,Americano,2
+2024-04-23,Espresso,4
+2024-04-24,Americano,2
+2024-04-24,Butterscotch Coffee,1
+2024-04-24,Capuccino,1
+2024-04-24,Hazelnut Coffee,1
+2024-04-24,Kopi Aren,5
+2024-04-25,Americano,1
+2024-04-25,Capuccino,3
+2024-04-25,Kopi Aren,4
+2024-04-25,Kopi Pandan,1
+2024-04-25,Signature Coffee,1
+2024-04-26,Americano,2
+2024-04-26,Butterscotch Coffee,1
+2024-04-26,Capuccino,2
+2024-04-26,Kopi Aren,6
+2024-04-26,Signature Coffee,1
+2024-04-27,Americano,6
+2024-04-27,Butterscotch Coffee,1
+2024-04-27,Hazelnut Coffee,2
+2024-04-27,Kopi Aren,4
+2024-04-28,Americano,7
+2024-04-28,Butterscotch Coffee,1
+2024-04-28,Capuccino,2
+2024-04-28,Hazelnut Coffee,2
+2024-04-28,Kopi Aren,5
+2024-04-28,Kopi Pandan,1
+2024-04-28,Matcha Coffee,2
+2024-04-29,Americano,2
+2024-04-29,Butterscotch Coffee,3
+2024-04-29,Espresso,1
+2024-04-29,Hazelnut Coffee,1
+2024-04-29,Kopi Aren,6
+2024-04-30,Americano,1
+2024-04-30,Capuccino,1
+2024-04-30,Kopi Aren,7
+2024-04-30,Rum Coffee,1
+2024-04-30,Signature Coffee,1
+2024-05-01,Americano,1
+2024-05-01,Avocado Coffee,1
+2024-05-01,Capuccino,2
+2024-05-01,Hazelnut Coffee,5
+2024-05-01,Kopi Aren,2
+2024-05-01,Signature Coffee,1
+2024-05-02,Americano,4
+2024-05-02,Capuccino,2
+2024-05-02,Kopi Aren,5
+2024-05-02,Kopi Pandan,1
+2024-05-02,Rum Coffee,1
+2024-05-03,Americano,3
+2024-05-03,Avocado Coffee,1
+2024-05-03,Butterscotch Coffee,2
+2024-05-03,Capuccino,2
+2024-05-03,Hazelnut Coffee,4
+2024-05-03,Kopi Aren,5
+2024-05-03,Matcha Coffee,1
+2024-05-03,Rum Coffee,2
+2024-05-03,Signature Coffee,1
+2024-05-04,Americano,4
+2024-05-04,Butterscotch Coffee,1
+2024-05-04,Capuccino,3
+2024-05-04,Espresso,1
+2024-05-04,Hazelnut Coffee,3
+2024-05-04,Kopi Aren,13
+2024-05-05,Americano,2
+2024-05-05,Avocado Coffee,2
+2024-05-05,Butterscotch Coffee,1
+2024-05-05,Capuccino,1
+2024-05-05,Kopi Aren,8
+2024-05-05,Matcha Coffee,1
+2024-05-06,Americano,1
+2024-05-06,Avocado Coffee,1
+2024-05-06,Capuccino,3
+2024-05-06,Kopi Aren,4
+2024-05-06,Matcha Coffee,1
+2024-05-07,Americano,1
+2024-05-07,Avocado Coffee,1
+2024-05-07,Capuccino,3
+2024-05-07,Hazelnut Coffee,3
+2024-05-07,Kopi Aren,7
+2024-05-07,Signature Coffee,2
+2024-05-08,Avocado Coffee,3
+2024-05-08,Capuccino,1
+2024-05-08,Hazelnut Coffee,1
+2024-05-08,Kopi Aren,6
+2024-05-08,Kopi Pandan,4
+2024-05-08,Rum Coffee,1
+2024-05-09,Americano,4
+2024-05-09,Butterscotch Coffee,2
+2024-05-09,Capuccino,2
+2024-05-09,Hazelnut Coffee,5
+2024-05-09,Kopi Aren,4
+2024-05-09,Kopi Pandan,4
+2024-05-09,Signature Coffee,1
+2024-05-10,Americano,2
+2024-05-10,Butterscotch Coffee,1
+2024-05-10,Capuccino,4
+2024-05-10,Hazelnut Coffee,2
+2024-05-10,Kopi Aren,10
+2024-05-10,Signature Coffee,1
+2024-05-11,Americano,3
+2024-05-11,Capuccino,2
+2024-05-12,Americano,3
+2024-05-12,Butterscotch Coffee,2
+2024-05-12,Capuccino,2
+2024-05-12,Espresso,1
+2024-05-12,Hazelnut Coffee,1
+2024-05-12,Kopi Aren,1
+2024-05-12,Kopi Pandan,1
+2024-05-12,Matcha Coffee,1
+2024-05-12,Oat Latte,1
+2024-05-12,Signature Coffee,1
+2024-05-13,Avocado Coffee,2
+2024-05-13,Butterscotch Coffee,1
+2024-05-13,Capuccino,1
+2024-05-13,Hazelnut Coffee,2
+2024-05-13,Kopi Aren,7
+2024-05-13,Rum Coffee,1
+2024-05-14,Americano,2
+2024-05-14,Avocado Coffee,3
+2024-05-14,Butterscotch Coffee,3
+2024-05-14,Capuccino,2
+2024-05-14,Kopi Aren,5
+2024-05-14,Matcha Coffee,1
+2024-05-14,Rum Coffee,1
+2024-05-15,Americano,3
+2024-05-15,Butterscotch Coffee,2
+2024-05-15,Capuccino,1
+2024-05-15,Hazelnut Coffee,1
+2024-05-15,Kopi Aren,7
+2024-05-15,Matcha Coffee,1
+2024-05-15,Rum Coffee,1
+2024-05-16,Americano,1
+2024-05-16,Butterscotch Coffee,1
+2024-05-16,Capuccino,2
+2024-05-16,Hazelnut Coffee,3
+2024-05-16,Kopi Aren,3
+2024-05-17,Americano,1
+2024-05-17,Capuccino,1
+2024-05-17,Hazelnut Coffee,2
+2024-05-17,Kopi Aren,8
+2024-05-17,Rum Coffee,1
+2024-05-17,Signature Coffee,1
+2024-05-18,Americano,3
+2024-05-18,Avocado Coffee,1
+2024-05-18,Butterscotch Coffee,2
+2024-05-18,Capuccino,1
+2024-05-18,Hazelnut Coffee,2
+2024-05-18,Kopi Aren,8
+2024-05-18,Rum Coffee,1
+2024-05-19,Americano,1
+2024-05-19,Butterscotch Coffee,2
+2024-05-19,Capuccino,2
+2024-05-19,Hazelnut Coffee,3
+2024-05-19,Kopi Aren,5
+2024-05-20,Americano,2
+2024-05-20,Capuccino,3
+2024-05-20,Hazelnut Coffee,1
+2024-05-20,Kopi Aren,2
+2024-05-20,Signature Coffee,1
+2024-05-21,Americano,3
+2024-05-21,Avocado Coffee,1
+2024-05-21,Butterscotch Coffee,2
+2024-05-21,Kopi Aren,4
+2024-05-22,Americano,1
+2024-05-22,Avocado Coffee,1
+2024-05-22,Kopi Aren,1
+2024-05-23,Avocado Coffee,1
+2024-05-23,Butterscotch Coffee,2
+2024-05-23,Hazelnut Coffee,1
+2024-05-23,Kopi Aren,1
+2024-05-23,Signature Coffee,1
+2024-05-24,Americano,3
+2024-05-24,Avocado Coffee,1
+2024-05-24,Hazelnut Coffee,2
+2024-05-24,Kopi Aren,8
+2024-05-24,Kopi Pandan,1
+2024-05-25,Americano,5
+2024-05-25,Butterscotch Coffee,2
+2024-05-25,Capuccino,1
+2024-05-25,Hazelnut Coffee,2
+2024-05-25,Kopi Aren,10
+2024-05-26,Americano,1
+2024-05-26,Butterscotch Coffee,1
+2024-05-26,Capuccino,3
+2024-05-26,Hazelnut Coffee,3
+2024-05-26,Kopi Aren,4
+2024-05-26,Rum Coffee,1
+2024-05-27,Americano,3
+2024-05-27,Avocado Coffee,1
+2024-05-27,Butterscotch Coffee,4
+2024-05-27,Capuccino,4
+2024-05-27,Hazelnut Coffee,2
+2024-05-27,Kopi Aren,11
+2024-05-27,Rum Coffee,5
+2024-05-28,Americano,3
+2024-05-28,Hazelnut Coffee,2
+2024-05-28,Kopi Aren,3
+2024-05-28,Matcha Coffee,1
+2024-05-29,Americano,2
+2024-05-29,Capuccino,1
+2024-05-29,Kopi Aren,5
+2024-05-30,Americano,2
+2024-05-30,Butterscotch Coffee,1
+2024-05-30,Capuccino,1
+2024-05-30,Kopi Aren,2
+2024-05-30,Signature Coffee,1
+2024-05-31,Americano,3
+2024-05-31,Avocado Coffee,1
+2024-05-31,Butterscotch Coffee,1
+2024-05-31,Capuccino,5
+2024-05-31,Hazelnut Coffee,4
+2024-05-31,Kopi Aren,4
+2024-05-31,Signature Coffee,1
+2024-06-01,Americano,5
+2024-06-01,Avocado Coffee,1
+2024-06-01,Capuccino,2
+2024-06-01,Hazelnut Coffee,2
+2024-06-01,Kopi Aren,6
+2024-06-01,Signature Coffee,4
+2024-06-02,Americano,3
+2024-06-02,Butterscotch Coffee,3
+2024-06-02,Capuccino,3
+2024-06-02,Hazelnut Coffee,1
+2024-06-02,Kopi Aren,5
+2024-06-03,Americano,2
+2024-06-03,Butterscotch Coffee,1
+2024-06-03,Capuccino,1
+2024-06-03,Hazelnut Coffee,4
+2024-06-03,Kopi Aren,10
+2024-06-03,Signature Coffee,1
+2024-06-04,Americano,7
+2024-06-04,Capuccino,2
+2024-06-04,Hazelnut Coffee,8
+2024-06-04,Kopi Aren,7
+2024-06-04,Kopi Pandan,1
+2024-06-05,Americano,3
+2024-06-05,Capuccino,1
+2024-06-05,Hazelnut Coffee,2
+2024-06-05,Kopi Aren,5
+2024-06-05,Signature Coffee,1
+2024-06-06,Americano,1
+2024-06-06,Capuccino,2
+2024-06-06,Hazelnut Coffee,2
+2024-06-06,Kopi Aren,3
+2024-06-06,Rum Coffee,1
+2024-06-07,Americano,2
+2024-06-07,Butterscotch Coffee,1
+2024-06-07,Capuccino,4
+2024-06-07,Hazelnut Coffee,1
+2024-06-07,Kopi Aren,9
+2024-06-07,Kopi Pandan,3
+2024-06-07,Signature Coffee,3
+2024-06-08,Americano,5
+2024-06-08,Avocado Coffee,1
+2024-06-08,Butterscotch Coffee,2
+2024-06-08,Capuccino,3
+2024-06-08,Espresso,1
+2024-06-08,Hazelnut Coffee,1
+2024-06-08,Kopi Aren,12
+2024-06-08,Matcha Coffee,1
+2024-06-08,Rum Coffee,3
+2024-06-09,Americano,4
+2024-06-09,Capuccino,3
+2024-06-09,Hazelnut Coffee,2
+2024-06-09,Kopi Aren,3
+2024-06-09,Kopi Pandan,1
+2024-06-09,Signature Coffee,3
+2024-06-10,Americano,4
+2024-06-10,Avocado Coffee,2
+2024-06-10,Butterscotch Coffee,1
+2024-06-10,Capuccino,6
+2024-06-10,Hazelnut Coffee,3
+2024-06-10,Kopi Aren,7
+2024-06-10,Kopi Pandan,1
+2024-06-10,Matcha Coffee,1
+2024-06-11,Americano,3
+2024-06-11,Butterscotch Coffee,1
+2024-06-11,Capuccino,1
+2024-06-11,Espresso,1
+2024-06-11,Hazelnut Coffee,1
+2024-06-11,Kopi Aren,7
+2024-06-11,Signature Coffee,2
+2024-06-12,Americano,1
+2024-06-12,Avocado Coffee,1
+2024-06-12,Butterscotch Coffee,2
+2024-06-12,Capuccino,2
+2024-06-12,Espresso,3
+2024-06-12,Hazelnut Coffee,4
+2024-06-12,Kopi Aren,6
+2024-06-13,Americano,1
+2024-06-13,Avocado Coffee,1
+2024-06-13,Butterscotch Coffee,1
+2024-06-13,Capuccino,1
+2024-06-13,Espresso,1
+2024-06-13,Hazelnut Coffee,1
+2024-06-13,Kopi Aren,2
+2024-06-13,Kopi Pandan,1
+2024-06-13,Strawberry Coffee,1
+2024-06-14,Americano,5
+2024-06-14,Avocado Coffee,2
+2024-06-14,Butterscotch Coffee,2
+2024-06-14,Capuccino,1
+2024-06-14,Hazelnut Coffee,2
+2024-06-14,Kopi Aren,6
+2024-06-14,Matcha Coffee,1
+2024-06-14,Rum Coffee,2
+2024-06-15,Americano,5
+2024-06-15,Avocado Coffee,4
+2024-06-15,Butterscotch Coffee,2
+2024-06-15,Capuccino,6
+2024-06-15,Hazelnut Coffee,2
+2024-06-15,Kopi Aren,5
+2024-06-15,Kopi Pandan,1
+2024-06-15,Rum Coffee,1
+2024-06-15,Signature Coffee,1
+2024-06-16,Americano,5
+2024-06-16,Butterscotch Coffee,2
+2024-06-16,Capuccino,2
+2024-06-16,Hazelnut Coffee,2
+2024-06-16,Kopi Aren,11
+2024-06-16,Matcha Coffee,3
+2024-06-16,Signature Coffee,1
+2024-06-17,Americano,2
+2024-06-17,Butterscotch Coffee,1
+2024-06-17,Capuccino,1
+2024-06-17,Espresso,1
+2024-06-17,Hazelnut Coffee,2
+2024-06-17,Kopi Aren,11
+2024-06-17,Signature Coffee,2
+2024-06-18,Americano,8
+2024-06-18,Avocado Coffee,1
+2024-06-18,Butterscotch Coffee,1
+2024-06-18,Capuccino,4
+2024-06-18,Espresso,1
+2024-06-18,Hazelnut Coffee,1
+2024-06-18,Kopi Aren,3
+2024-06-18,Matcha Coffee,1
+2024-06-19,Americano,1
+2024-06-19,Butterscotch Coffee,2
+2024-06-19,Capuccino,1
+2024-06-19,Espresso,4
+2024-06-19,Hazelnut Coffee,3
+2024-06-19,Kopi Aren,3
+2024-06-19,Signature Coffee,1
+2024-06-20,Americano,4
+2024-06-20,Avocado Coffee,1
+2024-06-20,Capuccino,4
+2024-06-20,Hazelnut Coffee,1
+2024-06-20,Kopi Aren,3
+2024-06-20,Kopi Pandan,1
+2024-06-21,Americano,3
+2024-06-21,Avocado Coffee,2
+2024-06-21,Butterscotch Coffee,3
+2024-06-21,Capuccino,2
+2024-06-21,Hazelnut Coffee,2
+2024-06-21,Kopi Aren,22
+2024-06-21,Matcha Coffee,1
+2024-06-21,Signature Coffee,1
+2024-06-22,Americano,4
+2024-06-22,Butterscotch Coffee,4
+2024-06-22,Capuccino,4
+2024-06-22,Espresso,1
+2024-06-22,Hazelnut Coffee,2
+2024-06-22,Kopi Aren,12
+2024-06-22,Rum Coffee,1
+2024-06-23,Butterscotch Coffee,1
+2024-06-23,Capuccino,5
+2024-06-23,Hazelnut Coffee,1
+2024-06-23,Kopi Aren,6
+2024-06-23,Kopi Pandan,1
+2024-06-23,Matcha Coffee,1
+2024-06-23,Rum Coffee,4
+2024-06-24,Capuccino,4
+2024-06-24,Hazelnut Coffee,1
+2024-06-24,Kopi Aren,9
+2024-06-24,Signature Coffee,1
+2024-06-25,Americano,2
+2024-06-25,Butterscotch Coffee,1
+2024-06-25,Hazelnut Coffee,4
+2024-06-25,Kopi Aren,2
+2024-06-25,Oat Latte,1
+2024-06-25,Rum Coffee,2
+2024-06-26,Americano,4
+2024-06-26,Avocado Coffee,1
+2024-06-26,Butterscotch Coffee,2
+2024-06-26,Capuccino,4
+2024-06-26,Espresso,1
+2024-06-26,Hazelnut Coffee,2
+2024-06-26,Kopi Aren,8
+2024-06-26,Rum Coffee,1
+2024-06-26,Signature Coffee,2
+2024-06-27,Avocado Coffee,1
+2024-06-27,Butterscotch Coffee,5
+2024-06-27,Capuccino,2
+2024-06-27,Hazelnut Coffee,2
+2024-06-27,Kopi Aren,7
+2024-06-27,Rum Coffee,1
+2024-06-28,Butterscotch Coffee,1
+2024-06-28,Capuccino,4
+2024-06-28,Kopi Aren,8
+2024-06-28,Rum Coffee,1
+2024-06-29,Americano,7
+2024-06-29,Avocado Coffee,1
+2024-06-29,Butterscotch Coffee,1
+2024-06-29,Capuccino,5
+2024-06-29,Espresso,1
+2024-06-29,Hazelnut Coffee,2
+2024-06-29,Kopi Aren,7
+2024-06-29,Kopi Pandan,7
+2024-06-29,Rum Coffee,1
+2024-06-29,Signature Coffee,1
+2024-06-30,Americano,6
+2024-06-30,Butterscotch Coffee,5
+2024-06-30,Capuccino,2
+2024-06-30,Hazelnut Coffee,2
+2024-06-30,Kopi Aren,10
+2024-06-30,Matcha Coffee,2
+2024-06-30,Strawberry Coffee,1
+2024-07-01,Americano,3
+2024-07-01,Avocado Coffee,1
+2024-07-01,Capuccino,2
+2024-07-01,Hazelnut Coffee,3
+2024-07-01,Kopi Aren,2
+2024-07-01,Signature Coffee,3
+2024-07-02,Americano,4
+2024-07-02,Capuccino,1
+2024-07-02,Espresso,1
+2024-07-02,Kopi Aren,5
+2024-07-02,Matcha Coffee,1
+2024-07-02,Oat Latte,1
+2024-07-02,Rum Coffee,1
+2024-07-02,Signature Coffee,1
+2024-07-03,Americano,4
+2024-07-03,Avocado Coffee,1
+2024-07-03,Butterscotch Coffee,2
+2024-07-03,Capuccino,2
+2024-07-03,Espresso,1
+2024-07-03,Kopi Aren,6
+2024-07-03,Kopi Pandan,2
+2024-07-03,Matcha Coffee,2
+2024-07-03,Rum Coffee,1
+2024-07-03,Signature Coffee,1
+2024-07-04,Capuccino,4
+2024-07-04,Hazelnut Coffee,4
+2024-07-04,Kopi Aren,4
+2024-07-05,Americano,2
+2024-07-05,Avocado Coffee,1
+2024-07-05,Butterscotch Coffee,2
+2024-07-05,Capuccino,3
+2024-07-05,Hazelnut Coffee,1
+2024-07-05,Kopi Aren,8
+2024-07-05,Kopi Pandan,1
+2024-07-05,Signature Coffee,1
+2024-07-06,Americano,3
+2024-07-06,Butterscotch Coffee,1
+2024-07-06,Hazelnut Coffee,1
+2024-07-06,Kopi Aren,7
+2024-07-06,Matcha Coffee,1
+2024-07-06,Rum Coffee,1
+2024-07-07,Americano,4
+2024-07-07,Butterscotch Coffee,5
+2024-07-07,Capuccino,1
+2024-07-07,Espresso,1
+2024-07-07,Hazelnut Coffee,1
+2024-07-07,Kopi Aren,8
+2024-07-07,Signature Coffee,1
+2024-07-07,Strawberry Coffee,1
+2024-07-08,Americano,5
+2024-07-08,Butterscotch Coffee,1
+2024-07-08,Capuccino,2
+2024-07-08,Kopi Aren,6
+2024-07-09,Americano,4
+2024-07-09,Butterscotch Coffee,4
+2024-07-09,Capuccino,5
+2024-07-09,Kopi Aren,12
+2024-07-10,Americano,1
+2024-07-10,Butterscotch Coffee,1
+2024-07-10,Capuccino,4
+2024-07-10,Kopi Aren,8
+2024-07-10,Matcha Coffee,2
+2024-07-10,Signature Coffee,1
+2024-07-11,Butterscotch Coffee,1
+2024-07-11,Capuccino,3
+2024-07-11,Hazelnut Coffee,1
+2024-07-11,Kopi Aren,5
+2024-07-12,Americano,5
+2024-07-12,Butterscotch Coffee,1
+2024-07-12,Capuccino,4
+2024-07-12,Hazelnut Coffee,3
+2024-07-12,Kopi Aren,8
+2024-07-13,Americano,2
+2024-07-13,Avocado Coffee,1
+2024-07-13,Butterscotch Coffee,4
+2024-07-13,Capuccino,1
+2024-07-13,Espresso,1
+2024-07-13,Hazelnut Coffee,4
+2024-07-13,Kopi Aren,7
+2024-07-13,Kopi Pandan,1
+2024-07-13,Rum Coffee,3
+2024-07-13,Signature Coffee,1
+2024-07-14,Americano,5
+2024-07-14,Capuccino,1
+2024-07-14,Hazelnut Coffee,3
+2024-07-14,Kopi Aren,8
+2024-07-14,Signature Coffee,4
+2024-07-14,Strawberry Coffee,1
+2024-07-15,Americano,5
+2024-07-15,Butterscotch Coffee,2
+2024-07-15,Capuccino,5
+2024-07-15,Hazelnut Coffee,1
+2024-07-15,Kopi Aren,16
+2024-07-15,Kopi Pandan,1
+2024-07-16,Butterscotch Coffee,1
+2024-07-16,Capuccino,2
+2024-07-16,Kopi Aren,5
+2024-07-16,Rum Coffee,1
+2024-07-17,Avocado Coffee,1
+2024-07-17,Capuccino,3
+2024-07-17,Espresso,1
+2024-07-17,Hazelnut Coffee,1
+2024-07-17,Kopi Aren,6
+2024-07-17,Matcha Coffee,1
+2024-07-17,Rum Coffee,1
+2024-07-18,Americano,2
+2024-07-18,Avocado Coffee,3
+2024-07-18,Butterscotch Coffee,2
+2024-07-18,Capuccino,5
+2024-07-18,Hazelnut Coffee,3
+2024-07-18,Kopi Aren,10
+2024-07-18,Matcha Coffee,1
+2024-07-18,Oat Latte,1
+2024-07-18,Rum Coffee,1
+2024-07-18,Strawberry Coffee,1
+2024-07-19,Americano,4
+2024-07-19,Butterscotch Coffee,3
+2024-07-19,Capuccino,1
+2024-07-19,Hazelnut Coffee,2
+2024-07-19,Kopi Aren,6
+2024-07-20,Americano,6
+2024-07-20,Avocado Coffee,2
+2024-07-20,Butterscotch Coffee,1
+2024-07-20,Capuccino,3
+2024-07-20,Hazelnut Coffee,4
+2024-07-20,Kopi Aren,11
+2024-07-20,Matcha Coffee,2
+2024-07-20,Signature Coffee,1
+2024-07-21,Americano,10
+2024-07-21,Butterscotch Coffee,3
+2024-07-21,Capuccino,6
+2024-07-21,Hazelnut Coffee,3
+2024-07-21,Kopi Aren,9
+2024-07-21,Kopi Pandan,1
+2024-07-21,Rum Coffee,1
+2024-07-21,Signature Coffee,1
+2024-07-22,Americano,2
+2024-07-22,Avocado Coffee,1
+2024-07-22,Butterscotch Coffee,4
+2024-07-22,Capuccino,5
+2024-07-22,Hazelnut Coffee,3
+2024-07-22,Kopi Aren,2
+2024-07-23,Americano,3
+2024-07-23,Avocado Coffee,2
+2024-07-23,Butterscotch Coffee,2
+2024-07-23,Capuccino,3
+2024-07-23,Hazelnut Coffee,7
+2024-07-23,Kopi Aren,5
+2024-07-23,Rum Coffee,1
+2024-07-23,Signature Coffee,1
+2024-07-24,Americano,1
+2024-07-24,Capuccino,7
+2024-07-24,Kopi Aren,6
+2024-07-24,Kopi Pandan,2
+2024-07-24,Rum Coffee,2
+2024-07-24,Signature Coffee,1
+2024-07-25,Americano,5
+2024-07-25,Butterscotch Coffee,1
+2024-07-25,Capuccino,3
+2024-07-25,Hazelnut Coffee,2
+2024-07-25,Kopi Aren,5
+2024-07-25,Kopi Pandan,2
+2024-07-25,Matcha Coffee,1
+2024-07-25,Signature Coffee,1
+2024-07-26,Americano,1
+2024-07-26,Butterscotch Coffee,1
+2024-07-26,Capuccino,2
+2024-07-26,Espresso,1
+2024-07-26,Hazelnut Coffee,4
+2024-07-26,Kopi Aren,8
+2024-07-26,Kopi Pandan,1
+2024-07-27,Americano,7
+2024-07-27,Butterscotch Coffee,1
+2024-07-27,Capuccino,7
+2024-07-27,Hazelnut Coffee,4
+2024-07-27,Kopi Aren,7
+2024-07-27,Matcha Coffee,1
+2024-07-28,Americano,2
+2024-07-28,Avocado Coffee,1
+2024-07-28,Butterscotch Coffee,1
+2024-07-28,Capuccino,4
+2024-07-28,Hazelnut Coffee,2
+2024-07-28,Kopi Aren,5
+2024-07-28,Kopi Pandan,1
+2024-07-29,Americano,6
+2024-07-29,Butterscotch Coffee,3
+2024-07-29,Capuccino,1
+2024-07-29,Kopi Aren,8
+2024-07-30,Americano,2
+2024-07-30,Butterscotch Coffee,2
+2024-07-30,Capuccino,2
+2024-07-30,Espresso,1
+2024-07-30,Hazelnut Coffee,1
+2024-07-30,Kopi Aren,6
+2024-07-31,Americano,1
+2024-07-31,Butterscotch Coffee,1
+2024-07-31,Capuccino,6
+2024-07-31,Hazelnut Coffee,3
+2024-07-31,Kopi Aren,8
+2024-07-31,Strawberry Coffee,2
+2024-08-01,Americano,5
+2024-08-01,Capuccino,3
+2024-08-01,Espresso,1
+2024-08-01,Hazelnut Coffee,4
+2024-08-01,Kopi Aren,3
+2024-08-01,Kopi Pandan,1
+2024-08-01,Matcha Coffee,2
+2024-08-01,Rum Coffee,1
+2024-08-01,Signature Coffee,1
+2024-08-02,Americano,6
+2024-08-02,Avocado Coffee,1
+2024-08-02,Butterscotch Coffee,3
+2024-08-02,Capuccino,2
+2024-08-02,Espresso,3
+2024-08-02,Hazelnut Coffee,2
+2024-08-02,Kopi Aren,16
+2024-08-02,Rum Coffee,3
+2024-08-02,Strawberry Coffee,1
+2024-08-03,Americano,1
+2024-08-03,Capuccino,1
+2024-08-03,Espresso,1
+2024-08-03,Hazelnut Coffee,2
+2024-08-03,Kopi Aren,7
+2024-08-04,Americano,2
+2024-08-04,Avocado Coffee,2
+2024-08-04,Butterscotch Coffee,2
+2024-08-04,Capuccino,3
+2024-08-04,Hazelnut Coffee,4
+2024-08-04,Kopi Aren,12
+2024-08-04,Matcha Coffee,1
+2024-08-04,Rum Coffee,1
+2024-08-05,Americano,4
+2024-08-05,Butterscotch Coffee,1
+2024-08-05,Hazelnut Coffee,1
+2024-08-05,Kopi Aren,3
+2024-08-05,Kopi Pandan,1
+2024-08-06,Americano,3
+2024-08-06,Capuccino,2
+2024-08-06,Hazelnut Coffee,1
+2024-08-06,Kopi Aren,1
+2024-08-06,Oat Latte,1
+2024-08-06,Strawberry Coffee,1
+2024-08-07,Americano,7
+2024-08-07,Capuccino,5
+2024-08-07,Hazelnut Coffee,8
+2024-08-07,Kopi Aren,9
+2024-08-08,Americano,13
+2024-08-08,Capuccino,1
+2024-08-08,Kopi Aren,10
+2024-08-08,Signature Coffee,2
+2024-08-09,Americano,5
+2024-08-09,Butterscotch Coffee,1
+2024-08-09,Capuccino,1
+2024-08-09,Hazelnut Coffee,1
+2024-08-09,Kopi Aren,7
+2024-08-09,Rum Coffee,1
+2024-08-09,Signature Coffee,1
+2024-08-09,Strawberry Coffee,1
+2024-08-10,Americano,7
+2024-08-10,Butterscotch Coffee,5
+2024-08-10,Capuccino,2
+2024-08-10,Hazelnut Coffee,9
+2024-08-10,Kopi Aren,12
+2024-08-10,Oat Latte,2
+2024-08-10,Signature Coffee,2
+2024-08-11,Americano,12
+2024-08-11,Butterscotch Coffee,2
+2024-08-11,Capuccino,11
+2024-08-11,Hazelnut Coffee,3
+2024-08-11,Kopi Aren,11
+2024-08-11,Kopi Pandan,2
+2024-08-11,Rum Coffee,2
+2024-08-11,Strawberry Coffee,2
+2024-08-12,Americano,3
+2024-08-12,Butterscotch Coffee,1
+2024-08-12,Capuccino,2
+2024-08-12,Espresso,1
+2024-08-12,Hazelnut Coffee,3
+2024-08-12,Kopi Aren,3
+2024-08-12,Rum Coffee,2
+2024-08-12,Signature Coffee,2
+2024-08-13,Americano,1
+2024-08-13,Butterscotch Coffee,1
+2024-08-13,Capuccino,1
+2024-08-13,Hazelnut Coffee,2
+2024-08-13,Kopi Aren,6
+2024-08-13,Rum Coffee,1
+2024-08-13,Signature Coffee,1
+2024-08-14,Americano,2
+2024-08-14,Butterscotch Coffee,3
+2024-08-14,Capuccino,2
+2024-08-14,Hazelnut Coffee,1
+2024-08-14,Kopi Aren,8
+2024-08-15,Americano,4
+2024-08-15,Avocado Coffee,1
+2024-08-15,Butterscotch Coffee,1
+2024-08-15,Capuccino,3
+2024-08-15,Hazelnut Coffee,2
+2024-08-15,Kopi Aren,10
+2024-08-15,Rum Coffee,1
+2024-08-16,Americano,3
+2024-08-16,Avocado Coffee,1
+2024-08-16,Butterscotch Coffee,1
+2024-08-16,Capuccino,5
+2024-08-16,Hazelnut Coffee,3
+2024-08-16,Kopi Aren,10
+2024-08-17,Americano,7
+2024-08-17,Avocado Coffee,2
+2024-08-17,Butterscotch Coffee,5
+2024-08-17,Capuccino,5
+2024-08-17,Espresso,1
+2024-08-17,Hazelnut Coffee,5
+2024-08-17,Kopi Aren,5
+2024-08-17,Kopi Pandan,1
+2024-08-17,Rum Coffee,6
+2024-08-17,Signature Coffee,3
+2024-08-18,Americano,3
+2024-08-18,Avocado Coffee,3
+2024-08-18,Butterscotch Coffee,4
+2024-08-18,Capuccino,5
+2024-08-18,Espresso,1
+2024-08-18,Hazelnut Coffee,5
+2024-08-18,Kopi Aren,3
+2024-08-18,Kopi Pandan,1
+2024-08-18,Signature Coffee,2
+2024-08-19,Americano,2
+2024-08-19,Butterscotch Coffee,1
+2024-08-19,Capuccino,1
+2024-08-19,Hazelnut Coffee,1
+2024-08-19,Kopi Aren,7
+2024-08-19,Matcha Coffee,2
+2024-08-20,Americano,6
+2024-08-20,Butterscotch Coffee,1
+2024-08-20,Capuccino,2
+2024-08-20,Espresso,3
+2024-08-20,Hazelnut Coffee,2
+2024-08-20,Kopi Aren,4
+2024-08-21,Americano,6
+2024-08-21,Butterscotch Coffee,2
+2024-08-21,Capuccino,2
+2024-08-21,Espresso,1
+2024-08-21,Hazelnut Coffee,1
+2024-08-21,Kopi Aren,6
+2024-08-21,Matcha Coffee,3
+2024-08-21,Rum Coffee,1
+2024-08-21,Signature Coffee,2
+2024-08-22,Americano,3
+2024-08-22,Capuccino,6
+2024-08-22,Hazelnut Coffee,1
+2024-08-22,Kopi Aren,10
+2024-08-22,Matcha Coffee,1
+2024-08-22,Rum Coffee,1
+2024-08-22,Signature Coffee,1
+2024-08-22,Strawberry Coffee,1
+2024-08-23,Americano,2
+2024-08-23,Capuccino,10
+2024-08-23,Hazelnut Coffee,2
+2024-08-23,Kopi Aren,13
+2024-08-23,Kopi Pandan,1
+2024-08-23,Signature Coffee,1
+2024-08-24,Americano,4
+2024-08-24,Butterscotch Coffee,3
+2024-08-24,Capuccino,4
+2024-08-24,Hazelnut Coffee,1
+2024-08-24,Kopi Aren,10
+2024-08-24,Matcha Coffee,1
+2024-08-24,Rum Coffee,2
+2024-08-24,Strawberry Coffee,1
+2024-08-25,Americano,2
+2024-08-25,Butterscotch Coffee,3
+2024-08-25,Capuccino,1
+2024-08-25,Hazelnut Coffee,3
+2024-08-25,Kopi Aren,8
+2024-08-25,Kopi Pandan,1
+2024-08-25,Matcha Coffee,2
+2024-08-25,Rum Coffee,1
+2024-08-26,Americano,5
+2024-08-26,Hazelnut Coffee,1
+2024-08-26,Kopi Aren,6
+2024-08-26,Rum Coffee,2
+2024-08-26,Signature Coffee,1
+2024-08-26,Strawberry Coffee,1
+2024-08-27,Americano,3
+2024-08-27,Butterscotch Coffee,4
+2024-08-27,Capuccino,3
+2024-08-27,Kopi Aren,7
+2024-08-27,Kopi Pandan,1
+2024-08-27,Matcha Coffee,1
+2024-08-27,Rum Coffee,1
+2024-08-28,Americano,2
+2024-08-28,Butterscotch Coffee,2
+2024-08-28,Capuccino,2
+2024-08-28,Hazelnut Coffee,2
+2024-08-28,Kopi Aren,5
+2024-08-28,Matcha Coffee,1
+2024-08-29,Americano,4
+2024-08-29,Butterscotch Coffee,1
+2024-08-29,Capuccino,1
+2024-08-29,Kopi Aren,3
+2024-08-29,Rum Coffee,1
+2024-08-30,Americano,4
+2024-08-30,Butterscotch Coffee,3
+2024-08-30,Capuccino,1
+2024-08-30,Kopi Aren,4
+2024-08-30,Kopi Pandan,1
+2024-08-31,Americano,4
+2024-08-31,Avocado Coffee,1
+2024-08-31,Capuccino,4
+2024-08-31,Hazelnut Coffee,2
+2024-08-31,Kopi Aren,11
+2024-08-31,Rum Coffee,1
+2024-09-01,Americano,1
+2024-09-01,Avocado Coffee,1
+2024-09-01,Butterscotch Coffee,1
+2024-09-01,Capuccino,2
+2024-09-01,Espresso,3
+2024-09-01,Kopi Aren,14
+2024-09-02,Avocado Coffee,1
+2024-09-02,Butterscotch Coffee,2
+2024-09-02,Capuccino,2
+2024-09-02,Hazelnut Coffee,1
+2024-09-02,Kopi Aren,3
+2024-09-02,Matcha Coffee,1
+2024-09-02,Signature Coffee,2
+2024-09-03,Americano,6
+2024-09-03,Capuccino,4
+2024-09-03,Espresso,1
+2024-09-03,Hazelnut Coffee,3
+2024-09-03,Kopi Aren,10
+2024-09-03,Signature Coffee,2
+2024-09-04,Americano,3
+2024-09-04,Capuccino,3
+2024-09-04,Hazelnut Coffee,1
+2024-09-04,Kopi Aren,10
+2024-09-04,Kopi Pandan,1
+2024-09-04,Rum Coffee,1
+2024-09-04,Signature Coffee,2
+2024-09-05,Americano,2
+2024-09-05,Avocado Coffee,1
+2024-09-05,Butterscotch Coffee,1
+2024-09-05,Capuccino,3
+2024-09-05,Kopi Aren,6
+2024-09-05,Kopi Pandan,1
+2024-09-06,Americano,3
+2024-09-06,Avocado Coffee,1
+2024-09-06,Butterscotch Coffee,2
+2024-09-06,Capuccino,5
+2024-09-06,Hazelnut Coffee,4
+2024-09-06,Kopi Aren,6
+2024-09-06,Matcha Coffee,1
+2024-09-06,Signature Coffee,1
+2024-09-07,Americano,6
+2024-09-07,Capuccino,3
+2024-09-07,Hazelnut Coffee,1
+2024-09-07,Kopi Aren,9
+2024-09-07,Kopi Pandan,1
+2024-09-07,Matcha Coffee,1
+2024-09-07,Rum Coffee,2
+2024-09-07,Signature Coffee,1
+2024-09-07,Strawberry Coffee,1
+2024-09-08,Americano,11
+2024-09-08,Butterscotch Coffee,1
+2024-09-08,Capuccino,6
+2024-09-08,Hazelnut Coffee,3
+2024-09-08,Kopi Aren,12
+2024-09-08,Matcha Coffee,1
+2024-09-08,Rum Coffee,1
+2024-09-08,Signature Coffee,1
+2024-09-09,Americano,5
+2024-09-09,Butterscotch Coffee,2
+2024-09-09,Capuccino,4
+2024-09-09,Kopi Aren,5
+2024-09-09,Strawberry Coffee,1
+2024-09-10,Americano,4
+2024-09-10,Capuccino,1
+2024-09-10,Hazelnut Coffee,3
+2024-09-10,Kopi Aren,8
+2024-09-10,Rum Coffee,1
+2024-09-10,Signature Coffee,1
+2024-09-10,Strawberry Coffee,1
+2024-09-11,Americano,8
+2024-09-11,Avocado Coffee,1
+2024-09-11,Capuccino,7
+2024-09-11,Hazelnut Coffee,2
+2024-09-11,Kopi Aren,10
+2024-09-11,Kopi Pandan,1
+2024-09-11,Signature Coffee,5
+2024-09-12,Americano,4
+2024-09-12,Avocado Coffee,1
+2024-09-12,Butterscotch Coffee,1
+2024-09-12,Capuccino,3
+2024-09-12,Hazelnut Coffee,1
+2024-09-12,Kopi Aren,4
+2024-09-12,Kopi Pandan,1
+2024-09-12,Rum Coffee,1
+2024-09-13,Butterscotch Coffee,2
+2024-09-13,Capuccino,7
+2024-09-13,Hazelnut Coffee,2
+2024-09-13,Kopi Aren,15
+2024-09-13,Kopi Pandan,1
+2024-09-13,Matcha Coffee,1
+2024-09-13,Rum Coffee,4
+2024-09-13,Signature Coffee,7
+2024-09-14,Americano,8
+2024-09-14,Butterscotch Coffee,1
+2024-09-14,Capuccino,8
+2024-09-14,Hazelnut Coffee,2
+2024-09-14,Kopi Aren,11
+2024-09-14,Kopi Pandan,1
+2024-09-15,Americano,5
+2024-09-15,Avocado Coffee,3
+2024-09-15,Capuccino,4
+2024-09-15,Hazelnut Coffee,2
+2024-09-15,Kopi Aren,11
+2024-09-15,Kopi Pandan,2
+2024-09-15,Signature Coffee,4
+2024-09-16,Americano,4
+2024-09-16,Avocado Coffee,1
+2024-09-16,Butterscotch Coffee,2
+2024-09-16,Capuccino,1
+2024-09-16,Espresso,1
+2024-09-16,Hazelnut Coffee,2
+2024-09-16,Kopi Aren,4
+2024-09-16,Signature Coffee,1
+2024-09-17,Americano,4
+2024-09-17,Avocado Coffee,1
+2024-09-17,Capuccino,3
+2024-09-17,Hazelnut Coffee,4
+2024-09-17,Kopi Aren,3
+2024-09-17,Rum Coffee,1
+2024-09-18,Americano,4
+2024-09-18,Butterscotch Coffee,3
+2024-09-18,Capuccino,3
+2024-09-18,Hazelnut Coffee,2
+2024-09-18,Kopi Aren,5
+2024-09-19,Americano,2
+2024-09-19,Butterscotch Coffee,2
+2024-09-19,Capuccino,6
+2024-09-19,Espresso,1
+2024-09-19,Hazelnut Coffee,4
+2024-09-19,Kopi Aren,7
+2024-09-19,Signature Coffee,1
+2024-09-20,Americano,2
+2024-09-20,Butterscotch Coffee,2
+2024-09-20,Capuccino,2
+2024-09-20,Hazelnut Coffee,2
+2024-09-20,Kopi Aren,7
+2024-09-20,Matcha Coffee,1
+2024-09-20,Signature Coffee,1
+2024-09-21,Americano,1
+2024-09-21,Avocado Coffee,1
+2024-09-21,Butterscotch Coffee,1
+2024-09-21,Capuccino,3
+2024-09-21,Espresso,1
+2024-09-21,Hazelnut Coffee,2
+2024-09-21,Kopi Aren,10
+2024-09-21,Rum Coffee,4
+2024-09-22,Americano,10
+2024-09-22,Butterscotch Coffee,2
+2024-09-22,Capuccino,7
+2024-09-22,Espresso,1
+2024-09-22,Hazelnut Coffee,4
+2024-09-22,Kopi Aren,9
+2024-09-22,Kopi Pandan,1
+2024-09-22,Oat Latte,1
+2024-09-22,Signature Coffee,1
+2024-09-23,Americano,7
+2024-09-23,Butterscotch Coffee,2
+2024-09-23,Capuccino,1
+2024-09-23,Hazelnut Coffee,3
+2024-09-23,Kopi Aren,3
+2024-09-23,Signature Coffee,1
+2024-09-24,Americano,1
+2024-09-24,Avocado Coffee,1
+2024-09-24,Butterscotch Coffee,4
+2024-09-24,Hazelnut Coffee,1
+2024-09-24,Kopi Aren,10
+2024-09-25,Americano,2
+2024-09-25,Butterscotch Coffee,3
+2024-09-25,Capuccino,3
+2024-09-25,Kopi Aren,5
+2024-09-26,Avocado Coffee,1
+2024-09-26,Capuccino,2
+2024-09-26,Kopi Aren,4
+2024-09-26,Kopi Pandan,1
+2024-09-27,Americano,9
+2024-09-27,Butterscotch Coffee,1
+2024-09-27,Capuccino,6
+2024-09-27,Espresso,1
+2024-09-27,Kopi Aren,14
+2024-09-27,Matcha Coffee,1
+2024-09-27,Rum Coffee,2
+2024-09-27,Signature Coffee,3
+2024-09-28,Americano,9
+2024-09-28,Capuccino,4
+2024-09-28,Espresso,1
+2024-09-28,Hazelnut Coffee,2
+2024-09-28,Kopi Aren,8
+2024-09-28,Strawberry Coffee,2
+2024-09-29,Americano,6
+2024-09-29,Butterscotch Coffee,2
+2024-09-29,Capuccino,3
+2024-09-29,Kopi Aren,12
+2024-09-29,Signature Coffee,1
+2024-09-30,Americano,3
+2024-09-30,Butterscotch Coffee,2
+2024-09-30,Capuccino,5
+2024-09-30,Espresso,2
+2024-09-30,Hazelnut Coffee,1
+2024-09-30,Kopi Aren,11
+2024-09-30,Rum Coffee,1
+2024-09-30,Signature Coffee,1
+2024-10-01,Americano,3
+2024-10-01,Avocado Coffee,2
+2024-10-01,Butterscotch Coffee,1
+2024-10-01,Capuccino,1
+2024-10-01,Espresso,1
+2024-10-01,Hazelnut Coffee,1
+2024-10-01,Kopi Aren,8
+2024-10-01,Rum Coffee,1
+2024-10-01,Signature Coffee,2
+2024-10-02,Americano,5
+2024-10-02,Avocado Coffee,1
+2024-10-02,Capuccino,5
+2024-10-02,Hazelnut Coffee,3
+2024-10-02,Kopi Aren,7
+2024-10-02,Matcha Coffee,2
+2024-10-02,Strawberry Coffee,2
+2024-10-03,Americano,4
+2024-10-03,Butterscotch Coffee,1
+2024-10-03,Capuccino,2
+2024-10-03,Espresso,1
+2024-10-03,Hazelnut Coffee,1
+2024-10-03,Kopi Aren,10
+2024-10-03,Kopi Pandan,1
+2024-10-03,Matcha Coffee,1
+2024-10-03,Signature Coffee,3
+2024-10-04,Americano,6
+2024-10-04,Avocado Coffee,1
+2024-10-04,Butterscotch Coffee,2
+2024-10-04,Capuccino,1
+2024-10-04,Hazelnut Coffee,3
+2024-10-04,Kopi Aren,14
+2024-10-04,Kopi Pandan,1
+2024-10-04,Rum Coffee,1
+2024-10-04,Signature Coffee,4
+2024-10-05,Americano,6
+2024-10-05,Avocado Coffee,4
+2024-10-05,Butterscotch Coffee,3
+2024-10-05,Capuccino,4
+2024-10-05,Espresso,5
+2024-10-05,Hazelnut Coffee,6
+2024-10-05,Kopi Aren,20
+2024-10-05,Kopi Pandan,3
+2024-10-05,Rum Coffee,1
+2024-10-05,Signature Coffee,1
+2024-10-06,Americano,7
+2024-10-06,Avocado Coffee,1
+2024-10-06,Butterscotch Coffee,5
+2024-10-06,Capuccino,3
+2024-10-06,Hazelnut Coffee,1
+2024-10-06,Kopi Aren,7
+2024-10-06,Kopi Pandan,1
+2024-10-06,Matcha Coffee,1
+2024-10-06,Signature Coffee,2
+2024-10-07,Americano,6
+2024-10-07,Avocado Coffee,1
+2024-10-07,Capuccino,2
+2024-10-07,Hazelnut Coffee,6
+2024-10-07,Kopi Aren,6
+2024-10-07,Signature Coffee,1
+2024-10-08,Americano,6
+2024-10-08,Avocado Coffee,1
+2024-10-08,Butterscotch Coffee,1
+2024-10-08,Capuccino,2
+2024-10-08,Hazelnut Coffee,3
+2024-10-08,Kopi Aren,9
+2024-10-08,Rum Coffee,2
+2024-10-08,Signature Coffee,3
+2024-10-09,Americano,2
+2024-10-09,Butterscotch Coffee,3
+2024-10-09,Capuccino,2
+2024-10-09,Espresso,1
+2024-10-09,Hazelnut Coffee,7
+2024-10-09,Kopi Aren,8
+2024-10-09,Rum Coffee,1
+2024-10-09,Signature Coffee,2
+2024-10-10,Americano,1
+2024-10-10,Avocado Coffee,2
+2024-10-10,Hazelnut Coffee,1
+2024-10-10,Kopi Aren,8
+2024-10-10,Kopi Pandan,2
+2024-10-10,Strawberry Coffee,2
+2024-10-11,Americano,4
+2024-10-11,Avocado Coffee,2
+2024-10-11,Butterscotch Coffee,2
+2024-10-11,Capuccino,3
+2024-10-11,Espresso,6
+2024-10-11,Hazelnut Coffee,2
+2024-10-11,Kopi Aren,12
+2024-10-11,Matcha Coffee,3
+2024-10-11,Rum Coffee,3
+2024-10-11,Signature Coffee,1
+2024-10-11,Strawberry Coffee,1
+2024-10-12,Americano,6
+2024-10-12,Avocado Coffee,3
+2024-10-12,Capuccino,4
+2024-10-12,Espresso,1
+2024-10-12,Hazelnut Coffee,5
+2024-10-12,Kopi Aren,19
+2024-10-12,Kopi Pandan,1
+2024-10-12,Strawberry Coffee,1
+2024-10-13,Americano,2
+2024-10-13,Butterscotch Coffee,3
+2024-10-13,Capuccino,1
+2024-10-13,Hazelnut Coffee,6
+2024-10-13,Kopi Aren,9
+2024-10-13,Matcha Coffee,1
+2024-10-13,Signature Coffee,1
+2024-10-14,Americano,1
+2024-10-14,Capuccino,1
+2024-10-14,Hazelnut Coffee,3
+2024-10-14,Kopi Aren,6
+2024-10-14,Kopi Pandan,1
+2024-10-15,Americano,2
+2024-10-15,Butterscotch Coffee,4
+2024-10-15,Capuccino,6
+2024-10-15,Hazelnut Coffee,7
+2024-10-15,Kopi Aren,17
+2024-10-15,Kopi Pandan,1
+2024-10-15,Matcha Coffee,3
+2024-10-16,Americano,3
+2024-10-16,Capuccino,1
+2024-10-16,Hazelnut Coffee,4
+2024-10-16,Kopi Aren,11
+2024-10-16,Matcha Coffee,1
+2024-10-16,Rum Coffee,1
+2024-10-17,Americano,1
+2024-10-17,Capuccino,3
+2024-10-17,Hazelnut Coffee,1
+2024-10-17,Kopi Aren,8
+2024-10-17,Rum Coffee,2
+2024-10-18,Americano,2
+2024-10-18,Butterscotch Coffee,2
+2024-10-18,Capuccino,5
+2024-10-18,Hazelnut Coffee,1
+2024-10-18,Kopi Aren,6
+2024-10-18,Strawberry Coffee,1
+2024-10-19,Americano,5
+2024-10-19,Butterscotch Coffee,1
+2024-10-19,Capuccino,5
+2024-10-19,Hazelnut Coffee,8
+2024-10-19,Kopi Aren,17
+2024-10-19,Kopi Pandan,1
+2024-10-19,Matcha Coffee,2
+2024-10-19,Rum Coffee,1
+2024-10-19,Signature Coffee,1
+2024-10-19,Strawberry Coffee,1
+2024-10-20,Americano,3
+2024-10-20,Butterscotch Coffee,2
+2024-10-20,Capuccino,1
+2024-10-20,Hazelnut Coffee,2
+2024-10-20,Kopi Aren,7
+2024-10-21,Americano,3
+2024-10-21,Capuccino,3
+2024-10-21,Espresso,1
+2024-10-21,Hazelnut Coffee,1
+2024-10-21,Kopi Aren,9
+2024-10-21,Signature Coffee,1
+2024-10-22,Americano,5
+2024-10-22,Butterscotch Coffee,4
+2024-10-22,Capuccino,3
+2024-10-22,Hazelnut Coffee,5
+2024-10-22,Kopi Aren,7
+2024-10-22,Rum Coffee,1
+2024-10-22,Signature Coffee,1
+2024-10-23,Americano,4
+2024-10-23,Avocado Coffee,1
+2024-10-23,Capuccino,4
+2024-10-23,Hazelnut Coffee,5
+2024-10-23,Kopi Aren,11
+2024-10-23,Kopi Pandan,1
+2024-10-23,Matcha Coffee,1
+2024-10-23,Rum Coffee,1
+2024-10-23,Signature Coffee,2
+2024-10-24,Americano,3
+2024-10-24,Butterscotch Coffee,1
+2024-10-24,Capuccino,5
+2024-10-24,Hazelnut Coffee,3
+2024-10-24,Kopi Aren,7
+2024-10-24,Kopi Pandan,1
+2024-10-25,Americano,2
+2024-10-25,Butterscotch Coffee,2
+2024-10-25,Capuccino,1
+2024-10-25,Hazelnut Coffee,5
+2024-10-25,Kopi Aren,17
+2024-10-25,Matcha Coffee,1
+2024-10-25,Rum Coffee,1
+2024-10-26,Americano,7
+2024-10-26,Avocado Coffee,1
+2024-10-26,Butterscotch Coffee,1
+2024-10-26,Capuccino,6
+2024-10-26,Hazelnut Coffee,6
+2024-10-26,Kopi Aren,7
+2024-10-26,Rum Coffee,3
+2024-10-26,Signature Coffee,1
+2024-10-27,Americano,2
+2024-10-27,Capuccino,1
+2024-10-27,Espresso,1
+2024-10-27,Hazelnut Coffee,3
+2024-10-27,Kopi Aren,8
+2024-10-27,Rum Coffee,1
+2024-10-27,Signature Coffee,1
+2024-10-27,Strawberry Coffee,1
+2024-10-28,Americano,1
+2024-10-28,Butterscotch Coffee,1
+2024-10-28,Capuccino,2
+2024-10-28,Hazelnut Coffee,1
+2024-10-28,Kopi Aren,4
+2024-10-28,Matcha Coffee,1
+2024-10-28,Rum Coffee,1
+2024-10-28,Signature Coffee,1
+2024-10-29,Americano,4
+2024-10-29,Butterscotch Coffee,1
+2024-10-29,Capuccino,2
+2024-10-29,Hazelnut Coffee,2
+2024-10-29,Signature Coffee,1
+2024-10-30,Americano,1
+2024-10-30,Avocado Coffee,1
+2024-10-30,Capuccino,1
+2024-10-30,Hazelnut Coffee,3
+2024-10-30,Kopi Aren,30
+2024-10-30,Kopi Pandan,2
+2024-10-30,Matcha Coffee,1
+2024-10-30,Rum Coffee,2
+2024-10-30,Signature Coffee,3
+2024-10-31,Avocado Coffee,1
+2024-10-31,Butterscotch Coffee,2
+2024-10-31,Capuccino,2
+2024-10-31,Hazelnut Coffee,3
+2024-10-31,Kopi Aren,2
+2024-11-01,Americano,1
+2024-11-01,Butterscotch Coffee,2
+2024-11-01,Capuccino,1
+2024-11-01,Hazelnut Coffee,3
+2024-11-01,Kopi Aren,20
+2024-11-01,Matcha Coffee,1
+2024-11-02,Americano,6
+2024-11-02,Butterscotch Coffee,2
+2024-11-02,Capuccino,4
+2024-11-02,Espresso,1
+2024-11-02,Hazelnut Coffee,6
+2024-11-02,Kopi Aren,9
+2024-11-02,Kopi Pandan,1
+2024-11-02,Matcha Coffee,2
+2024-11-02,Rum Coffee,1
+2024-11-02,Signature Coffee,2
+2024-11-03,Americano,1
+2024-11-03,Capuccino,5
+2024-11-03,Espresso,1
+2024-11-03,Hazelnut Coffee,3
+2024-11-03,Kopi Aren,7
+2024-11-04,Americano,1
+2024-11-04,Avocado Coffee,1
+2024-11-04,Butterscotch Coffee,1
+2024-11-04,Capuccino,6
+2024-11-04,Hazelnut Coffee,2
+2024-11-04,Kopi Aren,6
+2024-11-04,Rum Coffee,1
+2024-11-04,Signature Coffee,4
+2024-11-04,Strawberry Coffee,2
+2024-11-05,Americano,1
+2024-11-05,Butterscotch Coffee,1
+2024-11-05,Capuccino,2
+2024-11-05,Hazelnut Coffee,3
+2024-11-05,Kopi Aren,4
+2024-11-05,Signature Coffee,1
+2024-11-06,Avocado Coffee,1
+2024-11-06,Butterscotch Coffee,1
+2024-11-06,Capuccino,2
+2024-11-06,Hazelnut Coffee,2
+2024-11-06,Kopi Aren,6
+2024-11-06,Rum Coffee,2
+2024-11-07,Americano,3
+2024-11-07,Butterscotch Coffee,1
+2024-11-07,Capuccino,1
+2024-11-07,Hazelnut Coffee,3
+2024-11-07,Kopi Aren,11
+2024-11-07,Rum Coffee,1
+2024-11-07,Signature Coffee,1
+2024-11-08,Americano,1
+2024-11-08,Butterscotch Coffee,1
+2024-11-08,Capuccino,1
+2024-11-08,Hazelnut Coffee,2
+2024-11-08,Kopi Aren,6
+2024-11-08,Rum Coffee,1
+2024-11-09,Americano,7
+2024-11-09,Avocado Coffee,1
+2024-11-09,Butterscotch Coffee,2
+2024-11-09,Capuccino,3
+2024-11-09,Hazelnut Coffee,7
+2024-11-09,Kopi Aren,14
+2024-11-09,Matcha Coffee,1
+2024-11-09,Signature Coffee,1
+2024-11-10,Americano,3
+2024-11-10,Avocado Coffee,1
+2024-11-10,Butterscotch Coffee,1
+2024-11-10,Capuccino,2
+2024-11-10,Hazelnut Coffee,6
+2024-11-10,Kopi Aren,4
+2024-11-10,Kopi Pandan,2
+2024-11-10,Rum Coffee,1
+2024-11-10,Signature Coffee,2
+2024-11-11,Americano,4
+2024-11-11,Avocado Coffee,1
+2024-11-11,Butterscotch Coffee,1
+2024-11-11,Capuccino,1
+2024-11-11,Hazelnut Coffee,2
+2024-11-11,Kopi Aren,6
+2024-11-12,Americano,2
+2024-11-12,Capuccino,2
+2024-11-12,Hazelnut Coffee,3
+2024-11-12,Kopi Aren,8
+2024-11-13,Americano,9
+2024-11-13,Butterscotch Coffee,3
+2024-11-13,Capuccino,1
+2024-11-13,Espresso,1
+2024-11-13,Hazelnut Coffee,2
+2024-11-13,Kopi Aren,5
+2024-11-14,Americano,6
+2024-11-14,Avocado Coffee,1
+2024-11-14,Hazelnut Coffee,3
+2024-11-14,Kopi Aren,5
+2024-11-14,Matcha Coffee,1
+2024-11-14,Signature Coffee,1
+2024-11-15,Americano,2
+2024-11-15,Butterscotch Coffee,2
+2024-11-15,Capuccino,1
+2024-11-15,Hazelnut Coffee,5
+2024-11-15,Kopi Aren,8
+2024-11-15,Kopi Pandan,1
+2024-11-15,Rum Coffee,1
+2024-11-16,Americano,4
+2024-11-16,Capuccino,1
+2024-11-16,Hazelnut Coffee,6
+2024-11-16,Kopi Aren,6
+2024-11-16,Signature Coffee,1
+2024-11-17,Americano,1
+2024-11-17,Butterscotch Coffee,1
+2024-11-17,Capuccino,2
+2024-11-17,Hazelnut Coffee,5
+2024-11-17,Kopi Aren,7
+2024-11-17,Signature Coffee,1
+2024-11-17,Strawberry Coffee,2
+2024-11-18,Americano,1
+2024-11-18,Capuccino,1
+2024-11-18,Kopi Aren,2
+2024-11-18,Rum Coffee,1
+2024-11-19,Americano,3
+2024-11-19,Butterscotch Coffee,2
+2024-11-19,Capuccino,2
+2024-11-19,Hazelnut Coffee,6
+2024-11-19,Kopi Aren,16
+2024-11-19,Matcha Coffee,1
+2024-11-19,Rum Coffee,1
+2024-11-19,Strawberry Coffee,1
+2024-11-20,Americano,1
+2024-11-20,Capuccino,2
+2024-11-20,Hazelnut Coffee,4
+2024-11-20,Kopi Aren,9
+2024-11-20,Signature Coffee,2
+2024-11-21,Avocado Coffee,1
+2024-11-21,Butterscotch Coffee,1
+2024-11-21,Capuccino,2
+2024-11-21,Hazelnut Coffee,2
+2024-11-21,Kopi Aren,7
+2024-11-21,Matcha Coffee,1
+2024-11-21,Signature Coffee,1
+2024-11-22,Americano,3
+2024-11-22,Butterscotch Coffee,1
+2024-11-22,Capuccino,1
+2024-11-22,Hazelnut Coffee,4
+2024-11-22,Kopi Aren,7
+2024-11-22,Matcha Coffee,1
+2024-11-22,Signature Coffee,2
+2024-11-23,Americano,7
+2024-11-23,Avocado Coffee,1
+2024-11-23,Capuccino,3
+2024-11-23,Espresso,1
+2024-11-23,Hazelnut Coffee,3
+2024-11-23,Kopi Aren,15
+2024-11-23,Kopi Pandan,2
+2024-11-23,Matcha Coffee,1
+2024-11-24,Americano,1
+2024-11-24,Butterscotch Coffee,1
+2024-11-24,Kopi Aren,14
+2024-11-25,Americano,4
+2024-11-25,Avocado Coffee,2
+2024-11-25,Butterscotch Coffee,2
+2024-11-25,Capuccino,5
+2024-11-25,Hazelnut Coffee,1
+2024-11-25,Kopi Aren,8
+2024-11-25,Kopi Pandan,1
+2024-11-25,Matcha Coffee,1
+2024-11-26,Americano,2
+2024-11-26,Avocado Coffee,1
+2024-11-26,Butterscotch Coffee,1
+2024-11-26,Capuccino,4
+2024-11-26,Hazelnut Coffee,3
+2024-11-26,Kopi Aren,10
+2024-11-26,Matcha Coffee,1
+2024-11-26,Signature Coffee,1
+2024-11-26,Strawberry Coffee,1
+2024-11-27,Americano,3
+2024-11-27,Butterscotch Coffee,1
+2024-11-27,Capuccino,1
+2024-11-27,Hazelnut Coffee,4
+2024-11-27,Kopi Aren,8
+2024-11-27,Rum Coffee,1
+2024-11-28,Americano,4
+2024-11-28,Avocado Coffee,1
+2024-11-28,Butterscotch Coffee,2
+2024-11-28,Capuccino,7
+2024-11-28,Hazelnut Coffee,2
+2024-11-28,Kopi Aren,10
+2024-11-28,Kopi Pandan,1
+2024-11-29,Americano,3
+2024-11-29,Butterscotch Coffee,1
+2024-11-29,Capuccino,3
+2024-11-29,Hazelnut Coffee,2
+2024-11-29,Kopi Aren,26
+2024-11-29,Kopi Pandan,2
+2024-11-29,Matcha Coffee,1
+2024-11-29,Signature Coffee,1
+2024-11-30,Americano,5
+2024-11-30,Butterscotch Coffee,3
+2024-11-30,Capuccino,8
+2024-11-30,Espresso,1
+2024-11-30,Hazelnut Coffee,7
+2024-11-30,Kopi Aren,8
+2024-11-30,Kopi Pandan,1
+2024-11-30,Matcha Coffee,1
+2024-11-30,Rum Coffee,2
+2024-11-30,Signature Coffee,1
+2024-12-01,Americano,5
+2024-12-01,Butterscotch Coffee,2
+2024-12-01,Capuccino,7
+2024-12-01,Hazelnut Coffee,5
+2024-12-01,Kopi Aren,1
+2024-12-01,Kopi Pandan,2
+2024-12-01,Matcha Coffee,1
+2024-12-01,Rum Coffee,1
+2024-12-01,Signature Coffee,3
+2024-12-02,Americano,2
+2024-12-02,Butterscotch Coffee,1
+2024-12-02,Capuccino,1
+2024-12-02,Hazelnut Coffee,3
+2024-12-02,Kopi Aren,10
+2024-12-02,Matcha Coffee,1
+2024-12-02,Rum Coffee,1
+2024-12-03,Americano,4
+2024-12-03,Butterscotch Coffee,1
+2024-12-03,Capuccino,5
+2024-12-03,Hazelnut Coffee,4
+2024-12-03,Kopi Aren,4
+2024-12-03,Kopi Pandan,1
+2024-12-03,Matcha Coffee,2
+2024-12-03,Signature Coffee,1
+2024-12-04,Americano,6
+2024-12-04,Capuccino,4
+2024-12-04,Hazelnut Coffee,3
+2024-12-04,Kopi Aren,11
+2024-12-05,Americano,4
+2024-12-05,Butterscotch Coffee,1
+2024-12-05,Capuccino,3
+2024-12-05,Hazelnut Coffee,2
+2024-12-05,Kopi Aren,4
+2024-12-06,Americano,3
+2024-12-06,Avocado Coffee,1
+2024-12-06,Butterscotch Coffee,1
+2024-12-06,Capuccino,3
+2024-12-06,Hazelnut Coffee,5
+2024-12-06,Kopi Aren,9
+2024-12-06,Matcha Coffee,1
+2024-12-06,Strawberry Coffee,1
+2024-12-07,Americano,4
+2024-12-07,Butterscotch Coffee,1
+2024-12-07,Capuccino,4
+2024-12-07,Hazelnut Coffee,6
+2024-12-07,Kopi Aren,8
+2024-12-08,Americano,5
+2024-12-08,Capuccino,1
+2024-12-08,Hazelnut Coffee,3
+2024-12-08,Kopi Aren,10
+2024-12-08,Strawberry Coffee,1
+2024-12-09,Americano,2
+2024-12-09,Avocado Coffee,1
+2024-12-09,Butterscotch Coffee,1
+2024-12-09,Capuccino,3
+2024-12-09,Hazelnut Coffee,2
+2024-12-09,Kopi Aren,9
+2024-12-10,Americano,4
+2024-12-10,Butterscotch Coffee,1
+2024-12-10,Capuccino,1
+2024-12-10,Hazelnut Coffee,2
+2024-12-10,Kopi Aren,9
+2024-12-10,Kopi Pandan,1
+2024-12-10,Rum Coffee,1
+2024-12-10,Signature Coffee,3
+2024-12-11,Americano,4
+2024-12-11,Butterscotch Coffee,1
+2024-12-11,Capuccino,1
+2024-12-11,Hazelnut Coffee,1
+2024-12-11,Kopi Aren,4
+2024-12-11,Matcha Coffee,1
+2024-12-12,Americano,1
+2024-12-12,Capuccino,3
+2024-12-12,Hazelnut Coffee,2
+2024-12-12,Kopi Aren,3
+2024-12-12,Matcha Coffee,1
+2024-12-12,Signature Coffee,1
+2024-12-13,Americano,4
+2024-12-13,Avocado Coffee,1
+2024-12-13,Butterscotch Coffee,4
+2024-12-13,Capuccino,1
+2024-12-13,Hazelnut Coffee,1
+2024-12-13,Kopi Aren,10
+2024-12-13,Rum Coffee,2
+2024-12-13,Signature Coffee,1
+2024-12-14,Americano,5
+2024-12-14,Avocado Coffee,2
+2024-12-14,Butterscotch Coffee,3
+2024-12-14,Capuccino,2
+2024-12-14,Hazelnut Coffee,9
+2024-12-14,Kopi Aren,9
+2024-12-14,Kopi Pandan,1
+2024-12-14,Matcha Coffee,3
+2024-12-14,Rum Coffee,1
+2024-12-14,Signature Coffee,3
+2024-12-15,Americano,4
+2024-12-15,Capuccino,2
+2024-12-15,Hazelnut Coffee,1
+2024-12-15,Kopi Aren,6
+2024-12-15,Matcha Coffee,1
+2024-12-15,Signature Coffee,1
+2024-12-16,Americano,2
+2024-12-16,Avocado Coffee,1
+2024-12-16,Capuccino,2
+2024-12-16,Espresso,1
+2024-12-16,Kopi Aren,5
+2024-12-17,Americano,1
+2024-12-17,Avocado Coffee,1
+2024-12-17,Butterscotch Coffee,1
+2024-12-17,Capuccino,3
+2024-12-17,Hazelnut Coffee,5
+2024-12-17,Kopi Aren,6
+2024-12-17,Signature Coffee,1
+2024-12-18,Americano,4
+2024-12-18,Avocado Coffee,1
+2024-12-18,Capuccino,3
+2024-12-18,Hazelnut Coffee,1
+2024-12-18,Kopi Aren,10
+2024-12-18,Rum Coffee,1
+2024-12-19,Butterscotch Coffee,1
+2024-12-19,Capuccino,1
+2024-12-19,Hazelnut Coffee,1
+2024-12-19,Kopi Aren,2
+2024-12-20,Americano,6
+2024-12-20,Capuccino,3
+2024-12-20,Kopi Aren,8
+2024-12-20,Kopi Pandan,1
+2024-12-21,Americano,11
+2024-12-21,Avocado Coffee,1
+2024-12-21,Butterscotch Coffee,1
+2024-12-21,Capuccino,1
+2024-12-21,Hazelnut Coffee,1
+2024-12-21,Kopi Aren,10
+2024-12-21,Kopi Pandan,1
+2024-12-21,Rum Coffee,2
+2024-12-21,Signature Coffee,1
+2024-12-21,Strawberry Coffee,1
+2024-12-22,Americano,6
+2024-12-22,Avocado Coffee,2
+2024-12-22,Butterscotch Coffee,1
+2024-12-22,Capuccino,2
+2024-12-22,Hazelnut Coffee,2
+2024-12-22,Kopi Aren,11
+2024-12-22,Matcha Coffee,2
+2024-12-22,Rum Coffee,1
+2024-12-23,Americano,4
+2024-12-23,Hazelnut Coffee,1
+2024-12-23,Kopi Aren,5
+2024-12-24,Americano,2
+2024-12-24,Avocado Coffee,1
+2024-12-24,Capuccino,1
+2024-12-24,Espresso,1
+2024-12-24,Hazelnut Coffee,2
+2024-12-24,Kopi Aren,4
+2024-12-25,Americano,8
+2024-12-25,Avocado Coffee,1
+2024-12-25,Butterscotch Coffee,3
+2024-12-25,Capuccino,4
+2024-12-25,Hazelnut Coffee,5
+2024-12-25,Kopi Aren,12
+2024-12-25,Kopi Pandan,1
+2024-12-25,Rum Coffee,1
+2024-12-25,Signature Coffee,1
+2024-12-26,Americano,5
+2024-12-26,Butterscotch Coffee,2
+2024-12-26,Capuccino,9
+2024-12-26,Hazelnut Coffee,5
+2024-12-26,Kopi Aren,17
+2024-12-26,Matcha Coffee,1
+2024-12-26,Rum Coffee,2
+2024-12-26,Signature Coffee,1
+2024-12-27,Americano,3
+2024-12-27,Hazelnut Coffee,3
+2024-12-27,Kopi Aren,10
+2024-12-27,Signature Coffee,1
+2024-12-28,Americano,9
+2024-12-28,Butterscotch Coffee,1
+2024-12-28,Capuccino,2
+2024-12-28,Hazelnut Coffee,5
+2024-12-28,Kopi Aren,10
+2024-12-28,Kopi Pandan,1
+2024-12-28,Strawberry Coffee,2
+2024-12-29,Americano,4
+2024-12-29,Butterscotch Coffee,1
+2024-12-29,Capuccino,1
+2024-12-29,Hazelnut Coffee,1
+2024-12-29,Kopi Aren,8
+2024-12-29,Matcha Coffee,3
+2024-12-29,Strawberry Coffee,1
+2024-12-30,Americano,1
+2024-12-30,Butterscotch Coffee,1
+2024-12-30,Hazelnut Coffee,4
+2024-12-30,Kopi Aren,9
+2024-12-31,Americano,3
+2024-12-31,Avocado Coffee,2
+2024-12-31,Butterscotch Coffee,2
+2024-12-31,Hazelnut Coffee,8
+2024-12-31,Kopi Aren,6
+2024-12-31,Kopi Pandan,2
+2024-12-31,Rum Coffee,1
+2025-01-01,Americano,3
+2025-01-01,Butterscotch Coffee,1
+2025-01-01,Capuccino,5
+2025-01-01,Hazelnut Coffee,4
+2025-01-01,Kopi Aren,3
+2025-01-01,Matcha Coffee,2
+2025-01-01,Signature Coffee,1
+2025-01-01,Strawberry Coffee,1
+2025-01-02,Americano,5
+2025-01-02,Avocado Coffee,1
+2025-01-02,Butterscotch Coffee,2
+2025-01-02,Capuccino,1
+2025-01-02,Hazelnut Coffee,4
+2025-01-02,Kopi Aren,9
+2025-01-02,Rum Coffee,1
+2025-01-02,Signature Coffee,1
+2025-01-03,Americano,7
+2025-01-03,Butterscotch Coffee,1
+2025-01-03,Capuccino,2
+2025-01-03,Hazelnut Coffee,3
+2025-01-03,Kopi Aren,8
+2025-01-03,Kopi Pandan,1
+2025-01-03,Rum Coffee,1
+2025-01-03,Signature Coffee,2
+2025-01-04,Americano,1
+2025-01-04,Avocado Coffee,1
+2025-01-04,Butterscotch Coffee,2
+2025-01-04,Capuccino,1
+2025-01-04,Espresso,1
+2025-01-04,Hazelnut Coffee,3
+2025-01-04,Kopi Aren,20
+2025-01-04,Matcha Coffee,1
+2025-01-04,Signature Coffee,1
+2025-01-04,Strawberry Coffee,1
+2025-01-05,Americano,1
+2025-01-05,Avocado Coffee,1
+2025-01-05,Butterscotch Coffee,1
+2025-01-05,Hazelnut Coffee,2
+2025-01-05,Kopi Aren,8
+2025-01-05,Matcha Coffee,4
+2025-01-06,Americano,2
+2025-01-06,Capuccino,3
+2025-01-06,Hazelnut Coffee,4
+2025-01-06,Kopi Aren,2
+2025-01-06,Signature Coffee,1
+2025-01-07,Americano,6
+2025-01-07,Capuccino,1
+2025-01-07,Espresso,1
+2025-01-07,Hazelnut Coffee,6
+2025-01-07,Kopi Aren,8
+2025-01-07,Matcha Coffee,1
+2025-01-08,Americano,5
+2025-01-08,Hazelnut Coffee,2
+2025-01-08,Kopi Aren,12
+2025-01-08,Rum Coffee,2
+2025-01-08,Signature Coffee,2
+2025-01-09,Americano,6
+2025-01-09,Capuccino,2
+2025-01-09,Hazelnut Coffee,1
+2025-01-09,Kopi Aren,4
+2025-01-09,Signature Coffee,1
+2025-01-10,Americano,1
+2025-01-10,Avocado Coffee,1
+2025-01-10,Butterscotch Coffee,2
+2025-01-10,Capuccino,3
+2025-01-10,Hazelnut Coffee,6
+2025-01-10,Kopi Aren,3
+2025-01-10,Kopi Pandan,1
+2025-01-10,Matcha Coffee,1
+2025-01-10,Rum Coffee,3
+2025-01-11,Americano,8
+2025-01-11,Avocado Coffee,2
+2025-01-11,Butterscotch Coffee,2
+2025-01-11,Capuccino,2
+2025-01-11,Hazelnut Coffee,2
+2025-01-11,Kopi Aren,38
+2025-01-11,Kopi Pandan,2
+2025-01-11,Rum Coffee,1
+2025-01-11,Strawberry Coffee,1
+2025-01-12,Americano,1
+2025-01-12,Butterscotch Coffee,2
+2025-01-12,Hazelnut Coffee,1
+2025-01-12,Kopi Aren,1
+2025-01-12,Rum Coffee,1
+2025-01-12,Strawberry Coffee,1
+2025-01-13,Avocado Coffee,3
+2025-01-13,Capuccino,3
+2025-01-13,Hazelnut Coffee,1
+2025-01-13,Kopi Aren,7
+2025-01-13,Rum Coffee,4
+2025-01-13,Signature Coffee,1
+2025-01-14,Americano,2
+2025-01-14,Butterscotch Coffee,1
+2025-01-14,Capuccino,5
+2025-01-14,Hazelnut Coffee,3
+2025-01-14,Kopi Aren,7
+2025-01-14,Kopi Pandan,1
+2025-01-14,Signature Coffee,1
+2025-01-15,Americano,1
+2025-01-15,Avocado Coffee,2
+2025-01-15,Butterscotch Coffee,1
+2025-01-15,Capuccino,1
+2025-01-15,Hazelnut Coffee,3
+2025-01-15,Kopi Aren,10
+2025-01-15,Matcha Coffee,1
+2025-01-15,Rum Coffee,3
+2025-01-16,Americano,2
+2025-01-16,Avocado Coffee,2
+2025-01-16,Capuccino,3
+2025-01-16,Kopi Aren,3
+2025-01-16,Kopi Pandan,1
+2025-01-16,Strawberry Coffee,2
+2025-01-17,Americano,5
+2025-01-17,Capuccino,2
+2025-01-17,Hazelnut Coffee,2
+2025-01-17,Kopi Aren,9
+2025-01-18,Americano,3
+2025-01-18,Capuccino,4
+2025-01-18,Kopi Aren,10
+2025-01-18,Signature Coffee,1
+2025-01-19,Americano,3
+2025-01-19,Butterscotch Coffee,1
+2025-01-19,Hazelnut Coffee,2
+2025-01-19,Kopi Aren,6
+2025-01-19,Kopi Pandan,1
+2025-01-19,Signature Coffee,1
+2025-01-20,Americano,1
+2025-01-20,Capuccino,2
+2025-01-20,Hazelnut Coffee,3
+2025-01-20,Kopi Aren,2
+2025-01-20,Rum Coffee,2
+2025-01-21,Butterscotch Coffee,1
+2025-01-21,Capuccino,2
+2025-01-21,Hazelnut Coffee,3
+2025-01-21,Kopi Aren,6
+2025-01-22,Americano,3
+2025-01-22,Espresso,1
+2025-01-22,Kopi Aren,4
+2025-01-22,Rum Coffee,2
+2025-01-23,Americano,3
+2025-01-23,Capuccino,1
+2025-01-23,Hazelnut Coffee,1
+2025-01-23,Kopi Aren,8
+2025-01-23,Matcha Coffee,1
+2025-01-23,Rum Coffee,1
+2025-01-24,Americano,6
+2025-01-24,Butterscotch Coffee,1
+2025-01-24,Capuccino,2
+2025-01-24,Hazelnut Coffee,1
+2025-01-24,Kopi Aren,7
+2025-01-25,Americano,2
+2025-01-25,Butterscotch Coffee,2
+2025-01-25,Capuccino,6
+2025-01-25,Hazelnut Coffee,4
+2025-01-25,Kopi Aren,8
+2025-01-25,Kopi Pandan,1
+2025-01-25,Matcha Coffee,1
+2025-01-26,Americano,4
+2025-01-26,Avocado Coffee,1
+2025-01-26,Butterscotch Coffee,3
+2025-01-26,Capuccino,1
+2025-01-26,Hazelnut Coffee,4
+2025-01-26,Kopi Aren,18
+2025-01-26,Rum Coffee,4
+2025-01-27,Butterscotch Coffee,2
+2025-01-27,Capuccino,1
+2025-01-27,Hazelnut Coffee,3
+2025-01-27,Kopi Aren,6
+2025-01-27,Strawberry Coffee,1
+2025-01-28,Americano,3
+2025-01-28,Capuccino,2
+2025-01-28,Espresso,1
+2025-01-28,Hazelnut Coffee,7
+2025-01-28,Kopi Aren,1
+2025-01-28,Matcha Coffee,1
+2025-01-29,Americano,2
+2025-01-29,Avocado Coffee,1
+2025-01-29,Capuccino,1
+2025-01-29,Hazelnut Coffee,4
+2025-01-29,Kopi Aren,21
+2025-01-29,Matcha Coffee,1
+2025-01-30,Americano,4
+2025-01-30,Capuccino,1
+2025-01-30,Espresso,4
+2025-01-30,Hazelnut Coffee,3
+2025-01-30,Kopi Aren,5
+2025-01-30,Rum Coffee,2
+2025-01-31,Americano,2
+2025-01-31,Avocado Coffee,1
+2025-01-31,Butterscotch Coffee,1
+2025-01-31,Capuccino,6
+2025-01-31,Espresso,1
+2025-01-31,Hazelnut Coffee,4
+2025-01-31,Kopi Aren,7
+2025-01-31,Kopi Pandan,1
+2025-01-31,Oat Latte,3
+2025-01-31,Rum Coffee,1
+2025-02-01,Americano,7
+2025-02-01,Butterscotch Coffee,1
+2025-02-01,Capuccino,1
+2025-02-01,Hazelnut Coffee,2
+2025-02-01,Kopi Aren,4
+2025-02-01,Oat Latte,1
+2025-02-02,Americano,1
+2025-02-02,Butterscotch Coffee,2
+2025-02-02,Capuccino,1
+2025-02-02,Hazelnut Coffee,4
+2025-02-02,Kopi Aren,6
+2025-02-02,Kopi Pandan,1
+2025-02-02,Rum Coffee,3
+2025-02-03,Butterscotch Coffee,1
+2025-02-03,Capuccino,2
+2025-02-03,Hazelnut Coffee,2
+2025-02-03,Kopi Aren,19
+2025-02-03,Oat Latte,1
+2025-02-04,Americano,1
+2025-02-04,Butterscotch Coffee,4
+2025-02-04,Capuccino,6
+2025-02-04,Hazelnut Coffee,1
+2025-02-04,Kopi Aren,2
+2025-02-05,Americano,3
+2025-02-05,Butterscotch Coffee,1
+2025-02-05,Hazelnut Coffee,1
+2025-02-05,Kopi Aren,7
+2025-02-06,Americano,3
+2025-02-06,Avocado Coffee,4
+2025-02-06,Butterscotch Coffee,2
+2025-02-06,Capuccino,1
+2025-02-06,Hazelnut Coffee,1
+2025-02-06,Kopi Aren,7
+2025-02-06,Matcha Coffee,1
+2025-02-07,Americano,2
+2025-02-07,Avocado Coffee,2
+2025-02-07,Capuccino,3
+2025-02-07,Hazelnut Coffee,2
+2025-02-07,Kopi Aren,8
+2025-02-07,Strawberry Coffee,1
+2025-02-08,Americano,7
+2025-02-08,Avocado Coffee,1
+2025-02-08,Butterscotch Coffee,2
+2025-02-08,Capuccino,8
+2025-02-08,Hazelnut Coffee,6
+2025-02-08,Kopi Aren,19
+2025-02-08,Kopi Pandan,2
+2025-02-08,Matcha Coffee,2
+2025-02-08,Rum Coffee,4
+2025-02-09,Americano,7
+2025-02-09,Avocado Coffee,1
+2025-02-09,Butterscotch Coffee,1
+2025-02-09,Capuccino,6
+2025-02-09,Espresso,5
+2025-02-09,Hazelnut Coffee,5
+2025-02-09,Kopi Aren,11
+2025-02-09,Kopi Pandan,1
+2025-02-09,Oat Latte,3
+2025-02-09,Rum Coffee,2
+2025-02-10,Americano,4
+2025-02-10,Avocado Coffee,1
+2025-02-10,Capuccino,3
+2025-02-10,Hazelnut Coffee,2
+2025-02-10,Kopi Aren,6
+2025-02-10,Kopi Pandan,1
+2025-02-11,Americano,1
+2025-02-11,Butterscotch Coffee,1
+2025-02-11,Capuccino,6
+2025-02-11,Espresso,2
+2025-02-11,Hazelnut Coffee,4
+2025-02-11,Kopi Aren,13
+2025-02-11,Matcha Coffee,1
+2025-02-11,Oat Latte,1
+2025-02-11,Rum Coffee,2
+2025-02-11,Signature Coffee,2
+2025-02-12,Americano,1
+2025-02-12,Butterscotch Coffee,1
+2025-02-12,Capuccino,3
+2025-02-12,Espresso,1
+2025-02-12,Hazelnut Coffee,3
+2025-02-12,Kopi Aren,5
+2025-02-12,Rum Coffee,1
+2025-02-13,Americano,5
+2025-02-13,Capuccino,4
+2025-02-13,Hazelnut Coffee,2
+2025-02-13,Kopi Aren,4
+2025-02-14,Americano,4
+2025-02-14,Capuccino,5
+2025-02-14,Hazelnut Coffee,1
+2025-02-14,Kopi Aren,10
+2025-02-15,Americano,4
+2025-02-15,Avocado Coffee,1
+2025-02-15,Butterscotch Coffee,1
+2025-02-15,Capuccino,4
+2025-02-15,Espresso,1
+2025-02-15,Hazelnut Coffee,2
+2025-02-15,Kopi Aren,7
+2025-02-15,Kopi Pandan,1
+2025-02-15,Matcha Coffee,3
+2025-02-15,Oat Latte,2
+2025-02-15,Signature Coffee,1
+2025-02-16,Americano,7
+2025-02-16,Butterscotch Coffee,1
+2025-02-16,Capuccino,3
+2025-02-16,Hazelnut Coffee,4
+2025-02-16,Kopi Aren,7
+2025-02-16,Kopi Pandan,1
+2025-02-16,Signature Coffee,1
+2025-02-16,Strawberry Coffee,1
+2025-02-17,Americano,2
+2025-02-17,Butterscotch Coffee,1
+2025-02-17,Capuccino,5
+2025-02-17,Hazelnut Coffee,2
+2025-02-17,Kopi Aren,7
+2025-02-18,Americano,1
+2025-02-18,Butterscotch Coffee,1
+2025-02-18,Kopi Aren,13
+2025-02-18,Oat Latte,3
+2025-02-18,Strawberry Coffee,1
+2025-02-19,Americano,1
+2025-02-19,Butterscotch Coffee,2
+2025-02-19,Capuccino,3
+2025-02-19,Hazelnut Coffee,4
+2025-02-19,Kopi Aren,2
+2025-02-19,Oat Latte,1
+2025-02-20,Avocado Coffee,1
+2025-02-20,Capuccino,6
+2025-02-20,Espresso,1
+2025-02-20,Hazelnut Coffee,2
+2025-02-20,Kopi Aren,5
+2025-02-21,Americano,2
+2025-02-21,Butterscotch Coffee,1
+2025-02-21,Capuccino,8
+2025-02-21,Hazelnut Coffee,3
+2025-02-21,Kopi Aren,14
+2025-02-21,Signature Coffee,1
+2025-02-22,Americano,1
+2025-02-22,Butterscotch Coffee,3
+2025-02-22,Capuccino,1
+2025-02-22,Espresso,1
+2025-02-22,Kopi Aren,7
+2025-02-22,Kopi Pandan,1
+2025-02-22,Matcha Coffee,1
+2025-02-22,Oat Latte,2
+2025-02-22,Rum Coffee,1
+2025-02-23,Americano,1
+2025-02-23,Avocado Coffee,1
+2025-02-23,Butterscotch Coffee,1
+2025-02-23,Capuccino,3
+2025-02-23,Hazelnut Coffee,8
+2025-02-23,Kopi Aren,10
+2025-02-23,Signature Coffee,1
+2025-02-24,Americano,4
+2025-02-24,Butterscotch Coffee,1
+2025-02-24,Capuccino,2
+2025-02-24,Hazelnut Coffee,1
+2025-02-24,Kopi Aren,7
+2025-02-24,Rum Coffee,1
+2025-02-24,Signature Coffee,1
+2025-02-25,Americano,3
+2025-02-25,Butterscotch Coffee,1
+2025-02-25,Capuccino,1
+2025-02-25,Hazelnut Coffee,1
+2025-02-25,Kopi Aren,6
+2025-02-26,Americano,7
+2025-02-26,Butterscotch Coffee,1
+2025-02-26,Capuccino,4
+2025-02-26,Espresso,2
+2025-02-26,Hazelnut Coffee,1
+2025-02-26,Kopi Aren,14
+2025-02-26,Kopi Pandan,1
+2025-02-26,Oat Latte,1
+2025-02-26,Signature Coffee,1
+2025-02-27,Americano,6
+2025-02-27,Butterscotch Coffee,1
+2025-02-27,Capuccino,5
+2025-02-27,Hazelnut Coffee,2
+2025-02-27,Kopi Aren,14
+2025-02-27,Oat Latte,1
+2025-02-28,Americano,4
+2025-02-28,Capuccino,3
+2025-02-28,Hazelnut Coffee,2
+2025-02-28,Kopi Aren,11
+2025-02-28,Kopi Pandan,1
+2025-02-28,Oat Latte,1
+2025-02-28,Rum Coffee,1
+2025-02-28,Signature Coffee,2
+2025-03-01,Americano,7
+2025-03-01,Butterscotch Coffee,2
+2025-03-01,Capuccino,5
+2025-03-01,Espresso,1
+2025-03-01,Hazelnut Coffee,2
+2025-03-01,Kopi Aren,13
+2025-03-02,Americano,1
+2025-03-02,Avocado Coffee,2
+2025-03-02,Butterscotch Coffee,1
+2025-03-02,Capuccino,5
+2025-03-02,Espresso,2
+2025-03-02,Hazelnut Coffee,1
+2025-03-02,Kopi Aren,13
+2025-03-02,Kopi Pandan,1
+2025-03-02,Matcha Coffee,1
+2025-03-02,Oat Latte,1
+2025-03-02,Signature Coffee,1
+2025-03-03,Americano,1
+2025-03-03,Capuccino,3
+2025-03-03,Hazelnut Coffee,3
+2025-03-03,Kopi Aren,8
+2025-03-03,Signature Coffee,2
+2025-03-03,Strawberry Coffee,1
+2025-03-04,Americano,2
+2025-03-04,Capuccino,3
+2025-03-04,Hazelnut Coffee,3
+2025-03-04,Kopi Aren,8
+2025-03-04,Rum Coffee,1
+2025-03-05,Americano,3
+2025-03-05,Butterscotch Coffee,3
+2025-03-05,Capuccino,2
+2025-03-05,Espresso,1
+2025-03-05,Hazelnut Coffee,3
+2025-03-05,Kopi Aren,14
+2025-03-06,Americano,3
+2025-03-06,Butterscotch Coffee,1
+2025-03-06,Capuccino,1
+2025-03-06,Espresso,1
+2025-03-06,Hazelnut Coffee,4
+2025-03-06,Kopi Aren,1
+2025-03-06,Kopi Pandan,1
+2025-03-07,Americano,16
+2025-03-07,Capuccino,6
+2025-03-07,Hazelnut Coffee,1
+2025-03-07,Kopi Aren,23
+2025-03-07,Kopi Pandan,1
+2025-03-07,Rum Coffee,1
+2025-03-07,Signature Coffee,6
+2025-03-08,Butterscotch Coffee,3
+2025-03-08,Capuccino,2
+2025-03-08,Hazelnut Coffee,5
+2025-03-08,Kopi Aren,19
+2025-03-08,Kopi Pandan,1
+2025-03-09,Americano,3
+2025-03-09,Butterscotch Coffee,1
+2025-03-09,Capuccino,2
+2025-03-09,Hazelnut Coffee,7
+2025-03-09,Kopi Aren,9
+2025-03-09,Oat Latte,1
+2025-03-09,Signature Coffee,1
+2025-03-09,Strawberry Coffee,1
+2025-03-10,Americano,4
+2025-03-10,Butterscotch Coffee,1
+2025-03-10,Capuccino,6
+2025-03-10,Hazelnut Coffee,1
+2025-03-10,Kopi Aren,9
+2025-03-11,Butterscotch Coffee,1
+2025-03-11,Capuccino,1
+2025-03-11,Hazelnut Coffee,1
+2025-03-11,Kopi Aren,8
+2025-03-11,Rum Coffee,3
+2025-03-11,Signature Coffee,2
+2025-03-12,Americano,5
+2025-03-12,Avocado Coffee,2
+2025-03-12,Butterscotch Coffee,3
+2025-03-12,Capuccino,4
+2025-03-12,Kopi Aren,7
+2025-03-12,Kopi Pandan,1
+2025-03-12,Signature Coffee,1
+2025-03-13,Americano,8
+2025-03-13,Capuccino,3
+2025-03-13,Hazelnut Coffee,1
+2025-03-13,Kopi Aren,7
+2025-03-13,Kopi Pandan,1
+2025-03-13,Signature Coffee,2
+2025-03-14,Americano,6
+2025-03-14,Avocado Coffee,1
+2025-03-14,Butterscotch Coffee,1
+2025-03-14,Capuccino,5
+2025-03-14,Espresso,2
+2025-03-14,Hazelnut Coffee,2
+2025-03-14,Kopi Aren,9
+2025-03-14,Kopi Pandan,2
+2025-03-14,Matcha Coffee,1
+2025-03-14,Signature Coffee,4
+2025-03-14,Strawberry Coffee,1
+2025-03-15,Americano,2
+2025-03-15,Avocado Coffee,2
+2025-03-15,Butterscotch Coffee,1
+2025-03-15,Capuccino,8
+2025-03-15,Hazelnut Coffee,3
+2025-03-15,Kopi Aren,11
+2025-03-15,Kopi Pandan,1
+2025-03-16,Americano,8
+2025-03-16,Avocado Coffee,1
+2025-03-16,Butterscotch Coffee,1
+2025-03-16,Capuccino,2
+2025-03-16,Hazelnut Coffee,5
+2025-03-16,Kopi Aren,9
+2025-03-17,Butterscotch Coffee,1
+2025-03-17,Capuccino,1
+2025-03-17,Hazelnut Coffee,2
+2025-03-17,Kopi Aren,7
+2025-03-17,Rum Coffee,1
+2025-03-17,Strawberry Coffee,1
+2025-03-18,Americano,2
+2025-03-18,Capuccino,1
+2025-03-18,Hazelnut Coffee,6
+2025-03-18,Kopi Aren,6
+2025-03-18,Signature Coffee,2
+2025-03-19,Americano,8
+2025-03-19,Butterscotch Coffee,1
+2025-03-19,Capuccino,5
+2025-03-19,Hazelnut Coffee,4
+2025-03-19,Kopi Aren,11
+2025-03-19,Matcha Coffee,1
+2025-03-20,Butterscotch Coffee,3
+2025-03-20,Capuccino,4
+2025-03-20,Espresso,1
+2025-03-20,Hazelnut Coffee,4
+2025-03-20,Kopi Aren,4
+2025-03-20,Rum Coffee,1
+2025-03-21,Americano,8
+2025-03-21,Butterscotch Coffee,2
+2025-03-21,Capuccino,2
+2025-03-21,Espresso,3
+2025-03-21,Hazelnut Coffee,7
+2025-03-21,Kopi Aren,8
+2025-03-21,Matcha Coffee,1
+2025-03-21,Rum Coffee,2
+2025-03-21,Signature Coffee,3
+2025-03-22,Americano,7
+2025-03-22,Butterscotch Coffee,1
+2025-03-22,Capuccino,3
+2025-03-22,Hazelnut Coffee,4
+2025-03-22,Kopi Aren,11
+2025-03-22,Kopi Pandan,2
+2025-03-22,Rum Coffee,1
+2025-03-22,Signature Coffee,1
+2025-03-23,Americano,1
+2025-03-23,Butterscotch Coffee,1
+2025-03-23,Capuccino,3
+2025-03-23,Espresso,2
+2025-03-23,Hazelnut Coffee,3
+2025-03-23,Kopi Aren,8
+2025-03-23,Kopi Pandan,2
+2025-03-23,Matcha Coffee,2
+2025-03-23,Rum Coffee,1
+2025-03-23,Signature Coffee,1
+2025-03-24,Americano,3
+2025-03-24,Avocado Coffee,1
+2025-03-24,Butterscotch Coffee,1
+2025-03-24,Capuccino,4
+2025-03-24,Espresso,1
+2025-03-24,Kopi Aren,6
+2025-03-24,Kopi Pandan,1
+2025-03-24,Signature Coffee,2
+2025-03-25,Americano,2
+2025-03-25,Espresso,2
+2025-03-25,Hazelnut Coffee,3
+2025-03-25,Kopi Aren,8
+2025-03-25,Kopi Pandan,1
+2025-03-26,Americano,4
+2025-03-26,Avocado Coffee,2
+2025-03-26,Butterscotch Coffee,1
+2025-03-26,Capuccino,2
+2025-03-26,Espresso,1
+2025-03-26,Hazelnut Coffee,6
+2025-03-26,Kopi Aren,7
+2025-03-26,Kopi Pandan,1
+2025-03-26,Signature Coffee,2
+2025-03-27,Americano,3
+2025-03-27,Avocado Coffee,1
+2025-03-27,Butterscotch Coffee,2
+2025-03-27,Capuccino,2
+2025-03-27,Hazelnut Coffee,1
+2025-03-27,Kopi Aren,10
+2025-03-27,Rum Coffee,1
+2025-03-28,Americano,6
+2025-03-28,Butterscotch Coffee,2
+2025-03-28,Capuccino,5
+2025-03-28,Espresso,1
+2025-03-28,Hazelnut Coffee,7
+2025-03-28,Kopi Aren,14
+2025-03-28,Rum Coffee,2
+2025-03-28,Signature Coffee,3
+2025-03-28,Strawberry Coffee,2
+2025-03-29,Americano,5
+2025-03-29,Butterscotch Coffee,1
+2025-03-29,Capuccino,3
+2025-03-29,Espresso,1
+2025-03-29,Hazelnut Coffee,1
+2025-03-29,Kopi Aren,8
+2025-03-29,Matcha Coffee,1
+2025-03-29,Signature Coffee,1
+2025-03-30,Americano,4
+2025-03-30,Avocado Coffee,1
+2025-03-30,Butterscotch Coffee,3
+2025-03-30,Capuccino,4
+2025-03-30,Hazelnut Coffee,2
+2025-03-30,Kopi Aren,13
+2025-03-30,Matcha Coffee,3
+2025-03-30,Rum Coffee,2
+2025-03-30,Strawberry Coffee,2
+2025-03-31,Americano,5
+2025-03-31,Avocado Coffee,1
+2025-03-31,Butterscotch Coffee,1
+2025-03-31,Capuccino,3
+2025-03-31,Espresso,1
+2025-03-31,Hazelnut Coffee,1
+2025-03-31,Kopi Aren,11
+2025-04-01,Americano,2
+2025-04-01,Butterscotch Coffee,1
+2025-04-01,Capuccino,2
+2025-04-01,Hazelnut Coffee,3
+2025-04-01,Kopi Aren,8
+2025-04-01,Matcha Coffee,2
+2025-04-01,Signature Coffee,2
+2025-04-02,Americano,12
+2025-04-02,Butterscotch Coffee,2
+2025-04-02,Capuccino,1
+2025-04-02,Hazelnut Coffee,3
+2025-04-02,Kopi Aren,11
+2025-04-02,Signature Coffee,4
+2025-04-03,Americano,2
+2025-04-03,Butterscotch Coffee,1
+2025-04-03,Capuccino,2
+2025-04-03,Kopi Aren,11
+2025-04-03,Kopi Pandan,1
+2025-04-03,Matcha Coffee,2
+2025-04-04,Americano,5
+2025-04-04,Avocado Coffee,2
+2025-04-04,Butterscotch Coffee,1
+2025-04-04,Capuccino,6
+2025-04-04,Hazelnut Coffee,4
+2025-04-04,Kopi Aren,7
+2025-04-05,Americano,14
+2025-04-05,Avocado Coffee,1
+2025-04-05,Butterscotch Coffee,2
+2025-04-05,Capuccino,3
+2025-04-05,Hazelnut Coffee,4
+2025-04-05,Kopi Aren,12
+2025-04-05,Kopi Pandan,1
+2025-04-05,Rum Coffee,1
+2025-04-06,Americano,4
+2025-04-06,Avocado Coffee,1
+2025-04-06,Butterscotch Coffee,1
+2025-04-06,Capuccino,1
+2025-04-06,Espresso,1
+2025-04-06,Kopi Aren,9
+2025-04-06,Rum Coffee,1
+2025-04-06,Signature Coffee,2
+2025-04-07,Americano,9
+2025-04-07,Avocado Coffee,1
+2025-04-07,Butterscotch Coffee,1
+2025-04-07,Capuccino,4
+2025-04-07,Hazelnut Coffee,2
+2025-04-07,Kopi Aren,6
+2025-04-07,Matcha Coffee,1
+2025-04-07,Rum Coffee,1
+2025-04-07,Signature Coffee,1
+2025-04-08,Americano,4
+2025-04-08,Capuccino,3
+2025-04-08,Hazelnut Coffee,2
+2025-04-08,Kopi Aren,4
+2025-04-08,Kopi Pandan,1
+2025-04-08,Matcha Coffee,1
+2025-04-08,Rum Coffee,1
+2025-04-08,Signature Coffee,2
+2025-04-09,Americano,2
+2025-04-09,Avocado Coffee,1
+2025-04-09,Butterscotch Coffee,1
+2025-04-09,Capuccino,3
+2025-04-09,Espresso,2
+2025-04-09,Hazelnut Coffee,1
+2025-04-09,Kopi Aren,7
+2025-04-09,Kopi Pandan,3
+2025-04-09,Rum Coffee,4
+2025-04-10,Americano,1
+2025-04-10,Butterscotch Coffee,1
+2025-04-10,Espresso,1
+2025-04-10,Hazelnut Coffee,1
+2025-04-10,Kopi Aren,10
+2025-04-10,Rum Coffee,1
+2025-04-11,Americano,2
+2025-04-11,Butterscotch Coffee,2
+2025-04-11,Capuccino,3
+2025-04-11,Espresso,3
+2025-04-11,Hazelnut Coffee,1
+2025-04-11,Kopi Aren,15
+2025-04-11,Kopi Pandan,1
+2025-04-11,Matcha Coffee,2
+2025-04-11,Oat Latte,1
+2025-04-11,Signature Coffee,1
+2025-04-11,Strawberry Coffee,2
+2025-04-12,Americano,3
+2025-04-12,Avocado Coffee,1
+2025-04-12,Capuccino,2
+2025-04-12,Espresso,2
+2025-04-12,Hazelnut Coffee,3
+2025-04-12,Kopi Aren,9
+2025-04-12,Kopi Pandan,1
+2025-04-12,Oat Latte,1
+2025-04-12,Signature Coffee,3
+2025-04-13,Americano,3
+2025-04-13,Butterscotch Coffee,3
+2025-04-13,Capuccino,3
+2025-04-13,Hazelnut Coffee,2
+2025-04-13,Kopi Aren,8
+2025-04-13,Signature Coffee,1
+2025-04-14,Americano,2
+2025-04-14,Butterscotch Coffee,1
+2025-04-14,Capuccino,3
+2025-04-14,Hazelnut Coffee,3
+2025-04-14,Kopi Aren,9
+2025-04-14,Kopi Pandan,3
+2025-04-14,Matcha Coffee,1
+2025-04-14,Oat Latte,3
+2025-04-14,Strawberry Coffee,1
+2025-04-15,Americano,4
+2025-04-15,Butterscotch Coffee,1
+2025-04-15,Capuccino,3
+2025-04-15,Hazelnut Coffee,2
+2025-04-15,Kopi Aren,9
+2025-04-15,Oat Latte,2
+2025-04-15,Rum Coffee,1
+2025-04-15,Signature Coffee,2
+2025-04-16,Americano,4
+2025-04-16,Avocado Coffee,1
+2025-04-16,Butterscotch Coffee,1
+2025-04-16,Capuccino,1
+2025-04-16,Hazelnut Coffee,3
+2025-04-16,Kopi Aren,14
+2025-04-16,Oat Latte,1
+2025-04-17,Americano,7
+2025-04-17,Butterscotch Coffee,1
+2025-04-17,Capuccino,4
+2025-04-17,Espresso,1
+2025-04-17,Hazelnut Coffee,2
+2025-04-17,Kopi Aren,7
+2025-04-17,Matcha Coffee,1
+2025-04-17,Oat Latte,1
+2025-04-17,Rum Coffee,1
+2025-04-17,Signature Coffee,2
+2025-04-17,Strawberry Coffee,1
+2025-04-18,Americano,1
+2025-04-18,Avocado Coffee,1
+2025-04-18,Butterscotch Coffee,2
+2025-04-18,Capuccino,5
+2025-04-18,Espresso,1
+2025-04-18,Hazelnut Coffee,5
+2025-04-18,Kopi Aren,7
+2025-04-18,Matcha Coffee,1
+2025-04-18,Rum Coffee,2
+2025-04-18,Strawberry Coffee,1
+2025-04-19,Americano,4
+2025-04-19,Capuccino,2
+2025-04-19,Kopi Aren,24
+2025-04-19,Kopi Pandan,1
+2025-04-19,Signature Coffee,2
+2025-04-20,Americano,5
+2025-04-20,Avocado Coffee,1
+2025-04-20,Butterscotch Coffee,1
+2025-04-20,Capuccino,2
+2025-04-20,Hazelnut Coffee,3
+2025-04-20,Kopi Aren,22
+2025-04-20,Kopi Pandan,1
+2025-04-21,Americano,2
+2025-04-21,Capuccino,6
+2025-04-21,Hazelnut Coffee,3
+2025-04-21,Kopi Aren,9
+2025-04-21,Signature Coffee,1
+2025-04-22,Americano,2
+2025-04-22,Capuccino,1
+2025-04-22,Hazelnut Coffee,1
+2025-04-22,Kopi Aren,11
+2025-04-23,Americano,2
+2025-04-23,Capuccino,6
+2025-04-23,Hazelnut Coffee,3
+2025-04-23,Kopi Aren,12
+2025-04-23,Signature Coffee,1
+2025-04-23,Strawberry Coffee,1
+2025-04-24,Americano,3
+2025-04-24,Capuccino,1
+2025-04-24,Hazelnut Coffee,7
+2025-04-24,Kopi Aren,6
+2025-04-24,Signature Coffee,1
+2025-04-25,Americano,2
+2025-04-25,Butterscotch Coffee,1
+2025-04-25,Capuccino,3
+2025-04-25,Hazelnut Coffee,2
+2025-04-25,Kopi Aren,30
+2025-04-25,Signature Coffee,1
+2025-04-26,Americano,13
+2025-04-26,Avocado Coffee,1
+2025-04-26,Butterscotch Coffee,3
+2025-04-26,Capuccino,2
+2025-04-26,Hazelnut Coffee,3
+2025-04-26,Kopi Aren,35
+2025-04-26,Kopi Pandan,1
+2025-04-26,Matcha Coffee,1
+2025-04-26,Rum Coffee,1
+2025-04-26,Signature Coffee,1
+2025-04-27,Americano,1
+2025-04-27,Avocado Coffee,3
+2025-04-27,Butterscotch Coffee,2
+2025-04-27,Capuccino,3
+2025-04-27,Hazelnut Coffee,9
+2025-04-27,Kopi Aren,17
+2025-04-27,Rum Coffee,1
+2025-04-27,Strawberry Coffee,1
+2025-04-28,Americano,3
+2025-04-28,Avocado Coffee,1
+2025-04-28,Capuccino,3
+2025-04-28,Hazelnut Coffee,2
+2025-04-28,Kopi Aren,7
+2025-04-28,Rum Coffee,1
+2025-04-28,Signature Coffee,1
+2025-04-29,Butterscotch Coffee,4
+2025-04-29,Capuccino,3
+2025-04-29,Hazelnut Coffee,2
+2025-04-29,Kopi Aren,10
+2025-04-29,Kopi Pandan,1
+2025-04-30,Americano,5
+2025-04-30,Avocado Coffee,2
+2025-04-30,Butterscotch Coffee,4
+2025-04-30,Capuccino,3
+2025-04-30,Hazelnut Coffee,6
+2025-04-30,Kopi Aren,16
+2025-04-30,Matcha Coffee,1
+2025-04-30,Rum Coffee,1
+2025-05-01,Americano,11
+2025-05-01,Butterscotch Coffee,1
+2025-05-01,Capuccino,6
+2025-05-01,Hazelnut Coffee,11
+2025-05-01,Kopi Aren,5
+2025-05-01,Matcha Coffee,1
+2025-05-01,Signature Coffee,1
+2025-05-01,Strawberry Coffee,1
+2025-05-02,Americano,3
+2025-05-02,Capuccino,3
+2025-05-02,Hazelnut Coffee,2
+2025-05-02,Kopi Aren,8
+2025-05-02,Signature Coffee,1
+2025-05-03,Americano,4
+2025-05-03,Avocado Coffee,1
+2025-05-03,Butterscotch Coffee,2
+2025-05-03,Capuccino,9
+2025-05-03,Espresso,1
+2025-05-03,Hazelnut Coffee,9
+2025-05-03,Kopi Aren,18
+2025-05-03,Matcha Coffee,4
+2025-05-03,Rum Coffee,1
+2025-05-03,Signature Coffee,1
+2025-05-04,Americano,1
+2025-05-04,Butterscotch Coffee,1
+2025-05-04,Capuccino,4
+2025-05-04,Espresso,2
+2025-05-04,Hazelnut Coffee,1
+2025-05-04,Kopi Aren,9
+2025-05-04,Matcha Coffee,1
+2025-05-04,Signature Coffee,1
+2025-05-05,Americano,1
+2025-05-05,Avocado Coffee,2
+2025-05-05,Capuccino,3
+2025-05-05,Hazelnut Coffee,3
+2025-05-05,Kopi Aren,11
+2025-05-05,Signature Coffee,1
+2025-05-06,Americano,5
+2025-05-06,Capuccino,3
+2025-05-06,Espresso,1
+2025-05-06,Hazelnut Coffee,4
+2025-05-06,Kopi Aren,9
+2025-05-06,Matcha Coffee,2
+2025-05-06,Strawberry Coffee,1
+2025-05-07,Americano,6
+2025-05-07,Avocado Coffee,1
+2025-05-07,Butterscotch Coffee,1
+2025-05-07,Capuccino,3
+2025-05-07,Hazelnut Coffee,2
+2025-05-07,Kopi Aren,5
+2025-05-07,Signature Coffee,1
+2025-05-07,Strawberry Coffee,1
+2025-05-08,Americano,4
+2025-05-08,Avocado Coffee,1
+2025-05-08,Capuccino,3
+2025-05-08,Hazelnut Coffee,2
+2025-05-08,Kopi Aren,15
+2025-05-08,Kopi Pandan,1
+2025-05-08,Oat Latte,1
+2025-05-08,Strawberry Coffee,1
+2025-05-09,Americano,2
+2025-05-09,Capuccino,5
+2025-05-09,Hazelnut Coffee,3
+2025-05-09,Kopi Aren,15
+2025-05-09,Rum Coffee,1
+2025-05-10,Americano,3
+2025-05-10,Avocado Coffee,2
+2025-05-10,Butterscotch Coffee,2
+2025-05-10,Capuccino,5
+2025-05-10,Espresso,2
+2025-05-10,Hazelnut Coffee,2
+2025-05-10,Kopi Aren,10
+2025-05-10,Kopi Pandan,1
+2025-05-10,Matcha Coffee,2
+2025-05-10,Rum Coffee,2
+2025-05-10,Signature Coffee,2
+2025-05-11,Americano,2
+2025-05-11,Butterscotch Coffee,2
+2025-05-11,Capuccino,5
+2025-05-11,Espresso,2
+2025-05-11,Kopi Aren,12
+2025-05-11,Kopi Pandan,1
+2025-05-11,Matcha Coffee,2
+2025-05-11,Signature Coffee,1
+2025-05-12,Americano,4
+2025-05-12,Avocado Coffee,1
+2025-05-12,Butterscotch Coffee,1
+2025-05-12,Capuccino,3
+2025-05-12,Hazelnut Coffee,4
+2025-05-12,Kopi Aren,7
+2025-05-12,Matcha Coffee,1
+2025-05-12,Signature Coffee,2
+2025-05-13,Americano,3
+2025-05-13,Capuccino,4
+2025-05-13,Hazelnut Coffee,2
+2025-05-13,Kopi Aren,5
+2025-05-14,Americano,8
+2025-05-14,Avocado Coffee,2
+2025-05-14,Butterscotch Coffee,2
+2025-05-14,Capuccino,4
+2025-05-14,Hazelnut Coffee,7
+2025-05-14,Kopi Aren,18
+2025-05-14,Kopi Pandan,1
+2025-05-14,Matcha Coffee,3
+2025-05-15,Americano,2
+2025-05-15,Capuccino,5
+2025-05-15,Hazelnut Coffee,3
+2025-05-15,Kopi Aren,14
+2025-05-15,Matcha Coffee,1
+2025-05-15,Rum Coffee,1
+2025-05-16,Capuccino,9
+2025-05-16,Espresso,3
+2025-05-16,Hazelnut Coffee,3
+2025-05-16,Kopi Aren,8
+2025-05-16,Kopi Pandan,2
+2025-05-17,Americano,4
+2025-05-17,Butterscotch Coffee,3
+2025-05-17,Capuccino,6
+2025-05-17,Hazelnut Coffee,3
+2025-05-17,Kopi Aren,7
+2025-05-17,Kopi Pandan,1
+2025-05-17,Matcha Coffee,2
+2025-05-18,Americano,3
+2025-05-18,Avocado Coffee,1
+2025-05-18,Butterscotch Coffee,2
+2025-05-18,Capuccino,2
+2025-05-18,Hazelnut Coffee,4
+2025-05-18,Kopi Aren,7
+2025-05-18,Matcha Coffee,1
+2025-05-18,Oat Latte,1
+2025-05-18,Signature Coffee,3
+2025-05-18,Strawberry Coffee,1
+2025-05-19,Butterscotch Coffee,2
+2025-05-19,Capuccino,4
+2025-05-19,Kopi Aren,11
+2025-05-19,Rum Coffee,3
+2025-05-20,Americano,4
+2025-05-20,Avocado Coffee,1
+2025-05-20,Butterscotch Coffee,1
+2025-05-20,Capuccino,3
+2025-05-20,Hazelnut Coffee,2
+2025-05-20,Kopi Aren,10
+2025-05-21,Americano,1
+2025-05-21,Avocado Coffee,1
+2025-05-21,Capuccino,1
+2025-05-21,Hazelnut Coffee,1
+2025-05-21,Kopi Aren,7
+2025-05-22,Americano,3
+2025-05-22,Capuccino,3
+2025-05-22,Hazelnut Coffee,1
+2025-05-22,Kopi Aren,8
+2025-05-22,Oat Latte,1
+2025-05-22,Signature Coffee,2
+2025-05-23,Avocado Coffee,1
+2025-05-23,Butterscotch Coffee,1
+2025-05-23,Capuccino,1
+2025-05-23,Hazelnut Coffee,2
+2025-05-23,Kopi Aren,9
+2025-05-24,Americano,3
+2025-05-24,Avocado Coffee,1
+2025-05-24,Butterscotch Coffee,3
+2025-05-24,Capuccino,1
+2025-05-24,Espresso,1
+2025-05-24,Hazelnut Coffee,1
+2025-05-24,Kopi Aren,12
+2025-05-24,Rum Coffee,2
+2025-05-24,Signature Coffee,1
+2025-05-25,Americano,5
+2025-05-25,Capuccino,5
+2025-05-25,Espresso,1
+2025-05-25,Hazelnut Coffee,4
+2025-05-25,Kopi Aren,16
+2025-05-25,Kopi Pandan,1
+2025-05-25,Strawberry Coffee,1
+2025-05-26,Americano,1
+2025-05-26,Butterscotch Coffee,1
+2025-05-26,Capuccino,4
+2025-05-26,Hazelnut Coffee,3
+2025-05-26,Kopi Aren,4
+2025-05-27,Americano,5
+2025-05-27,Capuccino,5
+2025-05-27,Espresso,1
+2025-05-27,Hazelnut Coffee,4
+2025-05-27,Kopi Aren,25
+2025-05-27,Matcha Coffee,1
+2025-05-27,Rum Coffee,1
+2025-05-28,Americano,6
+2025-05-28,Butterscotch Coffee,2
+2025-05-28,Capuccino,5
+2025-05-28,Kopi Aren,8
+2025-05-28,Rum Coffee,1
+2025-05-28,Signature Coffee,1
+2025-05-29,Americano,2
+2025-05-29,Butterscotch Coffee,2
+2025-05-29,Capuccino,1
+2025-05-29,Kopi Aren,5
+2025-05-29,Matcha Coffee,1
+2025-05-29,Signature Coffee,1
+2025-05-30,Americano,4
+2025-05-30,Butterscotch Coffee,2
+2025-05-30,Capuccino,4
+2025-05-30,Hazelnut Coffee,5
+2025-05-30,Kopi Aren,13
+2025-05-30,Rum Coffee,1
+2025-05-30,Signature Coffee,3
+2025-05-31,Americano,3
+2025-05-31,Butterscotch Coffee,2
+2025-05-31,Capuccino,9
+2025-05-31,Hazelnut Coffee,3
+2025-05-31,Kopi Aren,15
+2025-05-31,Kopi Pandan,1
+2025-05-31,Matcha Coffee,2
+2025-05-31,Rum Coffee,2
+2025-06-01,Americano,3
+2025-06-01,Avocado Coffee,1
+2025-06-01,Capuccino,6
+2025-06-01,Espresso,1
+2025-06-01,Hazelnut Coffee,10
+2025-06-01,Kopi Aren,15
+2025-06-01,Matcha Coffee,2
+2025-06-01,Rum Coffee,2
+2025-06-02,Americano,7
+2025-06-02,Avocado Coffee,1
+2025-06-02,Capuccino,2
+2025-06-02,Hazelnut Coffee,2
+2025-06-02,Kopi Aren,14
+2025-06-02,Kopi Pandan,1
+2025-06-02,Rum Coffee,1
+2025-06-02,Signature Coffee,1
+2025-06-03,Americano,1
+2025-06-03,Butterscotch Coffee,1
+2025-06-03,Capuccino,2
+2025-06-03,Hazelnut Coffee,3
+2025-06-03,Kopi Aren,7
+2025-06-03,Rum Coffee,1
+2025-06-03,Signature Coffee,1
+2025-06-04,Americano,5
+2025-06-04,Butterscotch Coffee,1
+2025-06-04,Capuccino,3
+2025-06-04,Hazelnut Coffee,4
+2025-06-04,Kopi Aren,12
+2025-06-04,Signature Coffee,1
+2025-06-05,Americano,4
+2025-06-05,Avocado Coffee,1
+2025-06-05,Butterscotch Coffee,2
+2025-06-05,Capuccino,12
+2025-06-05,Hazelnut Coffee,6
+2025-06-05,Kopi Aren,11
+2025-06-05,Kopi Pandan,2
+2025-06-05,Rum Coffee,1
+2025-06-05,Signature Coffee,4
+2025-06-06,Americano,5
+2025-06-06,Butterscotch Coffee,2
+2025-06-06,Capuccino,2
+2025-06-06,Espresso,1
+2025-06-06,Hazelnut Coffee,3
+2025-06-06,Kopi Aren,10
+2025-06-06,Kopi Pandan,1
+2025-06-06,Matcha Coffee,1
+2025-06-07,Americano,1
+2025-06-07,Avocado Coffee,1
+2025-06-07,Butterscotch Coffee,1
+2025-06-07,Capuccino,5
+2025-06-07,Espresso,1
+2025-06-07,Hazelnut Coffee,3
+2025-06-07,Kopi Aren,7
+2025-06-07,Matcha Coffee,1
+2025-06-07,Rum Coffee,3
+2025-06-08,Americano,5
+2025-06-08,Avocado Coffee,1
+2025-06-08,Butterscotch Coffee,2
+2025-06-08,Capuccino,4
+2025-06-08,Hazelnut Coffee,4
+2025-06-08,Kopi Aren,15
+2025-06-08,Matcha Coffee,1
+2025-06-08,Rum Coffee,3
+2025-06-09,Americano,2
+2025-06-09,Butterscotch Coffee,3
+2025-06-09,Capuccino,2
+2025-06-09,Hazelnut Coffee,3
+2025-06-09,Kopi Aren,13
+2025-06-09,Matcha Coffee,1
+2025-06-09,Rum Coffee,1
+2025-06-10,Americano,2
+2025-06-10,Butterscotch Coffee,2
+2025-06-10,Capuccino,3
+2025-06-10,Hazelnut Coffee,2
+2025-06-10,Kopi Aren,12
+2025-06-10,Kopi Pandan,1
+2025-06-10,Rum Coffee,1
+2025-06-10,Strawberry Coffee,1
+2025-06-11,Americano,1
+2025-06-11,Butterscotch Coffee,1
+2025-06-11,Hazelnut Coffee,1
+2025-06-11,Kopi Aren,6
+2025-06-11,Kopi Pandan,2
+2025-06-11,Rum Coffee,4
+2025-06-12,Americano,3
+2025-06-12,Butterscotch Coffee,5
+2025-06-12,Capuccino,4
+2025-06-12,Hazelnut Coffee,2
+2025-06-12,Kopi Aren,11
+2025-06-12,Matcha Coffee,1
+2025-06-12,Strawberry Coffee,2
+2025-06-13,Americano,7
+2025-06-13,Butterscotch Coffee,2
+2025-06-13,Capuccino,3
+2025-06-13,Kopi Aren,9
+2025-06-13,Kopi Pandan,1
+2025-06-13,Oat Latte,2
+2025-06-13,Rum Coffee,1
+2025-06-13,Signature Coffee,1
+2025-06-14,Americano,4
+2025-06-14,Butterscotch Coffee,2
+2025-06-14,Capuccino,7
+2025-06-14,Hazelnut Coffee,3
+2025-06-14,Kopi Aren,14
+2025-06-14,Matcha Coffee,1
+2025-06-14,Signature Coffee,1
+2025-06-15,Americano,1
+2025-06-15,Avocado Coffee,1
+2025-06-15,Butterscotch Coffee,1
+2025-06-15,Capuccino,1
+2025-06-15,Kopi Aren,4
+2025-06-15,Matcha Coffee,1
+2025-06-15,Signature Coffee,1
+2025-06-16,Americano,3
+2025-06-16,Butterscotch Coffee,1
+2025-06-16,Capuccino,2
+2025-06-16,Espresso,1
+2025-06-16,Hazelnut Coffee,4
+2025-06-16,Kopi Aren,8
+2025-06-16,Matcha Coffee,1
+2025-06-16,Oat Latte,1
+2025-06-17,Americano,2
+2025-06-17,Butterscotch Coffee,1
+2025-06-17,Capuccino,3
+2025-06-17,Kopi Aren,6
+2025-06-17,Kopi Pandan,2
+2025-06-17,Signature Coffee,1
+2025-06-18,Americano,3
+2025-06-18,Butterscotch Coffee,2
+2025-06-18,Capuccino,6
+2025-06-18,Espresso,3
+2025-06-18,Hazelnut Coffee,3
+2025-06-18,Kopi Aren,4
+2025-06-18,Oat Latte,2
+2025-06-18,Rum Coffee,1
+2025-06-19,Americano,4
+2025-06-19,Butterscotch Coffee,1
+2025-06-19,Capuccino,1
+2025-06-19,Hazelnut Coffee,1
+2025-06-19,Kopi Aren,6
+2025-06-19,Oat Latte,1
+2025-06-19,Signature Coffee,1
+2025-06-20,Americano,2
+2025-06-20,Capuccino,3
+2025-06-20,Hazelnut Coffee,1
+2025-06-20,Kopi Aren,7
+2025-06-20,Signature Coffee,2
+2025-06-21,Americano,2
+2025-06-21,Capuccino,4
+2025-06-21,Hazelnut Coffee,3
+2025-06-21,Kopi Aren,7
+2025-06-21,Oat Latte,1
+2025-06-21,Signature Coffee,1
+2025-06-22,Americano,2
+2025-06-22,Butterscotch Coffee,1
+2025-06-22,Capuccino,1
+2025-06-22,Kopi Aren,5
+2025-06-22,Matcha Coffee,3
+2025-06-22,Rum Coffee,2
+2025-06-22,Signature Coffee,3
+2025-06-23,Americano,5
+2025-06-23,Capuccino,3
+2025-06-23,Espresso,1
+2025-06-23,Hazelnut Coffee,2
+2025-06-23,Kopi Aren,15
+2025-06-23,Matcha Coffee,1
+2025-06-23,Signature Coffee,1
+2025-06-24,Americano,1
+2025-06-24,Butterscotch Coffee,2
+2025-06-24,Hazelnut Coffee,3
+2025-06-24,Kopi Aren,8
+2025-06-24,Kopi Pandan,1
+2025-06-24,Strawberry Coffee,1
+2025-06-25,Americano,6
+2025-06-25,Hazelnut Coffee,2
+2025-06-25,Kopi Aren,3
+2025-06-25,Kopi Pandan,1
+2025-06-25,Rum Coffee,3
+2025-06-25,Signature Coffee,1
+2025-06-26,Americano,3
+2025-06-26,Avocado Coffee,3
+2025-06-26,Butterscotch Coffee,1
+2025-06-26,Capuccino,1
+2025-06-26,Hazelnut Coffee,1
+2025-06-26,Kopi Aren,7
+2025-06-26,Kopi Pandan,1
+2025-06-26,Signature Coffee,1
+2025-06-26,Strawberry Coffee,2
+2025-06-27,Americano,4
+2025-06-27,Capuccino,5
+2025-06-27,Kopi Aren,15
+2025-06-27,Kopi Pandan,1
+2025-06-27,Rum Coffee,4
+2025-06-27,Signature Coffee,1
+2025-06-28,Americano,3
+2025-06-28,Butterscotch Coffee,1
+2025-06-28,Capuccino,2
+2025-06-28,Espresso,1
+2025-06-28,Hazelnut Coffee,1
+2025-06-28,Kopi Aren,9
+2025-06-28,Matcha Coffee,1
+2025-06-28,Strawberry Coffee,1
+2025-06-29,Americano,3
+2025-06-29,Avocado Coffee,1
+2025-06-29,Butterscotch Coffee,1
+2025-06-29,Capuccino,4
+2025-06-29,Espresso,1
+2025-06-29,Hazelnut Coffee,2
+2025-06-29,Kopi Aren,9
+2025-06-30,Americano,5
+2025-06-30,Butterscotch Coffee,2
+2025-06-30,Capuccino,6
+2025-06-30,Hazelnut Coffee,2
+2025-06-30,Kopi Aren,16
+2025-06-30,Rum Coffee,1
+2025-06-30,Signature Coffee,1
+2025-07-01,Americano,3
+2025-07-01,Capuccino,2
+2025-07-01,Espresso,1
+2025-07-01,Hazelnut Coffee,4
+2025-07-01,Kopi Aren,8
+2025-07-02,Americano,5
+2025-07-02,Hazelnut Coffee,4
+2025-07-02,Kopi Aren,12
+2025-07-02,Kopi Pandan,1
+2025-07-03,Butterscotch Coffee,1
+2025-07-03,Capuccino,8
+2025-07-03,Espresso,1
+2025-07-03,Hazelnut Coffee,1
+2025-07-03,Kopi Aren,10
+2025-07-03,Kopi Pandan,1
+2025-07-04,Americano,3
+2025-07-04,Avocado Coffee,1
+2025-07-04,Butterscotch Coffee,1
+2025-07-04,Capuccino,2
+2025-07-04,Hazelnut Coffee,3
+2025-07-04,Kopi Aren,6
+2025-07-04,Kopi Pandan,1
+2025-07-04,Matcha Coffee,1
+2025-07-04,Rum Coffee,1
+2025-07-04,Signature Coffee,1
+2025-07-04,Strawberry Coffee,1
+2025-07-05,Americano,2
+2025-07-05,Avocado Coffee,1
+2025-07-05,Butterscotch Coffee,2
+2025-07-05,Capuccino,6
+2025-07-05,Espresso,1
+2025-07-05,Hazelnut Coffee,1
+2025-07-05,Kopi Aren,4
+2025-07-05,Kopi Pandan,1
+2025-07-05,Signature Coffee,1
+2025-07-06,Americano,8
+2025-07-06,Avocado Coffee,2
+2025-07-06,Capuccino,1
+2025-07-06,Hazelnut Coffee,1
+2025-07-06,Kopi Aren,4
+2025-07-06,Rum Coffee,2
+2025-07-07,Americano,4
+2025-07-07,Butterscotch Coffee,5
+2025-07-07,Capuccino,6
+2025-07-07,Hazelnut Coffee,2
+2025-07-07,Kopi Aren,11
+2025-07-08,Americano,5
+2025-07-08,Butterscotch Coffee,2
+2025-07-08,Capuccino,1
+2025-07-08,Hazelnut Coffee,2
+2025-07-08,Kopi Aren,7
+2025-07-08,Matcha Coffee,1
+2025-07-08,Rum Coffee,1
+2025-07-09,Americano,1
+2025-07-09,Butterscotch Coffee,3
+2025-07-09,Capuccino,8
+2025-07-09,Hazelnut Coffee,2
+2025-07-09,Kopi Aren,11
+2025-07-10,Americano,2
+2025-07-10,Avocado Coffee,1
+2025-07-10,Butterscotch Coffee,1
+2025-07-10,Capuccino,4
+2025-07-10,Hazelnut Coffee,2
+2025-07-10,Kopi Aren,13
+2025-07-10,Signature Coffee,2
+2025-07-11,Americano,8
+2025-07-11,Avocado Coffee,1
+2025-07-11,Butterscotch Coffee,3
+2025-07-11,Capuccino,3
+2025-07-11,Hazelnut Coffee,2
+2025-07-11,Kopi Aren,16
+2025-07-11,Kopi Pandan,1
+2025-07-11,Matcha Coffee,2
+2025-07-11,Signature Coffee,1
+2025-07-12,Americano,5
+2025-07-12,Avocado Coffee,1
+2025-07-12,Butterscotch Coffee,1
+2025-07-12,Capuccino,3
+2025-07-12,Hazelnut Coffee,4
+2025-07-12,Kopi Aren,16
+2025-07-12,Kopi Pandan,3
+2025-07-12,Rum Coffee,2
+2025-07-12,Signature Coffee,2
+2025-07-13,Americano,5
+2025-07-13,Butterscotch Coffee,3
+2025-07-13,Capuccino,6
+2025-07-13,Hazelnut Coffee,2
+2025-07-13,Kopi Aren,9
+2025-07-13,Rum Coffee,1
+2025-07-13,Signature Coffee,2
+2025-07-14,Americano,6
+2025-07-14,Capuccino,2
+2025-07-14,Espresso,1
+2025-07-14,Hazelnut Coffee,1
+2025-07-14,Kopi Aren,4
+2025-07-15,Americano,3
+2025-07-15,Capuccino,2
+2025-07-15,Espresso,1
+2025-07-15,Kopi Aren,7
+2025-07-15,Matcha Coffee,2
+2025-07-16,Americano,8
+2025-07-16,Avocado Coffee,1
+2025-07-16,Butterscotch Coffee,1
+2025-07-16,Capuccino,3
+2025-07-16,Hazelnut Coffee,1
+2025-07-16,Kopi Aren,12
+2025-07-17,Americano,1
+2025-07-17,Avocado Coffee,1
+2025-07-17,Butterscotch Coffee,1
+2025-07-17,Capuccino,3
+2025-07-17,Espresso,1
+2025-07-17,Hazelnut Coffee,2
+2025-07-17,Kopi Aren,7
+2025-07-17,Kopi Pandan,1
+2025-07-17,Signature Coffee,2
+2025-07-18,Americano,2
+2025-07-18,Butterscotch Coffee,2
+2025-07-18,Capuccino,3
+2025-07-18,Hazelnut Coffee,2
+2025-07-18,Kopi Aren,11
+2025-07-18,Matcha Coffee,1
+2025-07-19,Americano,7
+2025-07-19,Butterscotch Coffee,1
+2025-07-19,Capuccino,6
+2025-07-19,Hazelnut Coffee,4
+2025-07-19,Kopi Aren,8
+2025-07-19,Kopi Pandan,1
+2025-07-19,Matcha Coffee,2
+2025-07-19,Rum Coffee,1
+2025-07-19,Signature Coffee,3
+2025-07-20,Americano,2
+2025-07-20,Butterscotch Coffee,2
+2025-07-20,Capuccino,7
+2025-07-20,Espresso,1
+2025-07-20,Hazelnut Coffee,2
+2025-07-20,Kopi Aren,5
+2025-07-21,Americano,10
+2025-07-21,Capuccino,4
+2025-07-21,Hazelnut Coffee,2
+2025-07-21,Kopi Aren,13
+2025-07-21,Kopi Pandan,1
+2025-07-21,Matcha Coffee,1
+2025-07-21,Signature Coffee,1
+2025-07-22,Americano,3
+2025-07-22,Butterscotch Coffee,1
+2025-07-22,Capuccino,6
+2025-07-22,Espresso,2
+2025-07-22,Kopi Aren,9
+2025-07-23,Americano,2
+2025-07-23,Capuccino,11
+2025-07-23,Hazelnut Coffee,1
+2025-07-23,Kopi Aren,5
+2025-07-23,Rum Coffee,2
+2025-07-23,Signature Coffee,2
+2025-07-24,Americano,4
+2025-07-24,Butterscotch Coffee,2
+2025-07-24,Capuccino,2
+2025-07-24,Espresso,1
+2025-07-24,Hazelnut Coffee,1
+2025-07-24,Kopi Aren,8
+2025-07-24,Signature Coffee,1
+2025-07-25,Americano,2
+2025-07-25,Avocado Coffee,6
+2025-07-25,Capuccino,8
+2025-07-25,Hazelnut Coffee,2
+2025-07-25,Kopi Aren,10
+2025-07-25,Kopi Pandan,1
+2025-07-26,Americano,3
+2025-07-26,Avocado Coffee,1
+2025-07-26,Butterscotch Coffee,1
+2025-07-26,Capuccino,6
+2025-07-26,Hazelnut Coffee,3
+2025-07-26,Kopi Aren,10
+2025-07-26,Matcha Coffee,6
+2025-07-26,Rum Coffee,1
+2025-07-26,Strawberry Coffee,1
+2025-07-27,Americano,3
+2025-07-27,Avocado Coffee,1
+2025-07-27,Butterscotch Coffee,2
+2025-07-27,Capuccino,3
+2025-07-27,Espresso,1
+2025-07-27,Hazelnut Coffee,1
+2025-07-27,Kopi Aren,10
+2025-07-27,Kopi Pandan,2
+2025-07-27,Rum Coffee,1
+2025-07-28,Americano,5
+2025-07-28,Avocado Coffee,1
+2025-07-28,Butterscotch Coffee,3
+2025-07-28,Capuccino,4
+2025-07-28,Espresso,1
+2025-07-28,Kopi Aren,8
+2025-07-28,Rum Coffee,2
+2025-07-29,Capuccino,7
+2025-07-29,Hazelnut Coffee,2
+2025-07-29,Kopi Aren,8
+2025-07-29,Kopi Pandan,2
+2025-07-29,Rum Coffee,1
+2025-07-30,Americano,2
+2025-07-30,Capuccino,3
+2025-07-30,Hazelnut Coffee,2
+2025-07-30,Kopi Aren,7
+2025-07-31,Americano,1
+2025-07-31,Butterscotch Coffee,1
+2025-07-31,Capuccino,8
+2025-07-31,Hazelnut Coffee,1
+2025-07-31,Kopi Aren,8
+2025-07-31,Matcha Coffee,1
+2025-08-01,Americano,5
+2025-08-01,Butterscotch Coffee,1
+2025-08-01,Capuccino,1
+2025-08-01,Espresso,1
+2025-08-01,Hazelnut Coffee,2
+2025-08-01,Kopi Aren,12
+2025-08-02,Americano,3
+2025-08-02,Butterscotch Coffee,1
+2025-08-02,Capuccino,5
+2025-08-02,Hazelnut Coffee,1
+2025-08-02,Kopi Aren,14
+2025-08-02,Rum Coffee,1
+2025-08-03,Americano,4
+2025-08-03,Avocado Coffee,1
+2025-08-03,Butterscotch Coffee,3
+2025-08-03,Capuccino,7
+2025-08-03,Espresso,1
+2025-08-03,Hazelnut Coffee,2
+2025-08-03,Kopi Aren,5
+2025-08-03,Kopi Pandan,2
+2025-08-03,Rum Coffee,1
+2025-08-04,Americano,3
+2025-08-04,Avocado Coffee,1
+2025-08-04,Capuccino,4
+2025-08-04,Kopi Aren,6
+2025-08-04,Signature Coffee,2
+2025-08-05,Americano,3
+2025-08-05,Butterscotch Coffee,1
+2025-08-05,Capuccino,3
+2025-08-05,Hazelnut Coffee,2
+2025-08-05,Kopi Aren,6
+2025-08-05,Matcha Coffee,1
+2025-08-05,Signature Coffee,2
+2025-08-06,Americano,3
+2025-08-06,Butterscotch Coffee,2
+2025-08-06,Capuccino,2
+2025-08-06,Hazelnut Coffee,1
+2025-08-06,Kopi Aren,15
+2025-08-06,Kopi Pandan,1
+2025-08-06,Rum Coffee,1
+2025-08-06,Signature Coffee,2
+2025-08-07,Americano,2
+2025-08-07,Avocado Coffee,1
+2025-08-07,Butterscotch Coffee,1
+2025-08-07,Capuccino,1
+2025-08-07,Hazelnut Coffee,2
+2025-08-07,Kopi Aren,13
+2025-08-07,Matcha Coffee,1
+2025-08-08,Americano,1
+2025-08-08,Butterscotch Coffee,2
+2025-08-08,Capuccino,5
+2025-08-08,Hazelnut Coffee,3
+2025-08-08,Kopi Aren,11
+2025-08-08,Matcha Coffee,1
+2025-08-08,Signature Coffee,1
+2025-08-09,Americano,11
+2025-08-09,Butterscotch Coffee,1
+2025-08-09,Capuccino,10
+2025-08-09,Kopi Aren,16
+2025-08-09,Signature Coffee,3
+2025-08-10,Americano,4
+2025-08-10,Capuccino,7
+2025-08-10,Espresso,1
+2025-08-10,Hazelnut Coffee,3
+2025-08-10,Kopi Aren,3
+2025-08-10,Matcha Coffee,1
+2025-08-10,Signature Coffee,1
+2025-08-11,Avocado Coffee,1
+2025-08-11,Capuccino,1
+2025-08-11,Hazelnut Coffee,3
+2025-08-11,Kopi Aren,6
+2025-08-11,Signature Coffee,1
+2025-08-12,Americano,2
+2025-08-12,Capuccino,6
+2025-08-12,Hazelnut Coffee,3
+2025-08-12,Kopi Aren,5
+2025-08-12,Rum Coffee,1
+2025-08-12,Signature Coffee,6
+2025-08-13,Americano,3
+2025-08-13,Butterscotch Coffee,2
+2025-08-13,Capuccino,2
+2025-08-13,Hazelnut Coffee,1
+2025-08-13,Kopi Aren,7
+2025-08-13,Signature Coffee,2
+2025-08-14,Americano,4
+2025-08-14,Capuccino,2
+2025-08-14,Espresso,4
+2025-08-14,Kopi Aren,11
+2025-08-14,Signature Coffee,1
+2025-08-15,Americano,5
+2025-08-15,Butterscotch Coffee,1
+2025-08-15,Capuccino,6
+2025-08-15,Espresso,1
+2025-08-15,Kopi Aren,20
+2025-08-15,Kopi Pandan,1
+2025-08-15,Matcha Coffee,1
+2025-08-15,Signature Coffee,1
+2025-08-16,Americano,3
+2025-08-16,Avocado Coffee,1
+2025-08-16,Capuccino,3
+2025-08-16,Espresso,1
+2025-08-16,Hazelnut Coffee,2
+2025-08-16,Kopi Aren,6
+2025-08-16,Kopi Pandan,1
+2025-08-16,Rum Coffee,1
+2025-08-16,Strawberry Coffee,1
+2025-08-17,Americano,5
+2025-08-17,Avocado Coffee,1
+2025-08-17,Butterscotch Coffee,1
+2025-08-17,Capuccino,7
+2025-08-17,Espresso,1
+2025-08-17,Hazelnut Coffee,2
+2025-08-17,Kopi Aren,23
+2025-08-17,Oat Latte,1
+2025-08-17,Signature Coffee,1
+2025-08-17,Strawberry Coffee,1
+2025-08-18,Americano,4
+2025-08-18,Butterscotch Coffee,2
+2025-08-18,Capuccino,4
+2025-08-18,Kopi Aren,14
+2025-08-18,Matcha Coffee,1
+2025-08-18,Rum Coffee,1
+2025-08-19,Americano,3
+2025-08-19,Capuccino,4
+2025-08-19,Espresso,1
+2025-08-19,Hazelnut Coffee,2
+2025-08-19,Kopi Aren,10
+2025-08-19,Kopi Pandan,2
+2025-08-19,Matcha Coffee,1
+2025-08-19,Signature Coffee,2
+2025-08-20,Americano,3
+2025-08-20,Capuccino,2
+2025-08-20,Kopi Aren,8
+2025-08-20,Kopi Pandan,1
+2025-08-21,Americano,3
+2025-08-21,Avocado Coffee,1
+2025-08-21,Butterscotch Coffee,3
+2025-08-21,Capuccino,1
+2025-08-21,Espresso,2
+2025-08-21,Kopi Aren,13
+2025-08-21,Matcha Coffee,1
+2025-08-21,Rum Coffee,2
+2025-08-21,Signature Coffee,1
+2025-08-22,Americano,3
+2025-08-22,Avocado Coffee,1
+2025-08-22,Capuccino,6
+2025-08-22,Espresso,2
+2025-08-22,Kopi Aren,13
+2025-08-22,Signature Coffee,1
+2025-08-23,Americano,3
+2025-08-23,Avocado Coffee,1
+2025-08-23,Butterscotch Coffee,1
+2025-08-23,Capuccino,1
+2025-08-23,Espresso,1
+2025-08-23,Hazelnut Coffee,4
+2025-08-23,Kopi Aren,25
+2025-08-23,Kopi Pandan,5
+2025-08-23,Matcha Coffee,1
+2025-08-23,Rum Coffee,1
+2025-08-23,Signature Coffee,1
+2025-08-24,Americano,3
+2025-08-24,Capuccino,7
+2025-08-24,Hazelnut Coffee,1
+2025-08-24,Kopi Aren,16
+2025-08-24,Signature Coffee,2
+2025-08-25,Americano,1
+2025-08-25,Butterscotch Coffee,1
+2025-08-25,Capuccino,1
+2025-08-25,Hazelnut Coffee,2
+2025-08-25,Kopi Aren,11
+2025-08-25,Kopi Pandan,1
+2025-08-26,Americano,4
+2025-08-26,Capuccino,5
+2025-08-26,Hazelnut Coffee,1
+2025-08-26,Kopi Aren,12
+2025-08-26,Signature Coffee,1
+2025-08-27,Americano,4
+2025-08-27,Avocado Coffee,1
+2025-08-27,Butterscotch Coffee,5
+2025-08-27,Capuccino,3
+2025-08-27,Hazelnut Coffee,4
+2025-08-27,Kopi Aren,11
+2025-08-27,Signature Coffee,2
+2025-08-28,Americano,2
+2025-08-28,Capuccino,1
+2025-08-28,Espresso,1
+2025-08-28,Hazelnut Coffee,1
+2025-08-28,Kopi Aren,11
+2025-08-28,Kopi Pandan,1
+2025-08-28,Rum Coffee,1
+2025-08-28,Signature Coffee,2
+2025-08-29,Americano,4
+2025-08-29,Capuccino,1
+2025-08-29,Espresso,1
+2025-08-29,Hazelnut Coffee,1
+2025-08-29,Kopi Aren,3
+2025-08-29,Matcha Coffee,3
+2025-08-29,Signature Coffee,4
+2025-08-30,Americano,3
+2025-08-30,Avocado Coffee,1
+2025-08-30,Butterscotch Coffee,1
+2025-08-30,Capuccino,6
+2025-08-30,Espresso,1
+2025-08-30,Hazelnut Coffee,1
+2025-08-30,Kopi Aren,6
+2025-08-30,Matcha Coffee,1
+2025-08-30,Rum Coffee,2
+2025-08-30,Signature Coffee,1
+2025-08-31,Americano,5
+2025-08-31,Avocado Coffee,1
+2025-08-31,Butterscotch Coffee,1
+2025-08-31,Capuccino,13
+2025-08-31,Kopi Aren,10
+2025-08-31,Kopi Pandan,1
+2025-08-31,Rum Coffee,1
+2025-08-31,Signature Coffee,1
+2025-09-01,Americano,2
+2025-09-01,Butterscotch Coffee,3
+2025-09-01,Capuccino,1
+2025-09-01,Kopi Aren,17
+2025-09-01,Rum Coffee,1
+2025-09-01,Signature Coffee,1
+2025-09-02,Americano,4
+2025-09-02,Avocado Coffee,1
+2025-09-02,Butterscotch Coffee,3
+2025-09-02,Capuccino,4
+2025-09-02,Espresso,2
+2025-09-02,Kopi Aren,24
+2025-09-02,Matcha Coffee,1
+2025-09-03,Americano,3
+2025-09-03,Avocado Coffee,1
+2025-09-03,Butterscotch Coffee,4
+2025-09-03,Capuccino,2
+2025-09-03,Espresso,1
+2025-09-03,Kopi Aren,7
+2025-09-03,Signature Coffee,1
+2025-09-04,Americano,3
+2025-09-04,Avocado Coffee,3
+2025-09-04,Butterscotch Coffee,2
+2025-09-04,Capuccino,1
+2025-09-04,Hazelnut Coffee,3
+2025-09-04,Kopi Aren,9
+2025-09-04,Rum Coffee,1
+2025-09-04,Signature Coffee,1
+2025-09-05,Americano,6
+2025-09-05,Butterscotch Coffee,4
+2025-09-05,Capuccino,8
+2025-09-05,Hazelnut Coffee,3
+2025-09-05,Kopi Aren,5
+2025-09-05,Kopi Pandan,2
+2025-09-05,Matcha Coffee,1
+2025-09-05,Signature Coffee,1
+2025-09-06,Americano,9
+2025-09-06,Butterscotch Coffee,1
+2025-09-06,Capuccino,6
+2025-09-06,Espresso,1
+2025-09-06,Hazelnut Coffee,1
+2025-09-06,Kopi Aren,20
+2025-09-06,Kopi Pandan,2
+2025-09-06,Matcha Coffee,2
+2025-09-07,Americano,7
+2025-09-07,Butterscotch Coffee,2
+2025-09-07,Capuccino,3
+2025-09-07,Espresso,2
+2025-09-07,Hazelnut Coffee,1
+2025-09-07,Kopi Aren,8
+2025-09-07,Kopi Pandan,2
+2025-09-07,Matcha Coffee,1
+2025-09-08,Americano,8
+2025-09-08,Butterscotch Coffee,3
+2025-09-08,Capuccino,8
+2025-09-08,Espresso,3
+2025-09-08,Hazelnut Coffee,2
+2025-09-08,Kopi Aren,13
+2025-09-09,Americano,3
+2025-09-09,Butterscotch Coffee,1
+2025-09-09,Capuccino,4
+2025-09-09,Hazelnut Coffee,2
+2025-09-09,Kopi Aren,11
+2025-09-10,Americano,2
+2025-09-10,Butterscotch Coffee,2
+2025-09-10,Capuccino,7
+2025-09-10,Espresso,1
+2025-09-10,Hazelnut Coffee,1
+2025-09-10,Kopi Aren,7
+2025-09-10,Matcha Coffee,3
+2025-09-11,Americano,2
+2025-09-11,Butterscotch Coffee,1
+2025-09-11,Capuccino,3
+2025-09-11,Espresso,2
+2025-09-11,Hazelnut Coffee,2
+2025-09-11,Kopi Aren,11
+2025-09-11,Kopi Pandan,1
+2025-09-11,Signature Coffee,1
+2025-09-12,Americano,3
+2025-09-12,Avocado Coffee,2
+2025-09-12,Butterscotch Coffee,2
+2025-09-12,Capuccino,1
+2025-09-12,Espresso,1
+2025-09-12,Hazelnut Coffee,1
+2025-09-12,Kopi Aren,11
+2025-09-12,Kopi Pandan,1
+2025-09-12,Matcha Coffee,3
+2025-09-12,Rum Coffee,1
+2025-09-12,Signature Coffee,1
+2025-09-12,Strawberry Coffee,1
+2025-09-13,Americano,5
+2025-09-13,Avocado Coffee,1
+2025-09-13,Butterscotch Coffee,1
+2025-09-13,Capuccino,4
+2025-09-13,Kopi Aren,10
+2025-09-13,Kopi Pandan,1
+2025-09-13,Matcha Coffee,3
+2025-09-13,Rum Coffee,2
+2025-09-13,Signature Coffee,3
+2025-09-14,Americano,5
+2025-09-14,Avocado Coffee,4
+2025-09-14,Butterscotch Coffee,2
+2025-09-14,Capuccino,5
+2025-09-14,Espresso,1
+2025-09-14,Hazelnut Coffee,4
+2025-09-14,Kopi Aren,17
+2025-09-14,Kopi Pandan,1
+2025-09-14,Rum Coffee,1
+2025-09-15,Americano,3
+2025-09-15,Butterscotch Coffee,1
+2025-09-15,Capuccino,3
+2025-09-15,Espresso,2
+2025-09-15,Kopi Aren,8
+2025-09-15,Matcha Coffee,3
+2025-09-16,Americano,3
+2025-09-16,Avocado Coffee,2
+2025-09-16,Butterscotch Coffee,2
+2025-09-16,Capuccino,2
+2025-09-16,Espresso,1
+2025-09-16,Kopi Aren,7
+2025-09-17,Americano,3
+2025-09-17,Capuccino,2
+2025-09-17,Kopi Aren,15
+2025-09-17,Matcha Coffee,1
+2025-09-17,Signature Coffee,1
+2025-09-18,Americano,4
+2025-09-18,Butterscotch Coffee,2
+2025-09-18,Capuccino,3
+2025-09-18,Kopi Aren,12
+2025-09-18,Signature Coffee,3
+2025-09-19,Americano,9
+2025-09-19,Butterscotch Coffee,2
+2025-09-19,Capuccino,5
+2025-09-19,Espresso,2
+2025-09-19,Hazelnut Coffee,3
+2025-09-19,Kopi Aren,8
+2025-09-19,Kopi Pandan,2
+2025-09-19,Signature Coffee,1
+2025-09-20,Americano,4
+2025-09-20,Butterscotch Coffee,3
+2025-09-20,Capuccino,5
+2025-09-20,Espresso,1
+2025-09-20,Hazelnut Coffee,4
+2025-09-20,Kopi Aren,15
+2025-09-20,Rum Coffee,1
+2025-09-20,Signature Coffee,2
+2025-09-20,Strawberry Coffee,1
+2025-09-21,Americano,6
+2025-09-21,Avocado Coffee,1
+2025-09-21,Butterscotch Coffee,1
+2025-09-21,Capuccino,5
+2025-09-21,Espresso,1
+2025-09-21,Hazelnut Coffee,2
+2025-09-21,Kopi Aren,16
+2025-09-21,Kopi Pandan,1
+2025-09-21,Matcha Coffee,2
+2025-09-21,Rum Coffee,1
+2025-09-21,Signature Coffee,1
+2025-09-22,Americano,9
+2025-09-22,Avocado Coffee,1
+2025-09-22,Butterscotch Coffee,6
+2025-09-22,Capuccino,2
+2025-09-22,Espresso,2
+2025-09-22,Hazelnut Coffee,1
+2025-09-22,Kopi Aren,13
+2025-09-22,Kopi Pandan,1
+2025-09-22,Matcha Coffee,2
+2025-09-22,Signature Coffee,2
+2025-09-23,Americano,1
+2025-09-23,Capuccino,4
+2025-09-23,Hazelnut Coffee,2
+2025-09-23,Kopi Aren,9
+2025-09-23,Rum Coffee,1
+2025-09-23,Signature Coffee,1
+2025-09-24,Americano,3
+2025-09-24,Butterscotch Coffee,2
+2025-09-24,Capuccino,1
+2025-09-24,Espresso,1
+2025-09-24,Hazelnut Coffee,3
+2025-09-24,Kopi Aren,12
+2025-09-25,Americano,1
+2025-09-25,Butterscotch Coffee,1
+2025-09-25,Espresso,1
+2025-09-25,Kopi Aren,7
+2025-09-25,Kopi Pandan,1
+2025-09-25,Matcha Coffee,1
+2025-09-25,Rum Coffee,1
+2025-09-25,Signature Coffee,2
+2025-09-26,Americano,6
+2025-09-26,Butterscotch Coffee,3
+2025-09-26,Capuccino,4
+2025-09-26,Hazelnut Coffee,3
+2025-09-26,Kopi Aren,10
+2025-09-26,Kopi Pandan,2
+2025-09-26,Matcha Coffee,5
+2025-09-26,Signature Coffee,1
+2025-09-26,Strawberry Coffee,1
+2025-09-27,Americano,7
+2025-09-27,Butterscotch Coffee,1
+2025-09-27,Capuccino,3
+2025-09-27,Kopi Aren,15
+2025-09-27,Matcha Coffee,1
+2025-09-28,Americano,4
+2025-09-28,Butterscotch Coffee,1
+2025-09-28,Capuccino,5
+2025-09-28,Espresso,1
+2025-09-28,Hazelnut Coffee,5
+2025-09-28,Kopi Aren,10
+2025-09-28,Kopi Pandan,1
+2025-09-28,Matcha Coffee,1
+2025-09-28,Signature Coffee,1
+2025-09-29,Americano,2
+2025-09-29,Capuccino,1
+2025-09-29,Kopi Aren,11
+2025-09-29,Rum Coffee,1
+2025-09-29,Signature Coffee,2
+2025-09-30,Americano,1
+2025-09-30,Capuccino,2
+2025-09-30,Kopi Aren,5
+2025-09-30,Kopi Pandan,1
+2025-10-01,Americano,3
+2025-10-01,Capuccino,2
+2025-10-01,Espresso,1
+2025-10-01,Hazelnut Coffee,2
+2025-10-01,Kopi Aren,13
+2025-10-01,Matcha Coffee,1
+2025-10-01,Signature Coffee,4
+2025-10-02,Americano,3
+2025-10-02,Capuccino,8
+2025-10-02,Espresso,2
+2025-10-02,Hazelnut Coffee,3
+2025-10-02,Kopi Aren,8
+2025-10-02,Signature Coffee,2
+2025-10-03,Americano,1
+2025-10-03,Butterscotch Coffee,2
+2025-10-03,Espresso,2
+2025-10-03,Kopi Aren,11
+2025-10-03,Rum Coffee,1
+2025-10-03,Signature Coffee,1
+2025-10-04,Americano,8
+2025-10-04,Avocado Coffee,1
+2025-10-04,Butterscotch Coffee,4
+2025-10-04,Capuccino,7
+2025-10-04,Espresso,2
+2025-10-04,Hazelnut Coffee,4
+2025-10-04,Kopi Aren,12
+2025-10-04,Rum Coffee,1
+2025-10-05,Americano,6
+2025-10-05,Butterscotch Coffee,1
+2025-10-05,Capuccino,5
+2025-10-05,Hazelnut Coffee,4
+2025-10-05,Kopi Aren,5
+2025-10-05,Kopi Pandan,1
+2025-10-05,Signature Coffee,1
+2025-10-06,Americano,2
+2025-10-06,Avocado Coffee,1
+2025-10-06,Butterscotch Coffee,1
+2025-10-06,Capuccino,1
+2025-10-06,Hazelnut Coffee,1
+2025-10-06,Kopi Aren,8
+2025-10-06,Kopi Pandan,1
+2025-10-06,Signature Coffee,2
+2025-10-07,Americano,1
+2025-10-07,Avocado Coffee,1
+2025-10-07,Butterscotch Coffee,1
+2025-10-07,Capuccino,1
+2025-10-07,Hazelnut Coffee,2
+2025-10-07,Kopi Aren,10
+2025-10-07,Signature Coffee,1
+2025-10-08,Butterscotch Coffee,2
+2025-10-08,Capuccino,2
+2025-10-08,Hazelnut Coffee,6
+2025-10-08,Kopi Aren,10
+2025-10-08,Signature Coffee,1
+2025-10-09,Americano,1
+2025-10-09,Butterscotch Coffee,1
+2025-10-09,Hazelnut Coffee,2
+2025-10-09,Kopi Aren,10
+2025-10-09,Kopi Pandan,1
+2025-10-09,Matcha Coffee,1
+2025-10-09,Rum Coffee,1
+2025-10-10,Americano,6
+2025-10-10,Avocado Coffee,2
+2025-10-10,Butterscotch Coffee,1
+2025-10-10,Capuccino,5
+2025-10-10,Espresso,2
+2025-10-10,Hazelnut Coffee,4
+2025-10-10,Kopi Aren,10
+2025-10-10,Signature Coffee,1
+2025-10-11,Avocado Coffee,1
+2025-10-11,Butterscotch Coffee,1
+2025-10-11,Capuccino,3
+2025-10-11,Hazelnut Coffee,4
+2025-10-11,Kopi Aren,9
+2025-10-11,Matcha Coffee,1
+2025-10-11,Strawberry Coffee,1
+2025-10-12,Americano,6
+2025-10-12,Butterscotch Coffee,1
+2025-10-12,Capuccino,5
+2025-10-12,Espresso,1
+2025-10-12,Hazelnut Coffee,1
+2025-10-12,Kopi Aren,14
+2025-10-12,Kopi Pandan,2
+2025-10-12,Matcha Coffee,2
+2025-10-12,Rum Coffee,1
+2025-10-12,Signature Coffee,3
+2025-10-13,Butterscotch Coffee,1
+2025-10-13,Espresso,1
+2025-10-13,Hazelnut Coffee,1
+2025-10-13,Kopi Aren,9
+2025-10-13,Matcha Coffee,1
+2025-10-13,Signature Coffee,1
+2025-10-14,Americano,3
+2025-10-14,Butterscotch Coffee,1
+2025-10-14,Hazelnut Coffee,2
+2025-10-14,Kopi Aren,6
+2025-10-15,Americano,3
+2025-10-15,Capuccino,2
+2025-10-15,Kopi Aren,10
+2025-10-15,Matcha Coffee,1
+2025-10-16,Americano,3
+2025-10-16,Avocado Coffee,3
+2025-10-16,Butterscotch Coffee,1
+2025-10-16,Capuccino,5
+2025-10-16,Espresso,1
+2025-10-16,Hazelnut Coffee,2
+2025-10-16,Kopi Aren,4
+2025-10-16,Signature Coffee,1
+2025-10-17,Americano,2
+2025-10-17,Avocado Coffee,2
+2025-10-17,Butterscotch Coffee,2
+2025-10-17,Capuccino,1
+2025-10-17,Hazelnut Coffee,3
+2025-10-17,Kopi Aren,17
+2025-10-17,Matcha Coffee,1
+2025-10-17,Signature Coffee,1
+2025-10-18,Americano,1
+2025-10-18,Avocado Coffee,1
+2025-10-18,Butterscotch Coffee,2
+2025-10-18,Espresso,1
+2025-10-18,Hazelnut Coffee,5
+2025-10-18,Kopi Aren,9
+2025-10-18,Rum Coffee,1
+2025-10-19,Americano,1
+2025-10-19,Butterscotch Coffee,2
+2025-10-19,Hazelnut Coffee,3
+2025-10-19,Kopi Aren,15
+2025-10-20,Americano,3
+2025-10-20,Avocado Coffee,1
+2025-10-20,Butterscotch Coffee,1
+2025-10-20,Capuccino,2
+2025-10-20,Hazelnut Coffee,1
+2025-10-20,Kopi Aren,3
+2025-10-20,Kopi Pandan,1
+2025-10-21,Americano,5
+2025-10-21,Avocado Coffee,1
+2025-10-21,Capuccino,4
+2025-10-21,Hazelnut Coffee,2
+2025-10-21,Kopi Aren,2
+2025-10-21,Strawberry Coffee,1
+2025-10-22,Americano,1
+2025-10-22,Butterscotch Coffee,1
+2025-10-22,Capuccino,4
+2025-10-22,Kopi Aren,3
+2025-10-23,Americano,2
+2025-10-23,Butterscotch Coffee,1
+2025-10-23,Capuccino,2
+2025-10-23,Hazelnut Coffee,5
+2025-10-23,Kopi Aren,8
+2025-10-23,Kopi Pandan,1
+2025-10-23,Rum Coffee,3
+2025-10-23,Signature Coffee,2
+2025-10-24,Americano,2
+2025-10-24,Avocado Coffee,1
+2025-10-24,Capuccino,7
+2025-10-24,Kopi Aren,13
+2025-10-25,Americano,4
+2025-10-25,Avocado Coffee,1
+2025-10-25,Butterscotch Coffee,1
+2025-10-25,Capuccino,2
+2025-10-25,Hazelnut Coffee,4
+2025-10-25,Kopi Aren,6
+2025-10-25,Kopi Pandan,1
+2025-10-25,Matcha Coffee,1
+2025-10-26,Americano,8
+2025-10-26,Avocado Coffee,1
+2025-10-26,Butterscotch Coffee,2
+2025-10-26,Capuccino,10
+2025-10-26,Hazelnut Coffee,6
+2025-10-26,Kopi Aren,8
+2025-10-27,Americano,4
+2025-10-27,Butterscotch Coffee,1
+2025-10-27,Capuccino,3
+2025-10-27,Kopi Aren,8
+2025-10-28,Americano,3
+2025-10-28,Capuccino,2
+2025-10-28,Hazelnut Coffee,2
+2025-10-28,Kopi Aren,5
+2025-10-28,Signature Coffee,1
+2025-10-29,Americano,4
+2025-10-29,Avocado Coffee,1
+2025-10-29,Butterscotch Coffee,2
+2025-10-29,Capuccino,4
+2025-10-29,Hazelnut Coffee,2
+2025-10-29,Kopi Aren,5
+2025-10-29,Kopi Pandan,1
+2025-10-29,Signature Coffee,2
+2025-10-30,Americano,5
+2025-10-30,Capuccino,3
+2025-10-30,Hazelnut Coffee,2
+2025-10-30,Kopi Aren,13
+2025-10-30,Kopi Pandan,2
+2025-10-31,Americano,3
+2025-10-31,Butterscotch Coffee,2
+2025-10-31,Capuccino,2
+2025-10-31,Espresso,1
+2025-10-31,Hazelnut Coffee,4
+2025-10-31,Kopi Aren,5
+2025-10-31,Kopi Pandan,1
+2025-10-31,Matcha Coffee,1
+2025-10-31,Rum Coffee,1
+2025-11-01,Americano,11
+2025-11-01,Avocado Coffee,1
+2025-11-01,Capuccino,2
+2025-11-01,Espresso,1
+2025-11-01,Hazelnut Coffee,5
+2025-11-01,Kopi Aren,13
+2025-11-01,Matcha Coffee,2
+2025-11-01,Rum Coffee,3
+2025-11-02,Americano,3
+2025-11-02,Avocado Coffee,1
+2025-11-02,Butterscotch Coffee,2
+2025-11-02,Capuccino,2
+2025-11-02,Espresso,1
+2025-11-02,Hazelnut Coffee,8
+2025-11-02,Kopi Aren,18
+2025-11-02,Kopi Pandan,4
+2025-11-02,Signature Coffee,4
+2025-11-03,Avocado Coffee,2
+2025-11-03,Butterscotch Coffee,6
+2025-11-03,Capuccino,3
+2025-11-03,Hazelnut Coffee,1
+2025-11-03,Kopi Aren,10
+2025-11-03,Matcha Coffee,1
+2025-11-03,Rum Coffee,1
+2025-11-04,Americano,2
+2025-11-04,Avocado Coffee,6
+2025-11-04,Butterscotch Coffee,3
+2025-11-04,Capuccino,2
+2025-11-04,Espresso,1
+2025-11-04,Hazelnut Coffee,3
+2025-11-04,Kopi Aren,4
+2025-11-04,Kopi Pandan,1
+2025-11-04,Signature Coffee,1
+2025-11-05,Americano,2
+2025-11-05,Capuccino,1
+2025-11-05,Hazelnut Coffee,3
+2025-11-05,Kopi Aren,2
+2025-11-05,Signature Coffee,1
+2025-11-06,Americano,1
+2025-11-06,Capuccino,2
+2025-11-06,Hazelnut Coffee,2
+2025-11-06,Kopi Aren,5
+2025-11-06,Signature Coffee,1
+2025-11-06,Strawberry Coffee,1
+2025-11-07,Americano,2
+2025-11-07,Avocado Coffee,1
+2025-11-07,Butterscotch Coffee,1
+2025-11-07,Capuccino,5
+2025-11-07,Espresso,3
+2025-11-07,Hazelnut Coffee,2
+2025-11-07,Kopi Aren,8
+2025-11-07,Matcha Coffee,1
+2025-11-08,Americano,7
+2025-11-08,Capuccino,1
+2025-11-08,Hazelnut Coffee,3
+2025-11-08,Kopi Aren,12
+2025-11-08,Signature Coffee,2
+2025-11-09,Americano,3
+2025-11-09,Avocado Coffee,2
+2025-11-09,Butterscotch Coffee,2
+2025-11-09,Capuccino,6
+2025-11-09,Hazelnut Coffee,2
+2025-11-09,Kopi Aren,10
+2025-11-09,Signature Coffee,2
+2025-11-10,Americano,3
+2025-11-10,Capuccino,1
+2025-11-10,Hazelnut Coffee,3
+2025-11-10,Kopi Aren,5
+2025-11-10,Signature Coffee,1
+2025-11-11,Americano,1
+2025-11-11,Avocado Coffee,2
+2025-11-11,Hazelnut Coffee,4
+2025-11-11,Kopi Aren,1
+2025-11-11,Kopi Pandan,1
+2025-11-12,Americano,2
+2025-11-12,Avocado Coffee,1
+2025-11-12,Butterscotch Coffee,1
+2025-11-12,Hazelnut Coffee,2
+2025-11-12,Kopi Aren,11
+2025-11-12,Strawberry Coffee,1
+2025-11-13,Americano,4
+2025-11-13,Butterscotch Coffee,1
+2025-11-13,Capuccino,2
+2025-11-13,Hazelnut Coffee,1
+2025-11-13,Kopi Aren,6
+2025-11-14,Americano,4
+2025-11-14,Avocado Coffee,2
+2025-11-14,Butterscotch Coffee,1
+2025-11-14,Capuccino,4
+2025-11-14,Hazelnut Coffee,1
+2025-11-14,Kopi Aren,14
+2025-11-14,Kopi Pandan,1
+2025-11-15,Americano,4
+2025-11-15,Avocado Coffee,1
+2025-11-15,Butterscotch Coffee,2
+2025-11-15,Capuccino,3
+2025-11-15,Espresso,3
+2025-11-15,Hazelnut Coffee,4
+2025-11-15,Kopi Aren,13
+2025-11-15,Matcha Coffee,1
+2025-11-15,Rum Coffee,4
+2025-11-16,Americano,6
+2025-11-16,Avocado Coffee,1
+2025-11-16,Butterscotch Coffee,3
+2025-11-16,Capuccino,3
+2025-11-16,Hazelnut Coffee,4
+2025-11-16,Kopi Aren,7
+2025-11-17,Avocado Coffee,1
+2025-11-17,Butterscotch Coffee,2
+2025-11-17,Capuccino,1
+2025-11-17,Espresso,2
+2025-11-17,Hazelnut Coffee,1
+2025-11-17,Kopi Aren,5
+2025-11-17,Rum Coffee,1
+2025-11-18,Butterscotch Coffee,3
+2025-11-18,Capuccino,2
+2025-11-18,Hazelnut Coffee,3
+2025-11-18,Kopi Aren,6
+2025-11-18,Matcha Coffee,2
+2025-11-19,Americano,1
+2025-11-19,Hazelnut Coffee,1
+2025-11-19,Kopi Aren,5
+2025-11-20,Americano,2
+2025-11-20,Butterscotch Coffee,1
+2025-11-20,Capuccino,3
+2025-11-20,Espresso,2
+2025-11-20,Hazelnut Coffee,3
+2025-11-20,Kopi Aren,12
+2025-11-20,Rum Coffee,3
+2025-11-21,Americano,3
+2025-11-21,Avocado Coffee,1
+2025-11-21,Butterscotch Coffee,3
+2025-11-21,Capuccino,4
+2025-11-21,Espresso,1
+2025-11-21,Hazelnut Coffee,5
+2025-11-21,Kopi Aren,12
+2025-11-21,Kopi Pandan,2
+2025-11-22,Americano,8
+2025-11-22,Avocado Coffee,1
+2025-11-22,Butterscotch Coffee,3
+2025-11-22,Capuccino,4
+2025-11-22,Hazelnut Coffee,6
+2025-11-22,Kopi Aren,12
+2025-11-22,Kopi Pandan,2
+2025-11-23,Americano,3
+2025-11-23,Avocado Coffee,1
+2025-11-23,Butterscotch Coffee,1
+2025-11-23,Capuccino,3
+2025-11-23,Espresso,3
+2025-11-23,Hazelnut Coffee,6
+2025-11-23,Kopi Aren,4
+2025-11-23,Kopi Pandan,1
+2025-11-23,Rum Coffee,1
+2025-11-24,Americano,2
+2025-11-24,Avocado Coffee,1
+2025-11-24,Capuccino,6
+2025-11-24,Hazelnut Coffee,1
+2025-11-24,Kopi Aren,11
+2025-11-24,Matcha Coffee,3
+2025-11-24,Rum Coffee,1
+2025-11-25,Americano,13
+2025-11-25,Butterscotch Coffee,1
+2025-11-25,Hazelnut Coffee,4
+2025-11-25,Kopi Aren,4
+2025-11-25,Kopi Pandan,1
+2025-11-25,Signature Coffee,1
+2025-11-26,Americano,3
+2025-11-26,Butterscotch Coffee,1
+2025-11-26,Capuccino,2
+2025-11-26,Hazelnut Coffee,1
+2025-11-26,Kopi Aren,25
+2025-11-27,Avocado Coffee,1
+2025-11-27,Butterscotch Coffee,3
+2025-11-27,Hazelnut Coffee,1
+2025-11-27,Kopi Aren,13
+2025-11-27,Signature Coffee,1
+2025-11-28,Americano,5
+2025-11-28,Avocado Coffee,2
+2025-11-28,Butterscotch Coffee,2
+2025-11-28,Capuccino,3
+2025-11-28,Espresso,1
+2025-11-28,Hazelnut Coffee,2
+2025-11-28,Kopi Aren,9
+2025-11-28,Kopi Pandan,2
+2025-11-28,Rum Coffee,1
+2025-11-29,Americano,5
+2025-11-29,Avocado Coffee,1
+2025-11-29,Butterscotch Coffee,3
+2025-11-29,Capuccino,5
+2025-11-29,Hazelnut Coffee,1
+2025-11-29,Kopi Aren,6
+2025-11-29,Rum Coffee,1
+2025-11-29,Signature Coffee,4
+2025-11-29,Strawberry Coffee,1
+2025-11-30,Americano,2
+2025-11-30,Avocado Coffee,1
+2025-11-30,Butterscotch Coffee,4
+2025-11-30,Espresso,1
+2025-11-30,Hazelnut Coffee,1
+2025-11-30,Kopi Aren,4
+2025-11-30,Kopi Pandan,1
+2025-11-30,Matcha Coffee,3
+2025-12-01,Americano,1
+2025-12-01,Avocado Coffee,1
+2025-12-01,Capuccino,2
+2025-12-01,Kopi Aren,10
+2025-12-01,Kopi Pandan,1
+2025-12-02,Americano,3
+2025-12-02,Avocado Coffee,2
+2025-12-02,Butterscotch Coffee,5
+2025-12-02,Capuccino,4
+2025-12-02,Hazelnut Coffee,2
+2025-12-02,Kopi Aren,8
+2025-12-02,Rum Coffee,1
+2025-12-02,Signature Coffee,3
+2025-12-03,Americano,6
+2025-12-03,Avocado Coffee,1
+2025-12-03,Butterscotch Coffee,3
+2025-12-03,Capuccino,4
+2025-12-03,Hazelnut Coffee,1
+2025-12-03,Kopi Aren,3
+2025-12-03,Signature Coffee,1
+2025-12-04,Americano,2
+2025-12-04,Avocado Coffee,1
+2025-12-04,Butterscotch Coffee,1
+2025-12-04,Hazelnut Coffee,3
+2025-12-04,Kopi Aren,2
+2025-12-04,Signature Coffee,1
+2025-12-05,Americano,4
+2025-12-05,Avocado Coffee,2
+2025-12-05,Butterscotch Coffee,3
+2025-12-05,Capuccino,2
+2025-12-05,Espresso,1
+2025-12-05,Hazelnut Coffee,1
+2025-12-05,Kopi Aren,14
+2025-12-05,Kopi Pandan,1
+2025-12-05,Signature Coffee,1
+2025-12-06,Americano,4
+2025-12-06,Avocado Coffee,2
+2025-12-06,Butterscotch Coffee,1
+2025-12-06,Capuccino,2
+2025-12-06,Hazelnut Coffee,6
+2025-12-06,Kopi Aren,9
+2025-12-06,Rum Coffee,1
+2025-12-06,Signature Coffee,2
+2025-12-07,Americano,4
+2025-12-07,Avocado Coffee,1
+2025-12-07,Butterscotch Coffee,1
+2025-12-07,Capuccino,4
+2025-12-07,Hazelnut Coffee,2
+2025-12-07,Kopi Aren,9
+2025-12-07,Kopi Pandan,1
+2025-12-07,Signature Coffee,1
+2025-12-08,Americano,4
+2025-12-08,Avocado Coffee,1
+2025-12-08,Butterscotch Coffee,3
+2025-12-08,Capuccino,1
+2025-12-08,Kopi Aren,5
+2025-12-08,Signature Coffee,1
+2025-12-09,Americano,5
+2025-12-09,Avocado Coffee,2
+2025-12-09,Butterscotch Coffee,3
+2025-12-09,Capuccino,3
+2025-12-09,Hazelnut Coffee,2
+2025-12-09,Kopi Aren,10
+2025-12-09,Matcha Coffee,2
+2025-12-09,Signature Coffee,1
+2025-12-10,Americano,3
+2025-12-10,Avocado Coffee,1
+2025-12-10,Capuccino,2
+2025-12-10,Kopi Aren,8
+2025-12-10,Kopi Pandan,2
+2025-12-10,Rum Coffee,1
+2025-12-11,Americano,6
+2025-12-11,Avocado Coffee,1
+2025-12-11,Butterscotch Coffee,6
+2025-12-11,Capuccino,4
+2025-12-11,Espresso,2
+2025-12-11,Hazelnut Coffee,2
+2025-12-11,Kopi Aren,24
+2025-12-11,Kopi Pandan,1
+2025-12-11,Signature Coffee,1
+2025-12-12,Americano,1
+2025-12-12,Avocado Coffee,1
+2025-12-12,Butterscotch Coffee,2
+2025-12-12,Capuccino,2
+2025-12-12,Espresso,1
+2025-12-12,Hazelnut Coffee,2
+2025-12-12,Kopi Aren,14
+2025-12-12,Rum Coffee,1
+2025-12-13,Americano,6
+2025-12-13,Avocado Coffee,1
+2025-12-13,Butterscotch Coffee,5
+2025-12-13,Capuccino,8
+2025-12-13,Espresso,2
+2025-12-13,Hazelnut Coffee,4
+2025-12-13,Kopi Aren,12
+2025-12-13,Kopi Pandan,2
+2025-12-13,Rum Coffee,1
+2025-12-13,Signature Coffee,2
+2025-12-14,Americano,3
+2025-12-14,Avocado Coffee,1
+2025-12-14,Butterscotch Coffee,3
+2025-12-14,Capuccino,5
+2025-12-14,Hazelnut Coffee,1
+2025-12-14,Kopi Aren,11
+2025-12-15,Americano,5
+2025-12-15,Butterscotch Coffee,1
+2025-12-15,Capuccino,3
+2025-12-15,Hazelnut Coffee,2
+2025-12-15,Kopi Aren,6
+2025-12-16,Americano,2
+2025-12-16,Avocado Coffee,1
+2025-12-16,Butterscotch Coffee,3
+2025-12-16,Espresso,1
+2025-12-16,Hazelnut Coffee,3
+2025-12-16,Kopi Aren,13
+2025-12-16,Kopi Pandan,1
+2025-12-16,Rum Coffee,1
+2025-12-16,Signature Coffee,1
+2025-12-17,Americano,2
+2025-12-17,Avocado Coffee,2
+2025-12-17,Butterscotch Coffee,2
+2025-12-17,Capuccino,3
+2025-12-17,Kopi Aren,8
+2025-12-18,Americano,2
+2025-12-18,Avocado Coffee,1
+2025-12-18,Butterscotch Coffee,3
+2025-12-18,Capuccino,3
+2025-12-18,Hazelnut Coffee,2
+2025-12-18,Kopi Aren,6
+2025-12-18,Rum Coffee,1
+2025-12-19,Americano,6
+2025-12-19,Butterscotch Coffee,1
+2025-12-19,Hazelnut Coffee,1
+2025-12-19,Kopi Aren,8
+2025-12-20,Americano,1
+2025-12-20,Avocado Coffee,2
+2025-12-20,Butterscotch Coffee,3
+2025-12-20,Capuccino,1
+2025-12-20,Espresso,1
+2025-12-20,Hazelnut Coffee,2
+2025-12-20,Kopi Aren,11
+2025-12-20,Rum Coffee,1
+2025-12-21,Americano,4
+2025-12-21,Butterscotch Coffee,1
+2025-12-21,Capuccino,4
+2025-12-21,Hazelnut Coffee,2
+2025-12-21,Kopi Aren,13
+2025-12-21,Matcha Coffee,1
+2025-12-21,Rum Coffee,1
+2025-12-21,Signature Coffee,2
+2025-12-22,Americano,3
+2025-12-22,Avocado Coffee,1
+2025-12-22,Butterscotch Coffee,2
+2025-12-22,Capuccino,2
+2025-12-22,Hazelnut Coffee,1
+2025-12-22,Kopi Aren,3
+2025-12-22,Matcha Coffee,1
+2025-12-22,Strawberry Coffee,1
+2025-12-23,Americano,4
+2025-12-23,Butterscotch Coffee,1
+2025-12-23,Capuccino,2
+2025-12-23,Hazelnut Coffee,2
+2025-12-23,Kopi Aren,8
+2025-12-23,Matcha Coffee,1
+2025-12-24,Americano,5
+2025-12-24,Avocado Coffee,1
+2025-12-24,Butterscotch Coffee,3
+2025-12-24,Capuccino,2
+2025-12-24,Hazelnut Coffee,3
+2025-12-24,Kopi Aren,6
+2025-12-24,Matcha Coffee,1
+2025-12-24,Rum Coffee,1
+2025-12-25,Americano,3
+2025-12-25,Butterscotch Coffee,1
+2025-12-25,Capuccino,3
+2025-12-25,Hazelnut Coffee,3
+2025-12-25,Kopi Aren,5
+2025-12-25,Kopi Pandan,1
+2025-12-25,Rum Coffee,1
+2025-12-26,Americano,2
+2025-12-26,Capuccino,2
+2025-12-26,Hazelnut Coffee,1
+2025-12-26,Kopi Aren,9
+2025-12-26,Kopi Pandan,1
+2025-12-27,Americano,7
+2025-12-27,Butterscotch Coffee,1
+2025-12-27,Capuccino,2
+2025-12-27,Espresso,1
+2025-12-27,Hazelnut Coffee,1
+2025-12-27,Kopi Aren,19
+2025-12-27,Rum Coffee,4
+2025-12-27,Signature Coffee,1
+2025-12-28,Americano,3
+2025-12-28,Avocado Coffee,2
+2025-12-28,Hazelnut Coffee,1
+2025-12-28,Kopi Aren,7
+2025-12-28,Rum Coffee,1
+2025-12-29,Americano,5
+2025-12-29,Avocado Coffee,1
+2025-12-29,Butterscotch Coffee,4
+2025-12-29,Capuccino,3
+2025-12-29,Hazelnut Coffee,1
+2025-12-29,Kopi Aren,10
+2025-12-30,Americano,5
+2025-12-30,Butterscotch Coffee,2
+2025-12-30,Capuccino,3
+2025-12-30,Kopi Aren,5
+2025-12-31,Americano,3
+2025-12-31,Butterscotch Coffee,4
+2025-12-31,Capuccino,6
+2025-12-31,Kopi Aren,6
+2025-12-31,Rum Coffee,1
+2026-01-01,Americano,10
+2026-01-01,Butterscotch Coffee,1
+2026-01-01,Capuccino,2
+2026-01-01,Hazelnut Coffee,4
+2026-01-01,Kopi Aren,11
+2026-01-01,Rum Coffee,3
+2026-01-01,Signature Coffee,1
+2026-01-02,Americano,7
+2026-01-02,Butterscotch Coffee,2
+2026-01-02,Capuccino,3
+2026-01-02,Hazelnut Coffee,1
+2026-01-02,Kopi Aren,7
+2026-01-03,Americano,6
+2026-01-03,Avocado Coffee,1
+2026-01-03,Butterscotch Coffee,4
+2026-01-03,Capuccino,2
+2026-01-03,Hazelnut Coffee,2
+2026-01-03,Kopi Aren,13
+2026-01-03,Matcha Coffee,1
+2026-01-03,Rum Coffee,1
+2026-01-03,Signature Coffee,2
+2026-01-03,Strawberry Coffee,1
+2026-01-04,Americano,7
+2026-01-04,Avocado Coffee,1
+2026-01-04,Butterscotch Coffee,2
+2026-01-04,Capuccino,4
+2026-01-04,Espresso,1
+2026-01-04,Hazelnut Coffee,2
+2026-01-04,Kopi Aren,8
+2026-01-04,Rum Coffee,1
+2026-01-05,Americano,2
+2026-01-05,Butterscotch Coffee,3
+2026-01-05,Capuccino,1
+2026-01-05,Espresso,1
+2026-01-05,Hazelnut Coffee,2
+2026-01-05,Kopi Aren,6
+2026-01-05,Matcha Coffee,3
+2026-01-05,Rum Coffee,1
+2026-01-05,Signature Coffee,2
+2026-01-06,Americano,3
+2026-01-06,Avocado Coffee,1
+2026-01-06,Butterscotch Coffee,1
+2026-01-06,Capuccino,3
+2026-01-06,Espresso,1
+2026-01-06,Kopi Aren,7
+2026-01-06,Rum Coffee,1
+2026-01-06,Signature Coffee,1
+2026-01-07,Americano,5
+2026-01-07,Avocado Coffee,1
+2026-01-07,Capuccino,4
+2026-01-07,Espresso,1
+2026-01-07,Hazelnut Coffee,2
+2026-01-07,Kopi Aren,8
+2026-01-08,Americano,2
+2026-01-08,Butterscotch Coffee,2
+2026-01-08,Capuccino,4
+2026-01-08,Hazelnut Coffee,1
+2026-01-08,Kopi Aren,15
+2026-01-08,Matcha Coffee,1
+2026-01-08,Strawberry Coffee,1
+2026-01-09,Americano,3
+2026-01-09,Capuccino,3
+2026-01-09,Hazelnut Coffee,2
+2026-01-09,Kopi Aren,8
+2026-01-09,Kopi Pandan,2
+2026-01-10,Americano,7
+2026-01-10,Butterscotch Coffee,3
+2026-01-10,Capuccino,1
+2026-01-10,Hazelnut Coffee,4
+2026-01-10,Kopi Aren,8
+2026-01-10,Matcha Coffee,1
+2026-01-10,Rum Coffee,1
+2026-01-11,Americano,7
+2026-01-11,Avocado Coffee,1
+2026-01-11,Butterscotch Coffee,3
+2026-01-11,Capuccino,3
+2026-01-11,Hazelnut Coffee,1
+2026-01-11,Kopi Aren,9
+2026-01-11,Kopi Pandan,1
+2026-01-12,Americano,8
+2026-01-12,Butterscotch Coffee,1
+2026-01-12,Capuccino,3
+2026-01-12,Hazelnut Coffee,1
+2026-01-12,Kopi Aren,12
+2026-01-12,Signature Coffee,1
+2026-01-13,Butterscotch Coffee,2
+2026-01-13,Capuccino,4
+2026-01-13,Hazelnut Coffee,1
+2026-01-13,Kopi Aren,8
+2026-01-13,Signature Coffee,1
+2026-01-13,Strawberry Coffee,1
+2026-01-14,Americano,8
+2026-01-14,Avocado Coffee,1
+2026-01-14,Butterscotch Coffee,2
+2026-01-14,Capuccino,4
+2026-01-14,Hazelnut Coffee,4
+2026-01-14,Kopi Aren,4
+2026-01-14,Matcha Coffee,1
+2026-01-15,Avocado Coffee,1
+2026-01-15,Butterscotch Coffee,2
+2026-01-15,Capuccino,2
+2026-01-15,Hazelnut Coffee,1
+2026-01-15,Kopi Aren,4
+2026-01-15,Kopi Pandan,2
+2026-01-15,Rum Coffee,1
+2026-01-16,Americano,4
+2026-01-16,Capuccino,5
+2026-01-16,Kopi Aren,13
+2026-01-16,Matcha Coffee,2
+2026-01-16,Rum Coffee,1
+2026-01-17,Americano,4
+2026-01-17,Butterscotch Coffee,2
+2026-01-17,Capuccino,3
+2026-01-17,Hazelnut Coffee,4
+2026-01-17,Kopi Aren,10
+2026-01-17,Matcha Coffee,2
+2026-01-17,Rum Coffee,1
+2026-01-18,Americano,3
+2026-01-18,Butterscotch Coffee,2
+2026-01-18,Capuccino,3
+2026-01-18,Espresso,1
+2026-01-18,Hazelnut Coffee,3
+2026-01-18,Kopi Aren,12
+2026-01-18,Rum Coffee,1
+2026-01-18,Signature Coffee,1
+2026-01-19,Americano,6
+2026-01-19,Capuccino,4
+2026-01-19,Kopi Aren,6
+2026-01-19,Kopi Pandan,1
+2026-01-19,Signature Coffee,1
+2026-01-19,Strawberry Coffee,1
+2026-01-20,Americano,5
+2026-01-20,Capuccino,1
+2026-01-20,Hazelnut Coffee,1
+2026-01-20,Kopi Aren,2
+2026-01-20,Signature Coffee,1
+2026-01-21,Americano,7
+2026-01-21,Butterscotch Coffee,1
+2026-01-21,Capuccino,9
+2026-01-21,Espresso,1
+2026-01-21,Hazelnut Coffee,1
+2026-01-21,Kopi Aren,2
+2026-01-21,Rum Coffee,1
+2026-01-22,Americano,2
+2026-01-22,Butterscotch Coffee,1
+2026-01-22,Capuccino,3
+2026-01-22,Kopi Aren,6
+2026-01-22,Strawberry Coffee,1
+2026-01-23,Americano,9
+2026-01-23,Butterscotch Coffee,3
+2026-01-23,Capuccino,6
+2026-01-23,Hazelnut Coffee,4
+2026-01-23,Kopi Aren,10
+2026-01-24,Americano,6
+2026-01-24,Butterscotch Coffee,2
+2026-01-24,Capuccino,3
+2026-01-24,Hazelnut Coffee,1
+2026-01-24,Kopi Aren,10
+2026-01-24,Rum Coffee,1
+2026-01-24,Signature Coffee,1
+2026-01-25,Americano,4
+2026-01-25,Capuccino,5
+2026-01-25,Hazelnut Coffee,6
+2026-01-25,Kopi Aren,16
+2026-01-25,Matcha Coffee,5
+2026-01-25,Signature Coffee,2
+2026-01-26,Americano,8
+2026-01-26,Avocado Coffee,1
+2026-01-26,Butterscotch Coffee,1
+2026-01-26,Capuccino,3
+2026-01-26,Hazelnut Coffee,3
+2026-01-26,Kopi Aren,2
+2026-01-27,Americano,7
+2026-01-27,Avocado Coffee,1
+2026-01-27,Butterscotch Coffee,7
+2026-01-27,Capuccino,3
+2026-01-27,Hazelnut Coffee,2
+2026-01-27,Kopi Aren,1
+2026-01-27,Kopi Pandan,2
+2026-01-27,Rum Coffee,1
+2026-01-27,Signature Coffee,2
+2026-01-28,Americano,3
+2026-01-28,Capuccino,2
+2026-01-28,Kopi Aren,5
+2026-01-28,Kopi Pandan,1
+2026-01-28,Rum Coffee,2
+2026-01-28,Signature Coffee,2
+2026-01-29,Americano,5
+2026-01-29,Avocado Coffee,2
+2026-01-29,Butterscotch Coffee,1
+2026-01-29,Capuccino,4
+2026-01-29,Kopi Aren,11
+2026-01-30,Americano,3
+2026-01-30,Butterscotch Coffee,2
+2026-01-30,Capuccino,7
+2026-01-30,Hazelnut Coffee,1
+2026-01-30,Kopi Aren,9
+2026-01-30,Matcha Coffee,1
+2026-01-31,Americano,10
+2026-01-31,Avocado Coffee,1
+2026-01-31,Butterscotch Coffee,1
+2026-01-31,Capuccino,3
+2026-01-31,Kopi Aren,12
+2026-01-31,Rum Coffee,1
+2026-02-01,Americano,9
+2026-02-01,Butterscotch Coffee,1
+2026-02-01,Capuccino,3
+2026-02-01,Hazelnut Coffee,1
+2026-02-01,Kopi Aren,11
+2026-02-01,Signature Coffee,1
+2026-02-02,Americano,5
+2026-02-02,Butterscotch Coffee,1
+2026-02-02,Capuccino,4
+2026-02-02,Kopi Aren,8
+2026-02-02,Kopi Pandan,1
+2026-02-02,Rum Coffee,1
+2026-02-02,Signature Coffee,1
+2026-02-03,Americano,7
+2026-02-03,Avocado Coffee,1
+2026-02-03,Capuccino,3
+2026-02-03,Hazelnut Coffee,1
+2026-02-03,Kopi Aren,6
+2026-02-03,Kopi Pandan,1
+2026-02-03,Matcha Coffee,1
+2026-02-03,Signature Coffee,1
+2026-02-04,Americano,4
+2026-02-04,Avocado Coffee,1
+2026-02-04,Butterscotch Coffee,1
+2026-02-04,Capuccino,5
+2026-02-04,Kopi Aren,7
+2026-02-05,Americano,3
+2026-02-05,Avocado Coffee,1
+2026-02-05,Butterscotch Coffee,1
+2026-02-05,Capuccino,1
+2026-02-05,Hazelnut Coffee,2
+2026-02-05,Kopi Aren,5
+2026-02-05,Rum Coffee,1
+2026-02-06,Americano,1
+2026-02-06,Butterscotch Coffee,2
+2026-02-06,Capuccino,6
+2026-02-06,Hazelnut Coffee,3
+2026-02-06,Kopi Aren,5
+2026-02-06,Signature Coffee,1
+2026-02-07,Americano,5
+2026-02-07,Avocado Coffee,2
+2026-02-07,Butterscotch Coffee,1
+2026-02-07,Capuccino,4
+2026-02-07,Hazelnut Coffee,2
+2026-02-07,Kopi Aren,11
+2026-02-07,Matcha Coffee,1
+2026-02-08,Americano,6
+2026-02-08,Butterscotch Coffee,3
+2026-02-08,Capuccino,4
+2026-02-08,Hazelnut Coffee,4
+2026-02-08,Kopi Aren,11
+2026-02-08,Matcha Coffee,1
+2026-02-08,Signature Coffee,1
+2026-02-09,Americano,5
+2026-02-09,Butterscotch Coffee,3
+2026-02-09,Capuccino,5
+2026-02-09,Kopi Aren,10
+2026-02-09,Matcha Coffee,1
+2026-02-09,Rum Coffee,3
+2026-02-10,Americano,3
+2026-02-10,Butterscotch Coffee,2
+2026-02-10,Hazelnut Coffee,1
+2026-02-10,Kopi Aren,4
+2026-02-10,Kopi Pandan,1
+2026-02-10,Rum Coffee,1
+2026-02-10,Signature Coffee,1
+2026-02-11,Americano,6
+2026-02-11,Capuccino,6
+2026-02-11,Hazelnut Coffee,2
+2026-02-11,Kopi Aren,8
+2026-02-11,Matcha Coffee,1
+2026-02-11,Signature Coffee,1
+2026-02-12,Americano,4
+2026-02-12,Butterscotch Coffee,1
+2026-02-12,Capuccino,1
+2026-02-12,Kopi Aren,4
+2026-02-13,Americano,2
+2026-02-13,Avocado Coffee,1
+2026-02-13,Butterscotch Coffee,1
+2026-02-13,Espresso,1
+2026-02-13,Hazelnut Coffee,1
+2026-02-13,Kopi Aren,8
+2026-02-13,Matcha Coffee,1
+2026-02-13,Rum Coffee,1
+2026-02-14,Americano,2
+2026-02-14,Butterscotch Coffee,2
+2026-02-14,Capuccino,2
+2026-02-14,Hazelnut Coffee,1
+2026-02-14,Kopi Aren,13
+2026-02-14,Matcha Coffee,2
+2026-02-14,Signature Coffee,1
+2026-02-15,Americano,12
+2026-02-15,Avocado Coffee,1
+2026-02-15,Butterscotch Coffee,3
+2026-02-15,Hazelnut Coffee,3
+2026-02-15,Kopi Aren,13
+2026-02-15,Kopi Pandan,1
+2026-02-15,Signature Coffee,1
+2026-02-16,Americano,6
+2026-02-16,Butterscotch Coffee,2
+2026-02-16,Capuccino,4
+2026-02-16,Hazelnut Coffee,6
+2026-02-16,Kopi Aren,17
+2026-02-17,Americano,8
+2026-02-17,Capuccino,5
+2026-02-17,Hazelnut Coffee,1
+2026-02-17,Kopi Aren,9
+2026-02-17,Rum Coffee,1
+2026-02-18,Americano,4
+2026-02-18,Butterscotch Coffee,1
+2026-02-18,Capuccino,1
+2026-02-18,Espresso,1
+2026-02-18,Kopi Aren,8
+2026-02-18,Matcha Coffee,1
+2026-02-19,Americano,4
+2026-02-19,Avocado Coffee,1
+2026-02-19,Butterscotch Coffee,1
+2026-02-19,Capuccino,3
+2026-02-19,Hazelnut Coffee,1
+2026-02-19,Kopi Aren,1
+2026-02-20,Americano,2
+2026-02-20,Butterscotch Coffee,1
+2026-02-20,Capuccino,7
+2026-02-20,Hazelnut Coffee,1
+2026-02-20,Kopi Aren,9
+2026-02-20,Signature Coffee,1
+2026-02-20,Strawberry Coffee,2
+2026-02-21,Americano,7
+2026-02-21,Avocado Coffee,1
+2026-02-21,Butterscotch Coffee,1
+2026-02-21,Capuccino,3
+2026-02-21,Espresso,1
+2026-02-21,Hazelnut Coffee,1
+2026-02-21,Kopi Aren,4
+2026-02-21,Rum Coffee,1
+2026-02-21,Signature Coffee,2
+2026-02-21,Strawberry Coffee,1
+2026-02-22,Americano,3
+2026-02-22,Avocado Coffee,1
+2026-02-22,Butterscotch Coffee,3
+2026-02-22,Capuccino,3
+2026-02-22,Kopi Aren,7
+2026-02-22,Signature Coffee,1
+2026-02-23,Americano,6
+2026-02-23,Avocado Coffee,2
+2026-02-23,Butterscotch Coffee,7
+2026-02-23,Capuccino,1
+2026-02-23,Espresso,1
+2026-02-23,Hazelnut Coffee,2
+2026-02-23,Kopi Aren,11
+2026-02-23,Signature Coffee,3
+2026-02-24,Americano,3
+2026-02-24,Avocado Coffee,1
+2026-02-24,Kopi Aren,5
+2026-02-24,Signature Coffee,1
+2026-02-25,Americano,4
+2026-02-25,Avocado Coffee,1
+2026-02-25,Butterscotch Coffee,5
+2026-02-25,Capuccino,4
+2026-02-25,Hazelnut Coffee,1
+2026-02-25,Kopi Aren,5
+2026-02-26,Americano,7
+2026-02-26,Butterscotch Coffee,1
+2026-02-26,Capuccino,3
+2026-02-26,Hazelnut Coffee,1
+2026-02-26,Kopi Aren,6
+2026-02-26,Rum Coffee,2
+2026-02-27,Americano,9
+2026-02-27,Butterscotch Coffee,5
+2026-02-27,Capuccino,2
+2026-02-27,Espresso,1
+2026-02-27,Hazelnut Coffee,1
+2026-02-27,Kopi Aren,8
+2026-02-27,Kopi Pandan,1
+2026-02-27,Signature Coffee,2
+2026-02-28,Americano,3
+2026-02-28,Butterscotch Coffee,5
+2026-02-28,Capuccino,3
+2026-02-28,Espresso,1
+2026-02-28,Hazelnut Coffee,3
+2026-02-28,Kopi Aren,5
+2026-02-28,Signature Coffee,2
+2026-03-01,Americano,11
+2026-03-01,Butterscotch Coffee,3
+2026-03-01,Capuccino,5
+2026-03-01,Espresso,1
+2026-03-01,Hazelnut Coffee,2
+2026-03-01,Kopi Aren,13
+2026-03-01,Kopi Pandan,1
+2026-03-01,Matcha Coffee,2
+2026-03-01,Rum Coffee,1
+2026-03-01,Signature Coffee,3
+2026-03-02,Americano,5
+2026-03-02,Avocado Coffee,3
+2026-03-02,Butterscotch Coffee,4
+2026-03-02,Capuccino,2
+2026-03-02,Kopi Aren,8
+2026-03-02,Rum Coffee,1
+2026-03-02,Signature Coffee,1
+2026-03-03,Americano,2
+2026-03-03,Butterscotch Coffee,1
+2026-03-03,Capuccino,1
+2026-03-03,Kopi Aren,3
+2026-03-04,Americano,5
+2026-03-04,Butterscotch Coffee,2
+2026-03-04,Capuccino,1
+2026-03-04,Espresso,1
+2026-03-04,Kopi Aren,4
+2026-03-04,Kopi Pandan,2
+2026-03-04,Rum Coffee,1
+2026-03-05,Americano,2
+2026-03-05,Butterscotch Coffee,1
+2026-03-05,Capuccino,2
+2026-03-05,Espresso,1
+2026-03-05,Hazelnut Coffee,2
+2026-03-05,Kopi Aren,6
+2026-03-05,Rum Coffee,2
+2026-03-05,Signature Coffee,1
+2026-03-06,Americano,3
+2026-03-06,Capuccino,1
+2026-03-06,Espresso,4
+2026-03-06,Kopi Aren,6
+2026-03-06,Kopi Pandan,1
+2026-03-06,Rum Coffee,1
+2026-03-07,Americano,4
+2026-03-07,Avocado Coffee,1
+2026-03-07,Butterscotch Coffee,2
+2026-03-07,Capuccino,4
+2026-03-07,Espresso,1
+2026-03-07,Kopi Aren,10
+2026-03-07,Rum Coffee,1
+2026-03-07,Signature Coffee,1
+2026-03-08,Americano,7
+2026-03-08,Butterscotch Coffee,2
+2026-03-08,Capuccino,6
+2026-03-08,Hazelnut Coffee,1
+2026-03-08,Kopi Aren,18
+2026-03-08,Kopi Pandan,1
+2026-03-08,Matcha Coffee,2
+2026-03-08,Strawberry Coffee,1
+2026-03-09,Americano,3
+2026-03-09,Avocado Coffee,2
+2026-03-09,Capuccino,1
+2026-03-09,Espresso,1
+2026-03-09,Kopi Aren,7
+2026-03-09,Rum Coffee,1
+2026-03-10,Americano,2
+2026-03-10,Avocado Coffee,1
+2026-03-10,Butterscotch Coffee,2
+2026-03-10,Capuccino,5
+2026-03-10,Hazelnut Coffee,6
+2026-03-10,Kopi Aren,1
+2026-03-11,Americano,1
+2026-03-11,Capuccino,1
+2026-03-11,Espresso,1
+2026-03-11,Hazelnut Coffee,1
+2026-03-11,Kopi Aren,7
+2026-03-11,Signature Coffee,1
+2026-03-12,Americano,1
+2026-03-12,Butterscotch Coffee,2
+2026-03-12,Capuccino,2
+2026-03-12,Hazelnut Coffee,1
+2026-03-12,Kopi Aren,9
+2026-03-12,Matcha Coffee,1
+2026-03-13,Americano,8
+2026-03-13,Avocado Coffee,1
+2026-03-13,Butterscotch Coffee,5
+2026-03-13,Capuccino,2
+2026-03-13,Espresso,2
+2026-03-13,Hazelnut Coffee,4
+2026-03-13,Kopi Aren,12
+2026-03-13,Kopi Pandan,1
+2026-03-13,Signature Coffee,1
+2026-03-13,Strawberry Coffee,1
+2026-03-14,Americano,4
+2026-03-14,Avocado Coffee,1
+2026-03-14,Butterscotch Coffee,1
+2026-03-14,Capuccino,5
+2026-03-14,Hazelnut Coffee,1
+2026-03-14,Kopi Aren,11
+2026-03-14,Kopi Pandan,1
+2026-03-14,Matcha Coffee,4
+2026-03-14,Rum Coffee,1
+2026-03-14,Strawberry Coffee,1
+2026-03-15,Americano,6
+2026-03-15,Butterscotch Coffee,11
+2026-03-15,Capuccino,8
+2026-03-15,Hazelnut Coffee,4
+2026-03-15,Kopi Aren,17
+2026-03-15,Kopi Pandan,2
+2026-03-15,Matcha Coffee,4
+2026-03-15,Signature Coffee,1
+2026-03-16,Americano,2
+2026-03-16,Butterscotch Coffee,4
+2026-03-16,Capuccino,5
+2026-03-16,Hazelnut Coffee,1
+2026-03-16,Kopi Aren,6
+2026-03-16,Matcha Coffee,1
+2026-03-16,Rum Coffee,2
+2026-03-17,Americano,9
+2026-03-17,Butterscotch Coffee,3
+2026-03-17,Capuccino,4
+2026-03-17,Hazelnut Coffee,1
+2026-03-17,Kopi Aren,7
+2026-03-17,Kopi Pandan,1
+2026-03-17,Rum Coffee,2
+2026-03-18,Americano,4
+2026-03-18,Butterscotch Coffee,3
+2026-03-18,Capuccino,1
+2026-03-18,Hazelnut Coffee,1
+2026-03-18,Kopi Aren,10
+2026-03-18,Signature Coffee,1
+2026-03-19,Americano,8
+2026-03-19,Butterscotch Coffee,1
+2026-03-19,Capuccino,6
+2026-03-19,Espresso,1
+2026-03-19,Kopi Aren,12
+2026-03-20,Americano,4
+2026-03-20,Butterscotch Coffee,1
+2026-03-20,Capuccino,2
+2026-03-20,Espresso,2
+2026-03-20,Hazelnut Coffee,1
+2026-03-20,Kopi Aren,11
+2026-03-20,Kopi Pandan,1
+2026-03-20,Rum Coffee,2
+2026-03-20,Signature Coffee,1
+2026-03-21,Americano,2
+2026-03-21,Kopi Aren,1
+2026-03-22,Americano,4
+2026-03-22,Butterscotch Coffee,3
+2026-03-22,Capuccino,9
+2026-03-22,Espresso,2
+2026-03-22,Hazelnut Coffee,9
+2026-03-22,Kopi Aren,14
+2026-03-22,Kopi Pandan,2
+2026-03-22,Matcha Coffee,2
+2026-03-22,Signature Coffee,2
+2026-03-22,Strawberry Coffee,2
+2026-03-23,Americano,1
+2026-03-23,Avocado Coffee,2
+2026-03-23,Capuccino,2
+2026-03-23,Hazelnut Coffee,1
+2026-03-23,Kopi Aren,9
+2026-03-24,Americano,4
+2026-03-24,Hazelnut Coffee,4
+2026-03-24,Kopi Aren,4
+2026-03-24,Signature Coffee,2
+2026-03-25,Americano,7
+2026-03-25,Avocado Coffee,2
+2026-03-25,Butterscotch Coffee,2
+2026-03-25,Espresso,1
+2026-03-25,Hazelnut Coffee,2
+2026-03-25,Kopi Aren,5
+2026-03-25,Kopi Pandan,1
+2026-03-25,Rum Coffee,2
+2026-03-25,Signature Coffee,3
+2026-03-25,Strawberry Coffee,1
+2026-03-26,Americano,2
+2026-03-26,Butterscotch Coffee,1
+2026-03-26,Hazelnut Coffee,1
+2026-03-26,Kopi Aren,4
+2026-03-26,Signature Coffee,1
+2026-03-27,Americano,2
+2026-03-27,Butterscotch Coffee,1
+2026-03-27,Capuccino,7
+2026-03-27,Espresso,1
+2026-03-27,Hazelnut Coffee,3
+2026-03-27,Kopi Aren,13
+2026-03-27,Matcha Coffee,1
+2026-03-27,Rum Coffee,1
+2026-03-27,Signature Coffee,3
+2026-03-27,Strawberry Coffee,1
+2026-03-28,Americano,2
+2026-03-28,Avocado Coffee,1
+2026-03-28,Capuccino,1
+2026-03-28,Kopi Aren,10
+2026-03-29,Americano,17
+2026-03-29,Butterscotch Coffee,1
+2026-03-29,Capuccino,1
+2026-03-29,Espresso,2
+2026-03-29,Hazelnut Coffee,3
+2026-03-29,Kopi Aren,11
+2026-03-30,Americano,5
+2026-03-30,Avocado Coffee,1
+2026-03-30,Butterscotch Coffee,4
+2026-03-30,Capuccino,4
+2026-03-30,Kopi Aren,8
+2026-03-31,Americano,6
+2026-03-31,Butterscotch Coffee,1
+2026-03-31,Capuccino,3
+2026-03-31,Hazelnut Coffee,1
+2026-03-31,Kopi Aren,9
+2026-03-31,Matcha Coffee,1
+2026-03-31,Signature Coffee,3
+2026-04-01,Americano,5
+2026-04-01,Butterscotch Coffee,1
+2026-04-01,Capuccino,1
+2026-04-01,Espresso,1
+2026-04-01,Kopi Aren,6
+2026-04-01,Kopi Pandan,1
+2026-04-01,Matcha Coffee,1
+2026-04-01,Signature Coffee,2
+2026-04-02,Americano,9
+2026-04-02,Avocado Coffee,1
+2026-04-02,Butterscotch Coffee,4
+2026-04-02,Capuccino,1
+2026-04-02,Espresso,1
+2026-04-02,Hazelnut Coffee,1
+2026-04-02,Kopi Aren,12
+2026-04-02,Kopi Pandan,1
+2026-04-02,Matcha Coffee,1
+2026-04-02,Signature Coffee,2
+2026-04-03,Americano,5
+2026-04-03,Avocado Coffee,1
+2026-04-03,Butterscotch Coffee,5
+2026-04-03,Capuccino,2
+2026-04-03,Hazelnut Coffee,1
+2026-04-03,Kopi Aren,7
+2026-04-03,Kopi Pandan,1
+2026-04-03,Matcha Coffee,1
+2026-04-03,Signature Coffee,1
+2026-04-04,Americano,5
+2026-04-04,Avocado Coffee,1
+2026-04-04,Capuccino,5
+2026-04-04,Hazelnut Coffee,1
+2026-04-04,Kopi Aren,7
+2026-04-04,Kopi Pandan,1
+2026-04-04,Matcha Coffee,1
+2026-04-04,Signature Coffee,1
+2026-04-05,Americano,11
+2026-04-05,Butterscotch Coffee,5
+2026-04-05,Capuccino,2
+2026-04-05,Espresso,1
+2026-04-05,Hazelnut Coffee,2
+2026-04-05,Kopi Aren,15
+2026-04-05,Matcha Coffee,2
+2026-04-05,Rum Coffee,3
+2026-04-06,Americano,6
+2026-04-06,Butterscotch Coffee,1
+2026-04-06,Capuccino,2
+2026-04-06,Espresso,2
+2026-04-06,Hazelnut Coffee,1
+2026-04-06,Kopi Aren,9
+2026-04-06,Kopi Pandan,1
+2026-04-07,Americano,1
+2026-04-07,Kopi Aren,2
+2026-04-07,Signature Coffee,1
+2026-04-08,Americano,3
+2026-04-08,Butterscotch Coffee,2
+2026-04-08,Capuccino,3
+2026-04-08,Espresso,2
+2026-04-08,Kopi Aren,5
+2026-04-08,Matcha Coffee,1
+2026-04-09,Americano,1
+2026-04-09,Butterscotch Coffee,3
+2026-04-09,Espresso,1
+2026-04-09,Hazelnut Coffee,2
+2026-04-09,Kopi Aren,4
+2026-04-09,Kopi Pandan,1
+2026-04-09,Matcha Coffee,1
+2026-04-09,Signature Coffee,2
+2026-04-10,Capuccino,2
+2026-04-10,Espresso,1
+2026-04-10,Kopi Aren,8
+2026-04-10,Matcha Coffee,1
+2026-04-10,Signature Coffee,2
