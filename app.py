@@ -1,13 +1,3 @@
-"""
-app.py — Aplikasi Prediksi Penjualan Kopi Per Produk (Harian/Mingguan/Bulanan).
-
-Alur (sesuai Bab 5.3.3 Proses Prediksi):
-  Input tanggal -> Pembentukan fitur otomatis -> Model produk dipanggil
-  -> Prediksi jumlah cup -> Hasil ditampilkan
-
-Artifact yang dibutuhkan di folder yang sama:
-  models_produk.pkl, product_daily.csv, eval_summary.csv, utils.py
-"""
 
 import pickle
 from datetime import timedelta
@@ -36,11 +26,7 @@ def load_artifacts():
     return models, product_daily, eval_summary
 
 
-# Cache hasil prediksi per (produk, tanggal) supaya reload/interaksi ulang
-# dengan input yang sama tidak menghitung ulang fitur & memanggil model lagi
-# (mengurangi beban CPU yang bisa memicu throttle di Streamlit Cloud).
-# Parameter berawalan "_" (mis. _model_info, _product_daily) sengaja tidak
-# di-hash oleh st.cache_data karena isinya objek model/dataframe.
+
 @st.cache_data(show_spinner=False)
 def cached_predict_for_date(produk, target_date, _model_info, _product_daily):
     return utils.predict_for_date(produk, _product_daily, _model_info, target_date)
@@ -73,7 +59,7 @@ except FileNotFoundError as e:
     st.stop()
 
 last_date = product_daily["tanggal"].max().date()
-st.markdown(f"📅 Data histori tersedia sampai **{last_date.strftime('%d %B %Y')}**.")
+# st.markdown(f"📅 Data histori tersedia sampai **{last_date.strftime('%d %B %Y')}**.")
 
 # ══════════════════════════════════════════════════════════════
 # ── Dashboard Ringkasan Penjualan (dari data histori) ──
@@ -130,8 +116,7 @@ produk_target = produk_dipilih if produk_dipilih else semua_produk
 
 
 def render_horizon_prediction(n_days, tombol_label, judul_prefix, max_start_offset):
-    """Render UI + hasil untuk mode Mingguan/Bulanan (n_days berturut-turut).
-    Sama-sama pakai predict_week (generik lewat cached_predict_horizon), cuma beda n_days."""
+
     start_date = st.date_input(
         "Mulai prediksi dari tanggal",
         value=last_date + timedelta(days=1),
@@ -165,10 +150,6 @@ def render_horizon_prediction(n_days, tombol_label, judul_prefix, max_start_offs
                 df_harian[produk] = [r["prediksi"] for r in rows]  # float mentah, belum dibulatkan
             df_harian["Total Harian"] = df_harian[list(per_produk_rows.keys())].sum(axis=1)
 
-            # Tabel yang ditampilkan ke user dibulatkan HANYA untuk tampilan,
-            # setelah "Total Harian" dihitung dari nilai float asli di atas --
-            # supaya prediksi kecil per produk (mis. 0,3-0,4 cup) tetap
-            # terakumulasi dengan benar sebelum dibulatkan.
             df_tampil = df_harian.copy()
             df_tampil.insert(0, "Tanggal", df_tampil["tanggal"].dt.strftime("%a, %d %b %Y"))
             df_tampil = df_tampil.drop(columns=["tanggal"])
@@ -185,10 +166,6 @@ def render_horizon_prediction(n_days, tombol_label, judul_prefix, max_start_offs
             st.line_chart(df_harian.set_index("tanggal")["Total Harian"])
 
             # ── Total per Produk ──
-            # Dijumlah dari nilai float mentah (r["prediksi"]) DULU, baru dibulatkan
-            # sekali di akhir -- ini titik utama perbaikannya (sebelumnya tiap hari
-            # dibulatkan dulu sebelum dijumlah, sehingga prediksi kecil per hari
-            # bisa hilang jadi 0 sebelum sempat terakumulasi).
             label_periode = "7 Hari" if n_days == 7 else ("30 Hari" if n_days == 30 else f"{n_days} Hari")
             st.subheader(f"Total {label_periode} per Produk")
             df_total = pd.DataFrame(
