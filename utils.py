@@ -32,7 +32,8 @@ def build_features(series_df, required_cols=None):
     q99 = ds['penjualan'].quantile(0.99)
     rolling_med = ds['penjualan'].rolling(7, min_periods=1, center=False).median()
     ds['penjualan'] = np.where(ds['penjualan'] > q99, rolling_med, ds['penjualan'])
-    ds['penjualan_log'] = np.log1p(ds['penjualan'])
+    # Catatan: TIDAK menggunakan log1p -- model dilatih langsung pada skala asli (cup),
+    # identik dengan build_features() di notebook training.
 
     ds['dayofweek'] = ds['tanggal'].dt.dayofweek
     ds['is_weekend'] = (ds['dayofweek'] >= 5).astype(int)
@@ -55,17 +56,17 @@ def build_features(series_df, required_cols=None):
     ds['is_payday'] = ds['tanggal'].apply(lambda d: _contains_payday(d, span_days)).astype(int)
 
     for lag in [1, 2, 3, 4, 7, 14, 21, 30]:
-        ds[f'lag_{lag}'] = ds['penjualan_log'].shift(lag)
+        ds[f'lag_{lag}'] = ds['penjualan'].shift(lag)
     for w in [7, 14, 30]:
-        ds[f'rolling_mean_{w}'] = ds['penjualan_log'].rolling(w).mean()
-        ds[f'rolling_std_{w}'] = ds['penjualan_log'].rolling(w).std()
-    ds['ewm_7'] = ds['penjualan_log'].ewm(span=7, adjust=False).mean()
-    ds['ewm_14'] = ds['penjualan_log'].ewm(span=14, adjust=False).mean()
+        ds[f'rolling_mean_{w}'] = ds['penjualan'].rolling(w).mean()
+        ds[f'rolling_std_{w}'] = ds['penjualan'].rolling(w).std()
+    ds['ewm_7'] = ds['penjualan'].ewm(span=7, adjust=False).mean()
+    ds['ewm_14'] = ds['penjualan'].ewm(span=14, adjust=False).mean()
 
     if required_cols is None:
         ds = ds.dropna().reset_index(drop=True)
     else:
-        keep_cols = list(dict.fromkeys(list(required_cols) + ['tanggal', 'penjualan', 'penjualan_log']))
+        keep_cols = list(dict.fromkeys(list(required_cols) + ['tanggal', 'penjualan']))
         keep_cols = [c for c in keep_cols if c in ds.columns]
         ds = ds.dropna(subset=keep_cols).reset_index(drop=True)
     return ds
@@ -116,8 +117,8 @@ def _forecast_range(produk, product_daily, model_info, end_date):
                 f"fitur pada {next_date.date()}."
             )
         X_next = row[features]
-        pred_log = model.predict(X_next)[0]
-        pred = float(max(np.expm1(pred_log), 0))
+        pred_raw = model.predict(X_next)[0]
+        pred = float(max(pred_raw, 0))
         work = pd.concat(
             [work, pd.DataFrame({'tanggal': [next_date], 'penjualan': [pred]})],
             ignore_index=True,
