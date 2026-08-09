@@ -1,13 +1,4 @@
-"""
-app.py — Aplikasi Prediksi Penjualan Kopi Per Produk (Harian/Mingguan/Bulanan).
 
-Alur (sesuai Bab 5.3.3 Proses Prediksi):
-  Input tanggal -> Pembentukan fitur otomatis -> Model produk dipanggil
-  -> Prediksi jumlah cup -> Hasil ditampilkan
-
-Artifact yang dibutuhkan di folder yang sama:
-  models_produk.pkl, product_daily.csv, eval_summary.csv, utils.py
-"""
 
 import pickle
 from datetime import timedelta
@@ -36,11 +27,7 @@ def load_artifacts():
     return models, product_daily, eval_summary
 
 
-# Cache hasil prediksi per (produk, tanggal) supaya reload/interaksi ulang
-# dengan input yang sama tidak menghitung ulang fitur & memanggil model lagi
-# (mengurangi beban CPU yang bisa memicu throttle di Streamlit Cloud).
-# Parameter berawalan "_" (mis. _model_info, _product_daily) sengaja tidak
-# di-hash oleh st.cache_data karena isinya objek model/dataframe.
+
 @st.cache_data(show_spinner=False)
 def cached_predict_for_date(produk, target_date, _model_info, _product_daily):
     return utils.predict_for_date(produk, _product_daily, _model_info, target_date)
@@ -73,7 +60,7 @@ except FileNotFoundError as e:
     st.stop()
 
 last_date = product_daily["tanggal"].max().date()
-st.markdown(f"📅 Data histori tersedia sampai **{last_date.strftime('%d %B %Y')}**.")
+# st.markdown(f"📅 Data histori tersedia sampai **{last_date.strftime('%d %B %Y')}**.")
 
 # ══════════════════════════════════════════════════════════════
 # ── Dashboard Ringkasan Penjualan (dari data histori) ──
@@ -130,8 +117,6 @@ produk_target = produk_dipilih if produk_dipilih else semua_produk
 
 
 def render_horizon_prediction(n_days, tombol_label, judul_prefix, max_start_offset):
-    """Render UI + hasil untuk mode Mingguan/Bulanan (n_days berturut-turut).
-    Sama-sama pakai predict_week (generik lewat cached_predict_horizon), cuma beda n_days."""
     start_date = st.date_input(
         "Mulai prediksi dari tanggal",
         value=last_date + timedelta(days=1),
