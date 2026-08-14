@@ -155,6 +155,29 @@ else:
         df_uji_tampil["Prediksi"] = df_uji_tampil["Prediksi"].round(1)
         st.dataframe(df_uji_tampil, use_container_width=True, hide_index=True)
 
+    # ── Cek 1 tanggal spesifik di dalam periode uji (bukan cuma lihat tabel/grafik gabungan) ──
+    st.markdown("**🔍 Cek tanggal tertentu di periode uji**")
+    tgl_min_uji = df_uji["tanggal"].min().date()
+    tgl_max_uji = df_uji["tanggal"].max().date()
+    tanggal_cek = st.date_input(
+        "Pilih tanggal (dalam periode uji)",
+        value=tgl_min_uji,
+        min_value=tgl_min_uji,
+        max_value=tgl_max_uji,
+        key="tanggal_cek_uji",
+    )
+    baris_cek = df_uji[df_uji["tanggal"].dt.date == tanggal_cek]
+    if baris_cek.empty:
+        st.warning("Tidak ada data pada tanggal itu (kemungkinan hari tanpa transaksi tercatat).")
+    else:
+        aktual_cek = float(baris_cek["Aktual"].iloc[0])
+        prediksi_cek = float(baris_cek["Prediksi"].iloc[0])
+        selisih_cek = aktual_cek - prediksi_cek
+        cc1, cc2, cc3 = st.columns(3)
+        cc1.metric("Aktual", f"{aktual_cek:.1f} cup")
+        cc2.metric("Prediksi", f"{prediksi_cek:.1f} cup")
+        cc3.metric("Selisih (Aktual − Prediksi)", f"{selisih_cek:+.1f} cup")
+
 st.markdown("---")
 
 # ══════════════════════════════════════════════════════════════
