@@ -119,7 +119,7 @@ else:
     c1.metric("Jumlah Hari Diuji", f"{hasil_uji['n_test']}")
     # c2.metric("MAE", f"{hasil_uji['mae']:.2f} cup")
     # c3.metric("RMSE", f"{hasil_uji['rmse']:.2f} cup")
-    # mape_text = f"{hasil_uji['mape']:.2f} %" if not pd.isna(hasil_uji['mape']) else "Tidak dapat dihitung"
+    mape_text = f"{hasil_uji['mape']:.2f} %" if not pd.isna(hasil_uji['mape']) else "Tidak dapat dihitung"
     # c4.metric("MAPE", mape_text)
 
     df_uji = pd.DataFrame({
