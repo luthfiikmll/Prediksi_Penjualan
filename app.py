@@ -126,7 +126,7 @@ else:
         "Prediksi": hasil_uji["prediksi"],
     })
     st.line_chart(df_uji.set_index("tanggal")[["Aktual", "Prediksi"]])
-    st.caption(f"Perbandingan penjualan aktual vs prediksi model pada {hasil_uji['n_test']} hari data uji terakhir untuk {produk_uji}.")
+    # st.caption(f"Perbandingan penjualan aktual vs prediksi model pada {hasil_uji['n_test']} hari data uji terakhir untuk {produk_uji}.")
 
     with st.expander("Lihat data harian (aktual vs prediksi)"):
         df_uji_tampil = df_uji.copy()
