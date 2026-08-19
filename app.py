@@ -1,14 +1,3 @@
-"""
-app.py — Aplikasi Prediksi Penjualan Kopi Per Produk (Harian/Mingguan/Bulanan).
-
-Alur (sesuai Bab 5.3.3 Proses Prediksi):
-  Input tanggal -> Pembentukan fitur otomatis -> Model produk dipanggil
-  -> Prediksi jumlah cup -> Hasil ditampilkan
-
-Artifact yang dibutuhkan di folder yang sama:
-  models_produk.pkl, product_daily.csv, eval_summary.csv, utils.py
-"""
-
 import pickle
 from datetime import timedelta
 
@@ -36,11 +25,7 @@ def load_artifacts():
     return models, product_daily, eval_summary
 
 
-# Cache hasil prediksi per (produk, tanggal) supaya reload/interaksi ulang
-# dengan input yang sama tidak menghitung ulang fitur & memanggil model lagi
-# (mengurangi beban CPU yang bisa memicu throttle di Streamlit Cloud).
-# Parameter berawalan "_" (mis. _model_info, _product_daily) sengaja tidak
-# di-hash oleh st.cache_data karena isinya objek model/dataframe.
+
 @st.cache_data(show_spinner=False)
 def cached_predict_for_date(produk, target_date, _model_info, _product_daily):
     return utils.predict_for_date(produk, _product_daily, _model_info, target_date)
@@ -130,10 +115,10 @@ if hasil_uji is None:
 else:
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Jumlah Hari Diuji", f"{hasil_uji['n_test']}")
-    c2.metric("MAE", f"{hasil_uji['mae']:.2f} cup")
-    c3.metric("RMSE", f"{hasil_uji['rmse']:.2f} cup")
+    # c2.metric("MAE", f"{hasil_uji['mae']:.2f} cup")
+    # c3.metric("RMSE", f"{hasil_uji['rmse']:.2f} cup")
     mape_text = f"{hasil_uji['mape']:.2f} %" if not pd.isna(hasil_uji['mape']) else "Tidak dapat dihitung"
-    c4.metric("MAPE", mape_text)
+    # c4.metric("MAPE", mape_text)
 
     df_uji = pd.DataFrame({
         "tanggal": hasil_uji["tanggal"],
