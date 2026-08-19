@@ -59,7 +59,7 @@ except FileNotFoundError as e:
 
 last_date = product_daily["tanggal"].max().date()
 semua_produk = sorted(models_produk.keys())
-st.markdown(f"📅 Data histori tersedia sampai **{last_date.strftime('%d %B %Y')}**.")
+# st.markdown(f"📅 Data histori tersedia sampai **{last_date.strftime('%d %B %Y')}**.")
 
 # ══════════════════════════════════════════════════════════════
 # ── Dashboard Ringkasan Penjualan (dari data histori) ──
