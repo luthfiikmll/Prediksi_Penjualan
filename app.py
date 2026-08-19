@@ -119,12 +119,7 @@ st.markdown("---")
 # ── Uji Akurasi Model (Data Historis) ──
 # ══════════════════════════════════════════════════════════════
 st.header("🎯 Uji Akurasi Model (Data Historis)")
-st.caption(
-    "Sebelum digunakan untuk memprediksi masa depan, model diuji lebih dulu pada "
-    "data historis yang nilai aktualnya sudah diketahui (20% data terakhir, "
-    "tidak pernah dipakai saat training) -- supaya akurasi model bisa dibuktikan "
-    "secara langsung, bukan hanya dari tabel evaluasi statis."
-)
+
 
 produk_uji = st.selectbox("Pilih produk untuk diuji", options=semua_produk, key="produk_uji_akurasi")
 
