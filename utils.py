@@ -1,8 +1,6 @@
 """
 utils.py — Fungsi shared untuk app.py (Streamlit).
-Logika feature engineering di sini HARUS identik dengan
-model_prediksi_per_produk_harian.ipynb, supaya prediksi konsisten
-antara training dan deployment.
+
 """
 
 import numpy as np
