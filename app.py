@@ -126,7 +126,10 @@ else:
         "Aktual": hasil_uji["aktual"],
         "Prediksi": hasil_uji["prediksi"],
     })
-    st.line_chart(df_uji.set_index("tanggal")[["Aktual", "Prediksi"]])
+    st.line_chart(
+        df_uji.set_index("tanggal")[["Aktual", "Prediksi"]],
+        color=["#1a1a4e", "#ff8c00"],  # Aktual = navy gelap, Prediksi = oranye terang
+    )
     # st.caption(f"Perbandingan penjualan aktual vs prediksi model pada {hasil_uji['n_test']} hari data uji terakhir untuk {produk_uji}.")
 
     with st.expander("Lihat data harian (aktual vs prediksi)"):
@@ -216,7 +219,10 @@ def render_horizon_prediction(n_days, tombol_label, judul_prefix, max_start_offs
                 df_harian[produk] = [r["prediksi"] for r in rows]  # float mentah, belum dibulatkan
             df_harian["Total Harian"] = df_harian[list(per_produk_rows.keys())].sum(axis=1)
 
-
+            # Tabel yang ditampilkan ke user dibulatkan HANYA untuk tampilan,
+            # setelah "Total Harian" dihitung dari nilai float asli di atas --
+            # supaya prediksi kecil per produk (mis. 0,3-0,4 cup) tetap
+            # terakumulasi dengan benar sebelum dibulatkan.
             df_tampil = df_harian.copy()
             df_tampil.insert(0, "Tanggal", df_tampil["tanggal"].dt.strftime("%a, %d %b %Y"))
             df_tampil = df_tampil.drop(columns=["tanggal"])
@@ -233,7 +239,10 @@ def render_horizon_prediction(n_days, tombol_label, judul_prefix, max_start_offs
             st.line_chart(df_harian.set_index("tanggal")["Total Harian"])
 
             # ── Total per Produk ──
-
+            # Dijumlah dari nilai float mentah (r["prediksi"]) DULU, baru dibulatkan
+            # sekali di akhir -- ini titik utama perbaikannya (sebelumnya tiap hari
+            # dibulatkan dulu sebelum dijumlah, sehingga prediksi kecil per hari
+            # bisa hilang jadi 0 sebelum sempat terakumulasi).
             label_periode = "7 Hari" if n_days == 7 else ("30 Hari" if n_days == 30 else f"{n_days} Hari")
             st.subheader(f"Total {label_periode} per Produk")
             df_total = pd.DataFrame(
