@@ -217,26 +217,14 @@ def render_horizon_prediction(n_days, tombol_label, judul_prefix, max_start_offs
             df_harian = pd.DataFrame({"tanggal": tanggal_list})
             for produk, rows in per_produk_rows.items():
                 df_harian[produk] = [r["prediksi"] for r in rows]  # float mentah, belum dibulatkan
-            df_harian["Total Harian"] = df_harian[list(per_produk_rows.keys())].sum(axis=1)
 
-            # Tabel yang ditampilkan ke user dibulatkan HANYA untuk tampilan,
-            # setelah "Total Harian" dihitung dari nilai float asli di atas --
-            # supaya prediksi kecil per produk (mis. 0,3-0,4 cup) tetap
-            # terakumulasi dengan benar sebelum dibulatkan.
+            # Tabel yang ditampilkan ke user dibulatkan HANYA untuk tampilan.
             df_tampil = df_harian.copy()
             df_tampil.insert(0, "Tanggal", df_tampil["tanggal"].dt.strftime("%a, %d %b %Y"))
             df_tampil = df_tampil.drop(columns=["tanggal"])
             kolom_angka = [c for c in df_tampil.columns if c != "Tanggal"]
             df_tampil[kolom_angka] = df_tampil[kolom_angka].round().astype(int)
             st.dataframe(df_tampil, use_container_width=True, hide_index=True)
-
-            # ── Grafik Tren ──
-            st.markdown(f"**📈 Grafik Tren {n_days} Hari**")
-            chart_cols = list(per_produk_rows.keys()) if len(per_produk_rows) <= 8 else []
-            if chart_cols:
-                st.line_chart(df_harian.set_index("tanggal")[chart_cols])
-                st.caption("Tren prediksi harian per produk. Kolom Total Harian ditampilkan terpisah di bawah.")
-            st.line_chart(df_harian.set_index("tanggal")["Total Harian"])
 
             # ── Total per Produk ──
             # Dijumlah dari nilai float mentah (r["prediksi"]) DULU, baru dibulatkan
